@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<document id="p20" release="p20.txt">
+   <sentences>
+      <amr linearorder="0" id="p20_g1"/>
+      <amr linearorder="1" id="p20_s1"/>
+      <amr linearorder="2" id="p20_s2"/>
+      <amr linearorder="3" id="p20_s3"/>
+      <amr linearorder="4" id="p20_s4"/>
+      <amr linearorder="5" id="p20_g2"/>
+      <amr linearorder="6" id="p20_s5"/>
+      <amr linearorder="7" id="p20_s6"/>
+      <amr linearorder="8" id="p20_s7"/>
+      <amr linearorder="9" id="p20_g3"/>
+      <amr linearorder="10" id="p20_g4"/>
+      <amr linearorder="11" id="p20_s8"/>
+      <amr linearorder="12" id="p20_s9"/>
+      <amr linearorder="13" id="p20_s10"/>
+      <amr linearorder="14" id="p20_g5"/>
+      <amr linearorder="15" id="p20_s11"/>
+      <amr linearorder="16" id="p20_s12"/>
+      <amr linearorder="17" id="p20_g6"/>
+      <amr linearorder="18" id="p20_g7"/>
+      <amr linearorder="19" id="p20_g8"/>
+      <amr linearorder="20" id="p20_s13"/>
+      <amr linearorder="21" id="p20_g9"/>
+      <amr linearorder="22" id="p20_s14"/>
+      <amr linearorder="23" id="p20_s15"/>
+      <amr linearorder="24" id="p20_s16"/>
+      <amr linearorder="25" id="p20_g10"/>
+      <amr linearorder="26" id="p20_s17"/>
+   </sentences>
+</document>

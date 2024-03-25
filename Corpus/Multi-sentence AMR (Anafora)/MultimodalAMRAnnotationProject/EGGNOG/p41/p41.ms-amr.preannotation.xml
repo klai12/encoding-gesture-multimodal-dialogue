@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<document id="lpp" release="p41.txt">
+   <sentences>
+      <amr linearorder="0" id="p41_s1"/>
+      <amr linearorder="1" id="p41_s2"/>
+      <amr linearorder="2" id="p41_g1"/>
+      <amr linearorder="3" id="p41_s3"/>
+      <amr linearorder="4" id="p41_s4"/>
+      <amr linearorder="5" id="p41_g2"/>
+      <amr linearorder="6" id="p41_g3"/>
+      <amr linearorder="7" id="p41_s5"/>
+      <amr linearorder="8" id="p41_g4"/>
+      <amr linearorder="9" id="p41_s6"/>
+      <amr linearorder="10" id="p41_g5"/>
+      <amr linearorder="11" id="p41_g6"/>
+      <amr linearorder="12" id="p41_s7"/>
+      <amr linearorder="13" id="p41_s8"/>
+      <amr linearorder="14" id="p41_s9"/>
+      <amr linearorder="15" id="p41_s10"/>
+      <amr linearorder="16" id="p41_g7"/>
+      <amr linearorder="17" id="p41_s11"/>
+      <amr linearorder="18" id="p41_s12"/>
+      <amr linearorder="19" id="p41_g8"/>
+      <amr linearorder="20" id="p41_g9"/>
+      <amr linearorder="21" id="p41_g10"/>
+      <amr linearorder="22" id="p41_s13"/>
+      <amr linearorder="23" id="p41_s14"/>
+      <amr linearorder="24" id="p41_g11"/>
+   </sentences>
+</document>

@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<document id="p16" release="p16.txt">
+   <sentences>
+      <amr linearorder="0" id="p16_g1"/>
+      <amr linearorder="1" id="p16_s1"/>
+      <amr linearorder="2" id="p16_g2"/>
+      <amr linearorder="3" id="p16_s2"/>
+      <amr linearorder="4" id="p16_s3"/>
+      <amr linearorder="5" id="p16_g3"/>
+      <amr linearorder="6" id="p16_s4"/>
+      <amr linearorder="7" id="p16_g4"/>
+      <amr linearorder="8" id="p16_s5"/>
+      <amr linearorder="9" id="p16_g5"/>
+      <amr linearorder="10" id="p16_g6"/>
+      <amr linearorder="11" id="p16_s6"/>
+      <amr linearorder="12" id="p16_g7"/>
+      <amr linearorder="13" id="p16_g8"/>
+      <amr linearorder="14" id="p16_s7"/>
+      <amr linearorder="15" id="p16_s8"/>
+      <amr linearorder="16" id="p16_g9"/>
+      <amr linearorder="17" id="p16_g10"/>
+      <amr linearorder="18" id="p16_g11"/>
+      <amr linearorder="19" id="p16_s9"/>
+      <amr linearorder="20" id="p16_g12"/>
+      <amr linearorder="21" id="p16_s10"/>
+      <amr linearorder="22" id="p16_g13"/>
+      <amr linearorder="23" id="p16_g14"/>
+      <amr linearorder="24" id="p16_g15"/>
+      <amr linearorder="25" id="p16_s11"/>
+   </sentences>
+</document>

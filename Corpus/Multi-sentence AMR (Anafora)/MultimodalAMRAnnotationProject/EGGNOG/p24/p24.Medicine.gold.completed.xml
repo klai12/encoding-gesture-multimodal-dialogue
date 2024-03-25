@@ -1,0 +1,1685 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<data>
+<info>
+  <savetime>14:35:18 01-08-2023</savetime>
+  <progress>completed</progress>
+</info>
+
+<schema path="./" protocol="file">temporal.schema.xml</schema>
+
+<annotations>
+	<entity>
+		<id>157@e@p24@gold</id>
+		<span>62,73</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>158@e@p24@gold</id>
+		<span>84,96</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>159@e@p24@gold</id>
+		<span>119,128</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>160@e@p24@gold</id>
+		<span>149,157</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>161@e@p24@gold</id>
+		<span>195,206</span>
+		<type>EventSuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>162@e@p24@gold</id>
+		<span>217,222</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>163@e@p24@gold</id>
+		<span>234,242</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>164@e@p24@gold</id>
+		<span>262,271</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>165@e@p24@gold</id>
+		<span>343,350</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>166@e@p24@gold</id>
+		<span>360,371</span>
+		<type>EventSuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>167@e@p24@gold</id>
+		<span>390,396</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>168@e@p24@gold</id>
+		<span>416,422</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>169@e@p24@gold</id>
+		<span>449,456</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>170@e@p24@gold</id>
+		<span>484,492</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>171@e@p24@gold</id>
+		<span>527,536</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>172@e@p24@gold</id>
+		<span>576,589</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>173@e@p24@gold</id>
+		<span>708,719</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>174@e@p24@gold</id>
+		<span>747,759</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>175@e@p24@gold</id>
+		<span>771,780</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>176@e@p24@gold</id>
+		<span>792,801</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>177@e@p24@gold</id>
+		<span>962,973</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>178@e@p24@gold</id>
+		<span>1001,1013</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>179@e@p24@gold</id>
+		<span>1025,1034</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>180@e@p24@gold</id>
+		<span>1046,1055</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>181@e@p24@gold</id>
+		<span>1104,1115</span>
+		<type>EventSuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>182@e@p24@gold</id>
+		<span>1126,1136</span>
+		<type>EventSuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>183@e@p24@gold</id>
+		<span>1155,1162</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>184@e@p24@gold</id>
+		<span>1188,1196</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>185@e@p24@gold</id>
+		<span>1229,1236</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>186@e@p24@gold</id>
+		<span>1258,1276</span>
+		<type>PossibleImplicit</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>187@e@p24@gold</id>
+		<span>1317,1335</span>
+		<type>PossibleImplicit</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>188@e@p24@gold</id>
+		<span>1369,1387</span>
+		<type>PossibleImplicit</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>189@e@p24@gold</id>
+		<span>1502,1513</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>190@e@p24@gold</id>
+		<span>1524,1536</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>191@e@p24@gold</id>
+		<span>1559,1568</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>192@e@p24@gold</id>
+		<span>1594,1611</span>
+		<type>PossibleImplicit</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>193@e@p24@gold</id>
+		<span>1630,1638</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>194@e@p24@gold</id>
+		<span>1659,1667</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>195@e@p24@gold</id>
+		<span>1731,1743</span>
+		<type>EventSuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>196@e@p24@gold</id>
+		<span>1771,1778</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>197@e@p24@gold</id>
+		<span>1790,1800</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>198@e@p24@gold</id>
+		<span>1819,1827</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>199@e@p24@gold</id>
+		<span>1851,1862</span>
+		<type>EventSuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>200@e@p24@gold</id>
+		<span>1894,1904</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>201@e@p24@gold</id>
+		<span>1945,1950</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>202@e@p24@gold</id>
+		<span>1984,2002</span>
+		<type>PossibleImplicit</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>203@e@p24@gold</id>
+		<span>2048,2066</span>
+		<type>PossibleImplicit</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>204@e@p24@gold</id>
+		<span>2109,2127</span>
+		<type>PossibleImplicit</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>205@e@p24@gold</id>
+		<span>2381,2392</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>206@e@p24@gold</id>
+		<span>2420,2432</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>207@e@p24@gold</id>
+		<span>2444,2453</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>208@e@p24@gold</id>
+		<span>2465,2474</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>209@e@p24@gold</id>
+		<span>2523,2534</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>210@e@p24@gold</id>
+		<span>2545,2557</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>211@e@p24@gold</id>
+		<span>2569,2581</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>212@e@p24@gold</id>
+		<span>2593,2602</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>213@e@p24@gold</id>
+		<span>2623,2631</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>214@e@p24@gold</id>
+		<span>2684,2701</span>
+		<type>PossibleImplicit</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>215@e@p24@gold</id>
+		<span>2725,2738</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>216@e@p24@gold</id>
+		<span>2761,2769</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>217@e@p24@gold</id>
+		<span>2784,2792</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>218@e@p24@gold</id>
+		<span>2814,2822</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>219@e@p24@gold</id>
+		<span>2886,2897</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>220@e@p24@gold</id>
+		<span>2908,2920</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>221@e@p24@gold</id>
+		<span>2943,2952</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>222@e@p24@gold</id>
+		<span>3036,3047</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>223@e@p24@gold</id>
+		<span>3058,3070</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>224@e@p24@gold</id>
+		<span>3082,3091</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>225@e@p24@gold</id>
+		<span>3103,3112</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>226@e@p24@gold</id>
+		<span>3163,3174</span>
+		<type>EventSuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>227@e@p24@gold</id>
+		<span>3185,3197</span>
+		<type>EventSuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>228@e@p24@gold</id>
+		<span>3217,3224</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>229@e@p24@gold</id>
+		<span>3245,3254</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>230@e@p24@gold</id>
+		<span>3275,3293</span>
+		<type>PossibleImplicit</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>231@e@p24@gold</id>
+		<span>3342,3360</span>
+		<type>PossibleImplicit</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>232@e@p24@gold</id>
+		<span>3389,3397</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>233@e@p24@gold</id>
+		<span>3409,3427</span>
+		<type>PossibleImplicit</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>234@e@p24@gold</id>
+		<span>3591,3598</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>235@e@p24@gold</id>
+		<span>3608,3624</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>236@e@p24@gold</id>
+		<span>3642,3655</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>237@e@p24@gold</id>
+		<span>3682,3694</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>238@e@p24@gold</id>
+		<span>3722,3734</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>239@e@p24@gold</id>
+		<span>3762,3772</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>240@e@p24@gold</id>
+		<span>3792,3803</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>241@e@p24@gold</id>
+		<span>3857,3867</span>
+		<type>EventSuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>242@e@p24@gold</id>
+		<span>3903,3921</span>
+		<type>PossibleImplicit</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>243@e@p24@gold</id>
+		<span>3972,3990</span>
+		<type>PossibleImplicit</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>244@e@p24@gold</id>
+		<span>4044,4062</span>
+		<type>PossibleImplicit</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>245@e@p24@gold</id>
+		<span>4121,4138</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>246@e@p24@gold</id>
+		<span>4157,4171</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>247@e@p24@gold</id>
+		<span>4229,4242</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>248@e@p24@gold</id>
+		<span>4293,4305</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>249@e@p24@gold</id>
+		<span>4363,4374</span>
+		<type>EventSuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>250@e@p24@gold</id>
+		<span>4413,4431</span>
+		<type>PossibleImplicit</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>251@e@p24@gold</id>
+		<span>4485,4503</span>
+		<type>PossibleImplicit</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>252@e@p24@gold</id>
+		<span>4560,4578</span>
+		<type>PossibleImplicit</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>253@e@p24@gold</id>
+		<span>4674,4681</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>254@e@p24@gold</id>
+		<span>4691,4702</span>
+		<type>EventSuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>255@e@p24@gold</id>
+		<span>4738,4745</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>256@e@p24@gold</id>
+		<span>4765,4782</span>
+		<type>PossibleImplicit</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>257@e@p24@gold</id>
+		<span>4823,4829</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>258@e@p24@gold</id>
+		<span>4869,4877</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>259@e@p24@gold</id>
+		<span>4899,4917</span>
+		<type>PossibleImplicit</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>260@e@p24@gold</id>
+		<span>4977,4995</span>
+		<type>PossibleImplicit</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>261@e@p24@gold</id>
+		<span>5026,5035</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>262@e@p24@gold</id>
+		<span>5209,5220</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>263@e@p24@gold</id>
+		<span>5231,5243</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>264@e@p24@gold</id>
+		<span>5255,5268</span>
+		<type>EventSuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>265@e@p24@gold</id>
+		<span>5289,5307</span>
+		<type>PossibleImplicit</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>266@e@p24@gold</id>
+		<span>5344,5362</span>
+		<type>PossibleImplicit</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>267@e@p24@gold</id>
+		<span>5401,5419</span>
+		<type>PossibleImplicit</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>268@e@p24@gold</id>
+		<span>5485,5494</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>269@e@p24@gold</id>
+		<span>5551,5566</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>270@e@p24@gold</id>
+		<span>5577,5583</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>271@e@p24@gold</id>
+		<span>5595,5605</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>272@e@p24@gold</id>
+		<span>5624,5632</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>273@e@p24@gold</id>
+		<span>5648,5657</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>274@e@p24@gold</id>
+		<span>5680,5685</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>275@e@p24@gold</id>
+		<span>5853,5864</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>276@e@p24@gold</id>
+		<span>5875,5887</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>277@e@p24@gold</id>
+		<span>5899,5912</span>
+		<type>EventSuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>278@e@p24@gold</id>
+		<span>5933,5951</span>
+		<type>PossibleImplicit</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>279@e@p24@gold</id>
+		<span>5988,6006</span>
+		<type>PossibleImplicit</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>280@e@p24@gold</id>
+		<span>6045,6063</span>
+		<type>PossibleImplicit</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>281@e@p24@gold</id>
+		<span>6129,6138</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>282@e@p24@gold</id>
+		<span>6203,6214</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>283@e@p24@gold</id>
+		<span>6225,6237</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>284@e@p24@gold</id>
+		<span>6260,6269</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>285@e@p24@gold</id>
+		<span>6387,6394</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>286@e@p24@gold</id>
+		<span>6404,6415</span>
+		<type>EventSuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>287@e@p24@gold</id>
+		<span>6434,6442</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>288@e@p24@gold</id>
+		<span>6462,6479</span>
+		<type>PossibleImplicit</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>289@e@p24@gold</id>
+		<span>6500,6512</span>
+		<type>EventSuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>290@e@p24@gold</id>
+		<span>6532,6550</span>
+		<type>PossibleImplicit</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>291@e@p24@gold</id>
+		<span>6579,6597</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>292@e@p24@gold</id>
+		<span>6628,6646</span>
+		<type>PossibleImplicit</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>293@e@p24@gold</id>
+		<span>6667,6693</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>294@e@p24@gold</id>
+		<span>6730,6737</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>295@e@p24@gold</id>
+		<span>6758,6776</span>
+		<type>PossibleImplicit</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>296@e@p24@gold</id>
+		<span>6813,6827</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>297@e@p24@gold</id>
+		<span>6863,6871</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>298@e@p24@gold</id>
+		<span>6884,6910</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>299@e@p24@gold</id>
+		<span>6967,6985</span>
+		<type>PossibleImplicit</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>300@e@p24@gold</id>
+		<span>7041,7052</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>301@e@p24@gold</id>
+		<span>7063,7075</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>302@e@p24@gold</id>
+		<span>7098,7107</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>303@e@p24@gold</id>
+		<span>7163,7174</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>304@e@p24@gold</id>
+		<span>7185,7197</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>305@e@p24@gold</id>
+		<span>7220,7229</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>306@e@p24@gold</id>
+		<span>7271,7282</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>307@e@p24@gold</id>
+		<span>7293,7305</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>308@e@p24@gold</id>
+		<span>7328,7337</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>309@e@p24@gold</id>
+		<span>7426,7439</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>310@e@p24@gold</id>
+		<span>7450,7462</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>311@e@p24@gold</id>
+		<span>7474,7481</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>312@e@p24@gold</id>
+		<span>7493,7502</span>
+		<type>EntitySuggestion</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<relation>
+		<id>22@r@p24@gold</id>
+		<type>IdentityChain</type>
+		<parentsType>Identity</parentsType>
+		<properties>
+			<Nickname></Nickname>
+			<Mentions>169@e@p24@gold</Mentions>
+			<Mentions>170@e@p24@gold</Mentions>
+			<Mentions>175@e@p24@gold</Mentions>
+		</properties>
+	</relation>
+
+	<relation>
+		<id>23@r@p24@gold</id>
+		<type>IdentityChain</type>
+		<parentsType>Identity</parentsType>
+		<properties>
+			<Nickname></Nickname>
+			<Mentions>256@e@p24@gold</Mentions>
+			<Mentions>266@e@p24@gold</Mentions>
+			<Mentions>279@e@p24@gold</Mentions>
+		</properties>
+	</relation>
+
+	<relation>
+		<id>24@r@p24@gold</id>
+		<type>IdentityChain</type>
+		<parentsType>Identity</parentsType>
+		<properties>
+			<Nickname></Nickname>
+			<Mentions>179@e@p24@gold</Mentions>
+			<Mentions>182@e@p24@gold</Mentions>
+		</properties>
+	</relation>
+
+	<relation>
+		<id>31@r@p24@gold</id>
+		<type>PartWhole</type>
+		<parentsType>Bridging</parentsType>
+		<properties>
+			<MainEntity>163@e@p24@gold</MainEntity>
+			<Part>238@e@p24@gold</Part>
+			<Part>247@e@p24@gold</Part>
+		</properties>
+	</relation>
+
+	<relation>
+		<id>32@r@p24@gold</id>
+		<type>IdentityChain</type>
+		<parentsType>Identity</parentsType>
+		<properties>
+			<Nickname></Nickname>
+			<Mentions>238@e@p24@gold</Mentions>
+			<Mentions>244@e@p24@gold</Mentions>
+		</properties>
+	</relation>
+
+	<relation>
+		<id>33@r@p24@gold</id>
+		<type>IdentityChain</type>
+		<parentsType>Identity</parentsType>
+		<properties>
+			<Nickname></Nickname>
+			<Mentions>192@e@p24@gold</Mentions>
+			<Mentions>288@e@p24@gold</Mentions>
+		</properties>
+	</relation>
+
+	<relation>
+		<id>34@r@p24@gold</id>
+		<type>IdentityChain</type>
+		<parentsType>Identity</parentsType>
+		<properties>
+			<Nickname></Nickname>
+			<Mentions>197@e@p24@gold</Mentions>
+			<Mentions>207@e@p24@gold</Mentions>
+		</properties>
+	</relation>
+
+	<relation>
+		<id>35@r@p24@gold</id>
+		<type>IdentityChain</type>
+		<parentsType>Identity</parentsType>
+		<properties>
+			<Nickname></Nickname>
+			<Mentions>247@e@p24@gold</Mentions>
+			<Mentions>252@e@p24@gold</Mentions>
+		</properties>
+	</relation>
+
+	<relation>
+		<id>36@r@p24@gold</id>
+		<type>IdentityChain</type>
+		<parentsType>Identity</parentsType>
+		<properties>
+			<Nickname></Nickname>
+			<Mentions>267@e@p24@gold</Mentions>
+			<Mentions>271@e@p24@gold</Mentions>
+			<Mentions>280@e@p24@gold</Mentions>
+		</properties>
+	</relation>
+
+	<relation>
+		<id>37@r@p24@gold</id>
+		<type>IdentityChain</type>
+		<parentsType>Identity</parentsType>
+		<properties>
+			<Nickname></Nickname>
+			<Mentions>214@e@p24@gold</Mentions>
+			<Mentions>292@e@p24@gold</Mentions>
+		</properties>
+	</relation>
+
+	<relation>
+		<id>38@r@p24@gold</id>
+		<type>SetMember</type>
+		<parentsType>Bridging</parentsType>
+		<properties>
+			<SuperSet>270@e@p24@gold</SuperSet>
+			<MemberOrSubset>158@e@p24@gold</MemberOrSubset>
+			<MemberOrSubset>159@e@p24@gold</MemberOrSubset>
+		</properties>
+	</relation>
+
+	<relation>
+		<id>39@r@p24@gold</id>
+		<type>IdentityChain</type>
+		<parentsType>Identity</parentsType>
+		<properties>
+			<Nickname></Nickname>
+			<Mentions>158@e@p24@gold</Mentions>
+			<Mentions>162@e@p24@gold</Mentions>
+			<Mentions>174@e@p24@gold</Mentions>
+			<Mentions>178@e@p24@gold</Mentions>
+			<Mentions>190@e@p24@gold</Mentions>
+			<Mentions>206@e@p24@gold</Mentions>
+			<Mentions>210@e@p24@gold</Mentions>
+			<Mentions>220@e@p24@gold</Mentions>
+			<Mentions>223@e@p24@gold</Mentions>
+			<Mentions>237@e@p24@gold</Mentions>
+			<Mentions>263@e@p24@gold</Mentions>
+			<Mentions>274@e@p24@gold</Mentions>
+			<Mentions>276@e@p24@gold</Mentions>
+			<Mentions>283@e@p24@gold</Mentions>
+			<Mentions>301@e@p24@gold</Mentions>
+			<Mentions>304@e@p24@gold</Mentions>
+			<Mentions>307@e@p24@gold</Mentions>
+			<Mentions>310@e@p24@gold</Mentions>
+		</properties>
+	</relation>
+
+	<relation>
+		<id>40@r@p24@gold</id>
+		<type>IdentityChain</type>
+		<parentsType>Identity</parentsType>
+		<properties>
+			<Nickname></Nickname>
+			<Mentions>159@e@p24@gold</Mentions>
+			<Mentions>176@e@p24@gold</Mentions>
+			<Mentions>180@e@p24@gold</Mentions>
+			<Mentions>185@e@p24@gold</Mentions>
+			<Mentions>186@e@p24@gold</Mentions>
+			<Mentions>191@e@p24@gold</Mentions>
+			<Mentions>196@e@p24@gold</Mentions>
+			<Mentions>208@e@p24@gold</Mentions>
+			<Mentions>212@e@p24@gold</Mentions>
+			<Mentions>221@e@p24@gold</Mentions>
+			<Mentions>225@e@p24@gold</Mentions>
+			<Mentions>228@e@p24@gold</Mentions>
+			<Mentions>239@e@p24@gold</Mentions>
+			<Mentions>242@e@p24@gold</Mentions>
+			<Mentions>250@e@p24@gold</Mentions>
+			<Mentions>255@e@p24@gold</Mentions>
+			<Mentions>265@e@p24@gold</Mentions>
+			<Mentions>268@e@p24@gold</Mentions>
+			<Mentions>278@e@p24@gold</Mentions>
+			<Mentions>281@e@p24@gold</Mentions>
+			<Mentions>284@e@p24@gold</Mentions>
+			<Mentions>294@e@p24@gold</Mentions>
+			<Mentions>302@e@p24@gold</Mentions>
+			<Mentions>305@e@p24@gold</Mentions>
+			<Mentions>308@e@p24@gold</Mentions>
+			<Mentions>312@e@p24@gold</Mentions>
+		</properties>
+	</relation>
+
+	<relation>
+		<id>41@r@p24@gold</id>
+		<type>IdentityChain</type>
+		<parentsType>Identity</parentsType>
+		<properties>
+			<Nickname></Nickname>
+			<Mentions>163@e@p24@gold</Mentions>
+			<Mentions>167@e@p24@gold</Mentions>
+			<Mentions>187@e@p24@gold</Mentions>
+			<Mentions>188@e@p24@gold</Mentions>
+			<Mentions>216@e@p24@gold</Mentions>
+			<Mentions>287@e@p24@gold</Mentions>
+		</properties>
+	</relation>
+
+	<relation>
+		<id>42@r@p24@gold</id>
+		<type>IdentityChain</type>
+		<parentsType>Identity</parentsType>
+		<properties>
+			<Nickname></Nickname>
+			<Mentions>224@e@p24@gold</Mentions>
+			<Mentions>229@e@p24@gold</Mentions>
+		</properties>
+	</relation>
+
+	<relation>
+		<id>43@r@p24@gold</id>
+		<type>PartWhole</type>
+		<parentsType>Bridging</parentsType>
+		<properties>
+			<MainEntity>229@e@p24@gold</MainEntity>
+			<Part>258@e@p24@gold</Part>
+		</properties>
+	</relation>
+
+	<relation>
+		<id>44@r@p24@gold</id>
+		<type>SetMember</type>
+		<parentsType>Bridging</parentsType>
+		<properties>
+			<SuperSet>214@e@p24@gold</SuperSet>
+			<MemberOrSubset>256@e@p24@gold</MemberOrSubset>
+		</properties>
+	</relation>
+
+	<relation>
+		<id>45@r@p24@gold</id>
+		<type>IdentityChain</type>
+		<parentsType>Identity</parentsType>
+		<properties>
+			<Nickname></Nickname>
+			<Mentions>217@e@p24@gold</Mentions>
+			<Mentions>290@e@p24@gold</Mentions>
+			<Mentions>297@e@p24@gold</Mentions>
+		</properties>
+	</relation>
+
+	<relation>
+		<id>46@r@p24@gold</id>
+		<type>SetMember</type>
+		<parentsType>Bridging</parentsType>
+		<properties>
+			<SuperSet>256@e@p24@gold</SuperSet>
+			<MemberOrSubset>243@e@p24@gold</MemberOrSubset>
+			<MemberOrSubset>251@e@p24@gold</MemberOrSubset>
+		</properties>
+	</relation>
+
+	<relation>
+		<id>47@r@p24@gold</id>
+		<type>IdentityChain</type>
+		<parentsType>Identity</parentsType>
+		<properties>
+			<Nickname></Nickname>
+			<Mentions>264@e@p24@gold</Mentions>
+			<Mentions>269@e@p24@gold</Mentions>
+			<Mentions>277@e@p24@gold</Mentions>
+		</properties>
+	</relation>
+
+</annotations>
+
+</data>

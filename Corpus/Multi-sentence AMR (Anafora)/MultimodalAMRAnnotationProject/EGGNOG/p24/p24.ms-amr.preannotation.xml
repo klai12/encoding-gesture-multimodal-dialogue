@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<document id="p24" release="p24.txt">
+   <sentences>
+      <amr linearorder="0" id="p24_g1"/>
+      <amr linearorder="1" id="p24_s1"/>
+      <amr linearorder="2" id="p24_s2"/>
+      <amr linearorder="3" id="p24_s3"/>
+      <amr linearorder="4" id="p24_g2"/>
+      <amr linearorder="5" id="p24_g3"/>
+      <amr linearorder="6" id="p24_s4"/>
+      <amr linearorder="7" id="p24_g4"/>
+      <amr linearorder="8" id="p24_s5"/>
+      <amr linearorder="9" id="p24_s6"/>
+      <amr linearorder="10" id="p24_s7"/>
+      <amr linearorder="11" id="p24_g5"/>
+      <amr linearorder="12" id="p24_g6"/>
+      <amr linearorder="13" id="p24_s8"/>
+      <amr linearorder="14" id="p24_s9"/>
+      <amr linearorder="15" id="p24_g7"/>
+      <amr linearorder="16" id="p24_g8"/>
+      <amr linearorder="17" id="p24_s10"/>
+      <amr linearorder="18" id="p24_g9"/>
+      <amr linearorder="19" id="p24_s11"/>
+      <amr linearorder="20" id="p24_g10"/>
+      <amr linearorder="21" id="p24_s12"/>
+      <amr linearorder="22" id="p24_g11"/>
+      <amr linearorder="23" id="p24_g12"/>
+      <amr linearorder="24" id="p24_s13"/>
+      <amr linearorder="25" id="p24_g13"/>
+      <amr linearorder="26" id="p24_g14"/>
+      <amr linearorder="27" id="p24_g15"/>
+      <amr linearorder="28" id="p24_g16"/>
+   </sentences>
+</document>

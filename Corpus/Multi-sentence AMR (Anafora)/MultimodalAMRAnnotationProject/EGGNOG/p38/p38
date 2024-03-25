@@ -1,0 +1,271 @@
+
+
+p38_s1 ::: This one looks like a (Oh sorry) This one looks like a Smiley face
+(l / look-02
+   :ARG0 (o / one
+            :mod (t / this))
+   :ARG1 (l2 / like-04
+             :ARG2 (f / face
+                      :mod (s / smiley))
+             :ARG1 (i3 / implicit-role :op1 "first_item_in_comparison"))
+   :ARG2 (i2 / implicit-role :op1 "seemed_to"))
+
+p38_g1 ::: (arms: into gap, left; hands: into claw, down;) (arms: move, down;) // (talk) (here relative)
+(a / and
+   :op1 (i / icon-GA
+           :ARG0 (s / signaler)
+           :ARG1 (p / put-01
+                    :ARG0 (i3 / implicit-role :op1 "putter")
+                    :ARG1 (i4 / implicit-role :op1 "thing_put")
+                    :ARG2 (i5 / implicit-role :op1 "where_put"))
+           :ARG2 (a2 / actor))
+   :op2 (i2 / icon-GA
+            :ARG0 s
+            :ARG1 (p2 / put-01
+                      :ARG0 (i6 / implicit-role :op1 "putter")
+                      :ARG1 (i7 / implicit-role :op1 "thing_put")
+                      :ARG2 (i8 / implicit-role :op1 "where_put"))
+            :ARG2 a2))
+
+p38_s2 ::: there is two blocks for the eyes
+(b / block :quant 2
+   :purpose (e / eye))
+
+p38_s3 ::: there is three blocks for the bottom of the smile
+(b / block :quant 3
+   :purpose (b2 / bottom
+                :poss (s / smile)))
+
+p38_g2 ::: (arms: shake, left;) // (talk)
+(i / icon-GA :mode expressive
+   :ARG0 (s / signaler)
+   :ARG1 (r / row)
+   :ARG2 (a / actor))
+
+p38_g3 ::: (arms: move, down;) // (talk)
+(a / and
+   :op1 (i / icon-GA
+           :ARG0 (s / signaler)
+           :ARG1 (p / put-01
+                    :ARG0 (i3 / implicit-role :op1 "putter")
+                    :ARG1 (i4 / implicit-role :op1 "thing_put")
+                    :ARG2 (i5 / implicit-role :op1 "where_put"))
+           :ARG2 (a2 / actor))
+   :op2 (i2 / icon-GA
+            :ARG0 s
+            :ARG1 (p2 / put-01
+                      :ARG0 (i6 / implicit-role :op1 "putter")
+                      :ARG1 (i7 / implicit-role :op1 "thing_put")
+                      :ARG2 (i8 / implicit-role :op1 "where_put"))
+            :ARG2 a2))
+
+p38_s4 ::: and two blocks like making it smile
+(m / make-02
+   :ARG0 (b / block :quant 2)
+   :ARG1 (s / smile
+            :ARG0 (i / it)))
+
+p38_g4 ::: (hands: rotate;) // (talk)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (s2 / smile)
+   :ARG2 (a / actor))
+
+p38_g5 ::: (arms: into gap, left; hands: into claw, down;) // (talk) (here)
+(a / and
+   :op1 (i / icon-GA
+           :ARG0 (s / signaler)
+           :ARG1 (p / put-01
+                    :ARG0 (i3 / implicit-role :op1 "putter")
+                    :ARG1 (i4 / implicit-role :op1 "thing_put")
+                    :ARG2 (i5 / implicit-role :op1 "where_put"))
+           :ARG2 (a2 / actor))
+   :op2 (i2 / icon-GA
+            :ARG0 s
+            :ARG1 (p2 / put-01
+                      :ARG0 (i6 / implicit-role :op1 "putter")
+                      :ARG1 (i7 / implicit-role :op1 "thing_put")
+                      :ARG2 (i8 / implicit-role :op1 "where_put"))
+            :ARG2 a2))
+
+p38_s5 ::: Two eyes first
+(e / eye :quant 2 :li 1)
+
+p38_s6 ::: Yeah and they're like a block apart
+(l / like-04
+   :ARG1 (t / they)
+   :ARG2 (a / apart
+            :quant (d / distance-quantity :quant 1
+                      :unit (b / block))))
+
+p38_s7 ::: Yeah
+(y / yes)
+
+p38_s8 ::: and then there's two blocks Um a little bit like out and then down or up for you
+(b / be-located-at-91
+   :time (t / then)
+   :ARG1 (b2 / block :quant 2)
+   :ARG2 (a / and
+            :op1 (o / out
+                    :degree (b3 / bit
+                                :mod (l / little)))
+            :op2 (o2 / or
+                     :time (t2 / then)
+                     :op1 (d / down)
+                     :op2 (u / up
+                             :poss (y / you)))))
+
+p38_g6 ::: (arms: move, up;) // (talk)
+(a / and
+   :op1 (i / icon-GA
+           :ARG0 (s / signaler)
+           :ARG1 (p / put-01
+                    :ARG0 (i3 / implicit-role :op1 "putter")
+                    :ARG1 (i4 / implicit-role :op1 "thing_put")
+                    :ARG2 (i5 / implicit-role :op1 "where_put"))
+           :ARG2 (a2 / actor))
+   :op2 (i2 / icon-GA
+            :ARG0 s
+            :ARG1 (p2 / put-01
+                      :ARG0 (i6 / implicit-role :op1 "putter")
+                      :ARG1 (i7 / implicit-role :op1 "thing_put")
+                      :ARG2 (i8 / implicit-role :op1 "where_put"))
+            :ARG2 a2))
+
+p38_g7 ::: (arms: apart, left;) (arms: together, left;) (arms: apart, left;) // (talk)
+(i / icon-GA :mode expressive
+   :ARG0 (s / signaler)
+   :ARG1 (s2 / separate-01
+             :ARG0 (i2 / implicit-role :op1 "entity_causing_separation")
+             :ARG1 (i3 / implicit-role :op1 "thing_being_divided")
+             :ARG2 (i4 / implicit-role :op1 "source_separated_from"))
+   :ARG2 (a / actor))
+
+p38_g8 ::: (Unknown) // (talk)
+(d / deixis-GA
+   :ARG0 (s / signaler)
+   :ARG1 (d2 / down)
+   :ARG2 (a / actor))
+
+p38_s9 ::: i don't know
+(k / know-01
+   :ARG0 (i / I)
+   :polarity -
+   :ARG1 (i2 / implicit-role :op1 "fact_that_is_known")
+   :ARG2 (i3 / implicit-role :op1 "entity_that_arg_is_known_ABOUT"))
+
+p38_s10 ::: Up Up would be better
+(h / have-degree-91
+   :ARG1 (u / up)
+   :ARG2 (g / good)
+   :ARG3 (m / more))
+
+p38_s11 ::: and then Um there's three blocks to make the smile off the two Wider Blocks
+(h / have-purpose-91
+   :time (t / then)
+   :ARG1 (b / block :quant 3)
+   :ARG2 (m / make-01
+            :ARG1 (s / smile
+                     :location (o / off
+                                  :op1 (b2 / block :quant 2
+                                           :mod (w / wide
+                                                   :degree (m2 / more)))))
+            :ARG0 (i2 / implicit-role :op1 "creator")
+            :ARG2 (i3 / implicit-role :op1 "created-from_thing_changed")
+            :ARG3 (i4 / implicit-role :op1 "benefactive")))
+
+p38_g9 ::: (RA: move, down;) (arms: into gap, left; hands: into point, down;) (arms: shake, left;) // (talk) (here relative)
+(g / gesture-unit
+   :op1 (i / icon-GA
+           :ARG0 (s / signaler)
+           :ARG1 (r / row)
+           :ARG2 (a / actor))
+   :op2 (d / deixis-GA
+           :ARG0 s
+           :ARG1 (l / location)
+           :ARG2 a))
+
+p38_g10 ::: (arms: move, up; hands: into claw, down;) // (wait) (talk)
+(d / deixis-GA
+   :ARG0 (s / signaler)
+   :ARG1 (b / block)
+   :ARG2 (a / actor))
+
+p38_s12 ::: Yeah
+(y / yes)
+
+p38_g11 ::: (arms: move, up, into gap, left;) (arms: shake, left; hands: closed, down;) (Unknown) // (together)
+(i / icon-GA :mode expressive
+   :ARG0 (s / signaler)
+   :ARG1 (s2 / straight)
+   :ARG2 (a / actor))
+
+p38_s13 ::: and They are just Straight
+(s / straight-04
+   :ARG1 (t / they)
+   :mod (j / just))
+
+p38_s14 ::: the three blocks all touch And They’re Straight
+(a / and
+   :op1 (t / touch-01
+           :ARG0 (b / block :quant 3)
+           :ARG1 (i2 / implicit-role :op1 "thing_touched")
+           :ARG2 (i3 / implicit-role :op1 "touched_with_if_separate_from_agent"))
+   :op2 (s / straight-04
+           :ARG1 (t2 / they)))
+
+p38_g12 ::: (arms: move, back; hands: closed, back;) // (slide back)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (t / together)
+   :ARG2 (a / actor))
+
+p38_g13 ::: (arms: move, back; hands: closed, back;) (Unknown) // (slide back)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (s2 / straight)
+   :ARG2 (a / actor))
+
+p38_s15 ::: then they connect To the two wider blocks
+(c / connect-01
+   :time (t / then)
+   :ARG1 (t2 / they)
+   :ARG2 (b / block :quant 2
+            :mod (w / wide
+                    :degree (m / more)))
+   :ARG0 (i2 / implicit-role :op1 "agent_entity_doing_the_tying")
+   :ARG3 (i3 / implicit-role :op1 "instrument_string"))
+
+p38_g14 ::: (arms: move, up; hands: to face;) // (talk)
+(d / deixis-GA
+   :ARG0 (s / signaler)
+   :ARG1 (l / location)
+   :ARG2 (a / actor))
+
+p38_g15 ::: (arms: move, front; hands: into point, front;) // (talk)
+(a / and
+   :op1 (d / deixis-GA
+           :ARG0 (s / signaler)
+           :ARG1 (b / block)
+           :ARG2 (a2 / actor))
+   :op2 (d2 / deixis-GA
+            :ARG0 s
+            :ARG1 (b2 / block)
+            :ARG2 a2))
+
+p38_s16 ::: Yep
+(y / yes)
+
+p38_s17 ::: That Looks Good
+(l / look-02
+   :ARG0 (t / that)
+   :ARG1 (g / good)
+   :ARG2 (i2 / implicit-role :op1 "seemed_to"))
+
+p38_g16 ::: (arms: move, up; hands: into thumbs, up;) (Unknown) // (done)
+(e / emblem-GA
+   :ARG0 (s / signaler)
+   :ARG1 (y / yes)
+   :ARG2 (a / actor))
+
+=========Raw File=======

@@ -1,0 +1,242 @@
+
+
+p19_g1 ::: (LH: into three, front;) // (three)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 3
+   :ARG2 (a / actor))
+
+p19_s1 ::: three blocks
+(b / block :quant 3)
+
+p19_g2 ::: (RA: move, right;) (arms: move, back;) // (here relative)
+(a / and
+   :op1 (g / gesture-unit
+           :op1 (i / icon-GA :ARG0 s
+                   :ARG1 (p / put-01
+                            :ARG1 (b / block)
+                            :ARG0 (i4 / implicit-role :op1 "putter")
+                            :ARG2 (i5 / implicit-role :op1 "where_put"))
+                   :ARG2 (o / on
+                            :op1 (t / table))
+                   :ARG2 a)
+           :op2 (d / deixis-GA :ARG0 s
+                   :ARG1 (l / location)
+                   :ARG2 a))
+   :op2 (g2 / gesture-unit
+            :op1 (i2 / icon-GA :ARG0 s
+                     :ARG1 (p2 / put-01
+                               :ARG1 (b2 / block)
+                               :ARG0 (i6 / implicit-role :op1 "putter")
+                               :ARG2 (i7 / implicit-role :op1 "where_put"))
+                     :ARG2 (o2 / on
+                               :op1 (t2 / table))
+                     :ARG2 a)
+            :op2 (d2 / deixis-GA :ARG0 s
+                     :ARG1 (l2 / location)
+                     :ARG2 a))
+   :op3 (g3 / gesture-unit
+            :op1 (i3 / icon-GA :ARG0 s
+                     :ARG1 (p3 / put-01
+                               :ARG1 (b3 / block)
+                               :ARG0 (i8 / implicit-role :op1 "putter")
+                               :ARG2 (i9 / implicit-role :op1 "where_put"))
+                     :ARG2 (o3 / on
+                               :op1 (t3 / table))
+                     :ARG2 a)
+            :op2 (d3 / deixis-GA :ARG0 s
+                     :ARG1 (l3 / location)
+                     :ARG2 a)))
+
+p19_g3 ::: (body: still;) (arms: apart, left; hands: facing, left;) (arms: together, left;) // (wait) (together)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (p / push-01
+            :ARG2 (t / together)
+            :ARG0 (i2 / implicit-role :op1 "pusher")
+            :ARG1 (i3 / implicit-role :op1 "thing_pushed"))
+   :ARG2 (a / actor))
+
+p19_s2 ::: put them together
+(p / put-01 :mode imperative
+   :ARG0 (y / you)
+   :ARG1 (t / them)
+   :ARG2 (t2 / together))
+
+p19_s3 ::: and uh two blocks
+(a / and
+   :op2 (b / block :quant 2))
+
+p19_g4 ::: (LA: move, up front; LH:into two, front;) // (two)
+(i / iconic-GA
+   :ARG0 (s / signaler)
+   :ARG1 2
+   :ARG2 (a / actor))
+
+p19_g5 ::: (Unknown) (hands: into claw, front;) (arms: move, back;) // (wait) (these) (slide backward)
+(g / gesture-unit
+   :op1 (i / icon-GA
+           :ARG0 (s / signaler)
+           :ARG1 (b / block)
+           :ARG2 (a / actor))
+   :op2 (i2 / icon-GA
+            :ARG0 s
+            :ARG1 (b2 / block)
+            :ARG2 a))
+
+p19_s4 ::: both sides
+(s / side
+   :mod (b / both))
+
+p19_s5 ::: yep
+(y / yep)
+
+p19_s6 ::: and a little near you
+(a / and
+   :op1 (n / near-02
+           :ARG2 (y / you)
+           :mod (l / little)
+           :ARG1 (i2 / implicit-role :op1 "near_entity")))
+
+p19_g6 ::: (arms: move, back;) // (slide backward)
+(g / gesture-unit
+   :op1 (g2 / gesture-unit
+            :op1 (i / icon-GA
+                    :ARG0 (s / signaler)
+                    :ARG1 (b / block)
+                    :ARG2 (a / actor))
+            :op2 (i2 / icon-GA
+                     :ARG0 s
+                     :ARG1 (b2 / block)
+                     :ARG2 a))
+   :op2 (i3 / icon-GA
+            :ARG0 s
+            :ARG1 (p / pull-01
+                     :direction (b3 / back)
+                     :ARG0 (i4 / implicit-role :op1 "puller")
+                     :ARG1 (i5 / implicit-role :op1 "thing_pulled")
+                     :ARG2 (i6 / implicit-role :op1 "DIR_destination_or_attribute_of_arg")
+                     :ARG3 (i7 / implicit-role :op1 "EXT_distance_moved"))
+            :ARG2 a))
+
+p19_s7 ::: yes and
+(a / and
+   :op1 (y / yes))
+
+p19_g7 ::: (RA: move, front; RH: point, front;) (RH: into two, up;) // (that) (two)
+(d / deixis-GA
+   :ARG0 (s / signaler)
+   :ARG1 (l / location)
+   :ARG2 (a / actor))
+
+p19_s8 ::: two more blocks
+(b / block :quant 2
+   :mod (m / more))
+
+p19_g8 ::: (RH: into two, up;) (RA: move, back; RH: to face;) // (two) (think)
+(g / gesture-unit
+   :op1 (d / deixis-GA
+           :ARG0 (s / signaler)
+           :ARG1 (b / block)
+           :ARG2 (a / actor))
+   :op2 (i / icon-GA
+           :ARG0 s
+           :ARG1 2
+           :ARG2 a))
+
+p19_g9 ::: (RA: move, front;) (body: still;) (arms: apart, into gap; hands: facing, left;) // (those) (Unknown)
+(g / gesture-unit
+   :op1 (d / deixis-GA
+           :ARG0 (s / signaler)
+           :ARG1 (l / location)
+           :ARG2 (a / actor))
+   :op2 (d2 / deixis-GA
+            :ARG0 s
+            :ARG1 (l2 / location)
+            :ARG2 a))
+
+p19_s9 ::: behind the two one
+(b / behind
+   :op1 (o / one
+           :mod (t / two)))
+
+p19_g10 ::: (arms: apart, into gap; hands: facing, left;) (arms: move together, up front; hands: rotate;) // (Unknown) (rotate)
+(g / gesture-unit
+   :op1 (i / icon-GA
+           :ARG0 (s / signaler)
+           :ARG1 (r / rotate-01
+                    :ARG0 (i2 / implicit-role :op1 "causer_of_rotation")
+                    :ARG1 (i3 / implicit-role :op1 "thing_rotating"))
+           :ARG2 (a / actor))
+   :op2 (e / emblem-GA
+           :ARG0 s
+           :ARG1 (n / no)
+           :ARG2 a))
+
+p19_s10 ::: and don't rotate don't don't rotate
+(a / and
+   :op1 (r / rotate-01 :polarity - :mode imperative
+           :ARG0 (y / you)
+           :ARG1 (i2 / implicit-role :op1 "thing_rotating")))
+
+p19_g11 ::: (head: nod; hands: into open, front;) // (no)
+(e / emblem-GA :ARG0 s
+   :ARG1 (n / no)
+   :ARG2 a)
+
+p19_g12 ::: (arms: apart, left; hands: facing, claw;) (arms: together, left; hands: claw, down;) (body: still;) (arms: apart, left; hands: facing, closed;) (arms: together, left; hands: facing, closed;) (head: nod;) // (together) (together) (yes)
+(i / icon-GA :mode expressive
+   :ARG0 (s / signaler)
+   :ARG1 (m / move-01
+            :ARG2 (n / near-02
+                     :ARG1 (i5 / implicit-role :op1 "near_entity")
+                     :ARG2 (i6 / implicit-role :op1 "in_relation_to_near_to_what"))
+            :ARG0 (i2 / implicit-role :op1 "mover")
+            :ARG1 (i3 / implicit-role :op1 "moved")
+            :ARG3 (i4 / implicit-role :op1 "aspect_domain_in_which_arg_moving"))
+   :ARG2 (a / actor))
+
+p19_s11 ::: yeah and
+(y / yeah)
+
+p19_s12 ::: and
+(a / and)
+
+p19_s13 ::: go near
+(g / go-01
+   :manner (n / near-02
+              :ARG1 (i6 / implicit-role :op1 "near_entity")
+              :ARG2 (i7 / implicit-role :op1 "in_relation_to_near_to_what"))
+   :ARG1 (i2 / implicit-role :op1 "entity_in_motiongoer")
+   :ARG2 (i3 / implicit-role :op1 "extent")
+   :ARG3 (i4 / implicit-role :op1 "start_point")
+   :ARG4 (i5 / implicit-role :op1 "end_point_end_state_of_arg"))
+
+p19_g13 ::: (head: nod;) // (yes)
+(e / emblem-GA
+   :ARG0 (s / signaler)
+   :ARG1 (y / yes)
+   :ARG2 (a / actor))
+
+p19_s14 ::: yeah
+(y / yeah)
+
+p19_g14 ::: (hands: thumb, up;) // (ok)
+(e / emblem-GA
+   :ARG0 (s / signaler)
+   :ARG1 (g / good)
+   :ARG2 (a / actor))
+
+p19_s15 ::: great
+(g / great)
+
+p19_g15 ::: (head: nod;) (body: still;) // (ok) (done)
+(e / emblem-GA
+   :ARG0 (s / signaler)
+   :ARG1 (y / yes)
+   :ARG2 (a / actor))
+
+p19_s16 ::: yep
+(y / yep)
+
+=========Raw File=======

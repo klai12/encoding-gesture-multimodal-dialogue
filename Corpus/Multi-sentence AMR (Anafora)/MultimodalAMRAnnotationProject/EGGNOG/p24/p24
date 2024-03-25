@@ -1,0 +1,231 @@
+
+
+p24_g1 ::: (RA: move, up; RH: into four, front;) // (four)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 4
+   :ARG2 (a / actor))
+
+p24_s1 ::: okay
+(o / okay)
+
+p24_s2 ::: i need four base again
+(n / need-01
+   :ARG0 (i / i)
+   :ARG1 (b / base :quant 4)
+   :mod (a / again))
+
+p24_s3 ::: and it's going to be like a fan or sound wave going out
+(a / and
+   :op2 (l / like-04
+           :ARG1 (i / it)
+           :ARG2 (o / or
+                    :op1 (f / fan)
+                    :op2 (w / wave
+                            :mod (s / sound)
+                            :ARG0-of (g / go-out-17)))))
+
+p24_g2 ::: (Unknown) (arms: apart, left;) (arms: into contact, front;) (arms: apart, left;) // (curve) (curve)
+(i / icon-GA :mode expressive
+   :ARG0 (s / signaler)
+   :ARG1 (c / curve)
+   :ARG2 (a / actor))
+
+p24_g3 ::: (arms: into contact, front; hands: into closed, back;) (arms: apart, left;) (arms: into contact, front;) (arms: apart, left;) // (curve) (curve)
+(i / icon-GA :mode expressive
+   :ARG0 (s / signaler)
+   :ARG1 (c / curve)
+   :ARG2 (a / actor))
+
+p24_s4 ::: so like fanned out away from you
+(l / like-04
+   :ARG1 (f / fan-01
+            :mod (o / out)
+            :direction (a / away
+                          :op1 (y / you))
+            :ARG0 (i3 / implicit-role :op1 "causer_agent")
+            :ARG1 (i4 / implicit-role :op1 "entity_fanned"))
+   :ARG2 (i2 / implicit-role :op1 "second_item_in_comparison"))
+
+p24_g4 ::: (RA: move, up; RH: into four, front;) (RA: move, down;) // (four)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 4
+   :ARG2 (a / actor))
+
+p24_s5 ::: just four
+(i / implicit-role :quant 4
+   :mod (j / just))
+
+p24_s6 ::: okay
+(o / okay)
+
+p24_s7 ::: think of like a wifi signal where it’s a u shape
+(t / think-01 :mode imperative
+   :ARG0 (y / you)
+   :ARG1 (s / signal
+            :mod (w / wifi)
+            :ARG1-of (m / mean-01
+                        :ARG2 (s2 / shape
+                                  :mod (u / u))
+                        :ARG0 (i3 / implicit-role :op1 "agent")
+                        :ARG3 (i4 / implicit-role :op1 "perceiver_beneficiary")))
+   :ARG2 (i2 / implicit-role :op1 "Attributive_please_look_at_the_examples--_this_is_tricky"))
+
+p24_g5 ::: (arms: into contact, left;) (arms: apart, left;) (arms: into contact, left;) (arms: apart, left;) (arms: into contact, left;) (arms: apart, left;) // (curve) (curve) (curve)
+(i / icon-GA :mode expressive
+   :ARG0 (s / signaler)
+   :ARG1 (c / curve)
+   :ARG2 (a / actor))
+
+p24_g6 ::: (arms: move, back;) // (Unknown)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (b / backward)
+   :ARG2 (a / actor))
+
+p24_s8 ::: yeah
+(y / yeah)
+
+p24_s9 ::: the next one is three on top of those
+(i / implicit-role :quant 3
+   :location (o / on-top-of
+                :op1 (t / that))
+   :domain (o2 / one
+               :mod (n / next)))
+
+p24_g7 ::: (RH: into three;) (RA: move, down;) // (three)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 3
+   :ARG2 (a / actor))
+
+p24_g8 ::: (arms: move, up;) (arms: move, down;) (body: move, down;) // (talk)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (t / tower)
+   :ARG2 (a / actor))
+
+p24_s10 ::: just like you’re building a tower
+(l / like-04
+   :ARG1 (b / build-01
+            :ARG0 (y / you)
+            :ARG1 (t / tower)
+            :ARG2 (i3 / implicit-role :op1 "material_start_state")
+            :ARG4 (i4 / implicit-role :op1 "end_state"))
+   :mod (j / just)
+   :ARG2 (i2 / implicit-role :op1 "second_item_in_comparison"))
+
+p24_g9 ::: (arms: move, up, into contact, left; hands: into claw, front;) (arms: apart, left;) (arms: move, down;) // (apart)
+(a / and
+   :op1 (g / gesture-unit
+           :op1 (d / deixis-GA
+                   :ARG0 (s / signaler)
+                   :ARG1 (l / location)
+                   :ARG2 (a2 / actor))
+           :op2 (i / icon-GA
+                   :ARG0 s
+                   :ARG1 (p / put-01
+                            :ARG0 (i3 / implicit-role :op1 "putter")
+                            :ARG1 (i4 / implicit-role :op1 "thing_put")
+                            :ARG2 (i5 / implicit-role :op1 "where_put"))
+                   :ARG2 a2))
+   :op2 (g2 / gesture-unit
+            :op1 (d2 / deixis-GA
+                     :ARG0 s
+                     :ARG1 (l2 / location)
+                     :ARG2 a2)
+            :op2 (i2 / icon-GA
+                     :ARG0 s
+                     :ARG1 (p2 / put-01
+                               :ARG0 (i6 / implicit-role :op1 "putter")
+                               :ARG1 (i7 / implicit-role :op1 "thing_put")
+                               :ARG2 (i8 / implicit-role :op1 "where_put"))
+                     :ARG2 a2)))
+
+p24_s11 ::: and then take the two on top
+(a / and
+   :op2 (t / take-01 :mode imperative
+           :ARG0 (y / you)
+           :ARG1 (i / implicit-role :quant 2
+                    :location (o / on
+                                 :op1 (t2 / top)))
+           :ARG2 (i2 / implicit-role :op1 "taken_FROM_SOURCE_of_thing_taken")
+           :ARG3 (i3 / implicit-role :op1 "destination"))
+   :mod (t3 / then))
+
+p24_g10 ::: (arms: move, up;) (LA: move, right; LH: into closed, right;) (LA: move, left;) (LA: move, down;) (RA: move, front; RH: into open, down;) // (stack relative)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (s2 / stack-01
+             :ARG0 (i2 / implicit-role :op1 "stacker")
+             :ARG1 (i3 / implicit-role :op1 "one_thing")
+             :ARG2 (i4 / implicit-role :op1 "the_other_thing_arg_istacked_onto_destination"))
+   :ARG2 (a / actor))
+
+p24_s12 ::: we’re building up a even column i guess
+(b / build-up-05
+   :ARG0 (w / we)
+   :ARG1 (c / column
+            :mod (e / even))
+   :ARG1-of (g / guess
+               :ARG0 (i / i)))
+
+p24_g11 ::: (RA: move, front; RH: into open, down;) (RA: move, left;) (RA: move, up;) (RA: move, down;) (RA: move, up; RH: into four, front;) // (stack relative)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (s2 / stack-01
+             :ARG0 (i2 / implicit-role :op1 "stacker")
+             :ARG1 (i3 / implicit-role :op1 "one_thing")
+             :ARG2 (i4 / implicit-role :op1 "the_other_thing_arg_istacked_onto_destination"))
+   :ARG2 (a / actor))
+
+p24_g12 ::: (RA: move, up; RH: into four, front;) // (four)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 4
+   :ARG2 (a / actor))
+
+p24_s13 ::: the base is going to have four second one’s going to have three then two on top of that and then one
+(a / and
+   :op1 (h / have-03
+           :ARG0 (b / base)
+           :ARG1 (i / implicit-role :quant 4))
+   :op2 (h2 / have-03
+            :ARG0 (i2 / implicit-role
+                      :ord (o / ordinal-entity :value 2))
+            :ARG1 (i3 / implicit-role :quant 3))
+   :op3 (i4 / implicit-predicate-00 :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (i5 / implicit-role :quant 2)
+            :destination (o2 / on-top-of
+                             :op1 (t / that)))
+   :op4 (i6 / implicit-predicate-00 :mode imperative
+            :ARG0 y
+            :ARG1 (i7 / implicit-role :quant 1)))
+
+p24_g13 ::: (RH: into three;) // (three)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 3
+   :ARG2 (a / actor))
+
+p24_g14 ::: (RA: move, up; RH: into two;) // (two)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 2
+   :ARG2 (a / actor))
+
+p24_g15 ::: (RH: into one;) // (one)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 1
+   :ARG2 (a / actor))
+
+p24_g16 ::: (arms: move, up; hands: into thumbs, up;) (arms: move, down;) // (done)
+(e / emblem-GA
+   :ARG0 (s / signaler)
+   :ARG1 (y / yes)
+   :ARG2 (a / actor))
+
+=========Raw File=======

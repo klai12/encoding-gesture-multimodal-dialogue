@@ -1,0 +1,249 @@
+
+
+p16_g1 ::: (LA: move, front; LH: into point, down;) // (here)
+(g / gesture-unit
+   :op1 (d / deixis-GA
+           :ARG0 (s / signaler)
+           :ARG1 (l / location)
+           :ARG2 (a / actor))
+   :op2 (i / icon-GA
+           :ARG0 s
+           :ARG1 (p / put-01
+                    :ARG0 (i2 / implicit-role :op1 "putter")
+                    :ARG1 (i3 / implicit-role :op1 "thing_put")
+                    :ARG2 (i4 / implicit-role :op1 "where_put"))
+           :ARG2 a))
+
+p16_s1 ::: take one block and put it on the table
+(a / and
+   :op1 (t / take-01 :mode imperative
+           :ARG0 (y / you)
+           :ARG1 (b / block :quant 1)
+           :ARG2 (i2 / implicit-role :op1 "taken_FROM_SOURCE_of_thing_taken")
+           :ARG3 (i3 / implicit-role :op1 "destination"))
+   :op2 (p / put-01 :mode imperative
+           :ARG0 y
+           :ARG1 b
+           :ARG2 (o / on
+                    :op1 (t2 / table))))
+
+p16_g2 ::: (LA: move, to hip;) (RA: move, front; RH: into point, down;) // (here)
+(g / gesture-unit
+   :op1 (d / deixis-GA
+           :ARG0 (s / signaler)
+           :ARG1 (l / location)
+           :ARG2 (a / actor))
+   :op2 (i / icon-GA
+           :ARG0 s
+           :ARG1 (p / put-01
+                    :ARG0 (i2 / implicit-role :op1 "putter")
+                    :ARG1 (i3 / implicit-role :op1 "thing_put")
+                    :ARG2 (i4 / implicit-role :op1 "where_put"))
+           :ARG2 a))
+
+p16_s2 ::: okay
+(o / okay)
+
+p16_s3 ::: take another block put it next to it
+(a / and
+   :op1 (t / take-01 :mode imperative
+           :ARG0 (y / you)
+           :ARG1 (b / block
+                    :mod (a2 / another))
+           :ARG2 (i2 / implicit-role :op1 "taken_FROM_SOURCE_of_thing_taken")
+           :ARG3 (i3 / implicit-role :op1 "destination"))
+   :op2 (p / put-01 :mode imperative
+           :ARG0 y
+           :ARG1 b
+           :ARG2 (n / next-to
+                    :op1 (i / it))))
+
+p16_g3 ::: (RA: move, back;) (arms: move, into gap, left; hands: facing, closed;) (body: still;) // (apart)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (s2 / spread-03
+             :direction (a / apart)
+             :ARG0 (i2 / implicit-role :op1 "distributor_agent")
+             :ARG1 (i3 / implicit-role :op1 "things_distributed"))
+   :ARG2 (a2 / actor))
+
+p16_s4 ::: spread them apart a little bit but not as wide as a full block
+(s / spread-03 :mode imperative
+   :ARG0 (y / you)
+   :ARG1 (t / them)
+   :direction (a / apart
+                 :quant (b / bit
+                           :mod (l / little))
+                 :quant (l2 / less-than
+                            :op1 (q / distance-quantity
+                                    :unit (b2 / block)
+                                    :quant 1))))
+
+p16_g4 ::: (RA: move, up; RH: into one, front;) (RA: move, front; RH: into L, down;) // (one) (here relative)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 1
+   :ARG2 (a / actor))
+
+p16_s5 ::: take one block put it on top of those two in the middle
+(a / and
+   :op1 (t / take-01 :mode imperative
+           :ARG0 (y / you)
+           :ARG1 (b / block :quant 1)
+           :ARG2 (i2 / implicit-role :op1 "taken_FROM_SOURCE_of_thing_taken")
+           :ARG3 (i3 / implicit-role :op1 "destination"))
+   :op2 (p / put-01 :mode imperative
+           :ARG0 y
+           :ARG1 b
+           :ARG2 (o / on-top-of
+                    :op1 (b2 / block
+                             :mod (t2 / that)
+                             :quant 2
+                             :location (m / middle)))))
+
+p16_g5 ::: (RA: move, front; RH: into L, down;) (RA: move, up; RH: L, down;) (RA: move, back;) // (here relative)
+(g / gesture-unit
+   :op1 (d / deixis-GA
+           :ARG0 (s / signaler)
+           :ARG1 (l / location)
+           :ARG2 (a / actor))
+   :op2 (i / icon-GA
+           :ARG0 s
+           :ARG1 (p / put-01
+                    :ARG0 (i2 / implicit-role :op1 "putter")
+                    :ARG1 (i3 / implicit-role :op1 "thing_put")
+                    :ARG2 (i4 / implicit-role :op1 "where_put"))
+           :ARG2 a))
+
+p16_g6 ::: (RA: move, down; RH: into point, down;) (LA: move, left; LH: into L, down;) // (here)
+(g / gesture-unit
+   :op1 (d / deixis-GA
+           :ARG0 (s / signaler)
+           :ARG1 (l / location)
+           :ARG2 (a / actor))
+   :op2 (i / icon-GA
+           :ARG0 s
+           :ARG1 (p / put-01
+                    :ARG0 (i2 / implicit-role :op1 "putter")
+                    :ARG1 (i3 / implicit-role :op1 "thing_put")
+                    :ARG2 (i4 / implicit-role :op1 "where_put"))
+           :ARG2 a))
+
+p16_s6 ::: one block on each side
+(b / block :quant 1
+   :location (o / on
+                :op1 (s / side
+                        :quant (e / each))))
+
+p16_g7 ::: (RA: move, right; RH: into L, down;) // (here)
+(g / gesture-unit
+   :op1 (d / deixis-GA
+           :ARG0 (s / signaler)
+           :ARG1 (l / location)
+           :ARG2 (a / actor))
+   :op2 (i / icon-GA
+           :ARG0 s
+           :ARG1 (p / put-01
+                    :ARG0 (i2 / implicit-role :op1 "putter")
+                    :ARG1 (i3 / implicit-role :op1 "thing_put")
+                    :ARG2 (i4 / implicit-role :op1 "where_put"))
+           :ARG2 a))
+
+p16_g8 ::: (arms: rotate; hands: into point, down;) // (here)
+(g / gesture-unit
+   :op1 (d / deixis-GA
+           :ARG0 (s / signaler)
+           :ARG1 (l / location)
+           :ARG2 (a / actor))
+   :op2 (i / icon-GA
+           :ARG0 s
+           :ARG1 (p / put-01
+                    :ARG0 (i2 / implicit-role :op1 "putter")
+                    :ARG1 (i3 / implicit-role :op1 "thing_put")
+                    :ARG2 (i4 / implicit-role :op1 "where_put"))
+           :ARG2 a))
+
+p16_s7 ::: one block on top of each of those two
+(b / block :quant 1
+   :location (o / on-top-of
+                :op1 (b2 / block
+                         :mod (t / that)
+                         :quant (e / each)
+                         :quant 2)))
+
+p16_s8 ::: stack three blocks on one side
+(s / stack-01 :mode imperative
+   :ARG0 (y / you)
+   :ARG1 (b / block :quant 3)
+   :ARG2 (o / on
+            :op1 (s2 / side :quant 1)))
+
+p16_g9 ::: (RA: move, right; RH: into point, down;) (RH: tap, point;) // (here)
+(d / deixis-GA
+   :ARG0 (s / signaler)
+   :ARG1 (l / location)
+   :ARG2 (a / actor))
+
+p16_g10 ::: (RA: move, up; RH: into claw, front;) // (stack)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (s2 / stack-01
+             :ARG0 (i2 / implicit-role :op1 "stacker")
+             :ARG1 (i3 / implicit-role :op1 "one_thing")
+             :ARG2 (i4 / implicit-role :op1 "the_other_thing_arg_istacked_onto_destination"))
+   :ARG2 (a / actor))
+
+p16_g11 ::: (body: still;) (head: nod;) // (ok)
+(e / emblem-GA
+   :ARG0 (s / signaler)
+   :ARG1 (o / ok)
+   :ARG2 (a / actor))
+
+p16_s9 ::: yup
+(y / yup)
+
+p16_g12 ::: (body: still;) (LA: move, front; LH: into claw, front;) // (this)
+(d / deixis-GA
+   :ARG0 (s / signaler)
+   :ARG1 (t / tower)
+   :ARG2 (a / actor))
+
+p16_s10 ::: move that about one that tower about one block over
+(m / move-01 :mode imperative
+   :ARG0 (y / you)
+   :ARG1 (t / tower
+            :mod (t2 / that))
+   :ARG2 (a / about
+            :op1 (q / distance-quantity
+                    :unit (b / block)
+                    :quant 1))
+   :direction (o / over)
+   :ARG3 (i2 / implicit-role :op1 "aspect_domain_in_which_arg_moving"))
+
+p16_g13 ::: (LA: shake, up; LH: claw, front;) // (this)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (t / tower)
+   :ARG2 (a / actor))
+
+p16_g14 ::: (LA: shake, up; LH: claw, front;) (LA: move, left; LH: front, claw;) // (slide left)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (s2 / slide-01
+             :ARG1 (t / tower)
+             :direction (l / left)
+             :ARG0 (i2 / implicit-role :op1 "agent_causer_of_sliding"))
+   :ARG2 (a / actor))
+
+p16_g15 ::: (body: still;) (arms: move, up; hands: into open, up;) (body: move, back; arms: move, down;) // (ok)
+(e / emblem-GA
+   :ARG0 (s / signaler)
+   :ARG1 (o / ok)
+   :ARG2 (a / actor))
+
+p16_s11 ::: you're done
+(d / done-08
+   :ARG0 (y / you)
+   :ARG1 (i2 / implicit-role :op1 "activity_completed_event_that_has_stopped"))
+
+=========Raw File=======

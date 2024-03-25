@@ -1,0 +1,291 @@
+
+
+p33_s1 ::: so starting from the top moving to your left down four diagonally a row with the corners
+(s / start-01
+   :source (t / top)
+   :destination (l / left
+                   :poss (y / you)
+                   :direction (d / down))
+   :ARG1 (i / implicit-role :quant 4
+            :direction (d2 / diagonal)
+            :ARG0-of (h / have-03
+                        :ARG1 (c / corner
+                                 :ARG0-of (t2 / touch-01
+                                              :ARG1 (i4 / implicit-role :op1 "thing_touched")
+                                              :ARG2 (i5 / implicit-role :op1 "touched_with_if_separate_from_agent")))))
+   :ARG0 (i2 / implicit-role :op1 "Agent")
+   :ARG2 (i3 / implicit-role :op1 "Instrument"))
+
+p33_g1 ::: (arms: move, down;) (RA: move, front right;) // (here)
+(g / gesture-unit
+   :op1 (i / icon-GA
+           :ARG0 (s / signaler)
+           :ARG1 (b / block)
+           :ARG2 (a / actor))
+   :op2 (d / deixis-GA
+           :ARG0 s
+           :ARG1 (l / location)
+           :ARG2 a))
+
+p33_g2 ::: (RA: move, front right;) // (diagonal)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (d / diagonal)
+   :ARG2 (a / actor))
+
+p33_g3 ::: (RA: move, front right;) // (diagonal)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (d / diagonal)
+   :ARG2 (a / actor))
+
+p33_s2 ::: and the other direction it's the same except for there are five
+(s / same-01
+   :ARG1 (i / implicit-role
+            :direction (o / other))
+   :concession (i2 / include
+                   :ARG1 (i3 / implicit-role :quant 5))
+   :ARG2 (i4 / implicit-role :op1 "second_same_thing_thing_being_compared_to")
+   :ARG3 (i5 / implicit-role :op1 "domain_in_which_args___are_the_same"))
+
+p33_g4 ::: (arms: move, front left; hands: into facing, front, into open, front;) (Unknown) (head: rotate; arms: shake, front left;) // (diagonal) (talk) (diagonal)
+(i / icon-GA :mode expressive
+   :ARG0 (s / signaler)
+   :ARG1 (d / diagonal)
+   :ARG2 (a / actor))
+
+p33_s3 ::: what one less than
+(i / implicit-predicate
+   :ARG0 (i2 / implicit-role :quant 1)
+   :ARG1 (l / less)
+   :ARG2 (t / than)
+   :ARG4 (t2 / that))
+
+p33_g5 ::: (RA: move, left; RH: into point, left;) // (there)
+(g / gesture-unit
+   :op1 (d / deixis-GA
+           :ARG0 (s / signaler)
+           :ARG1 (b / block)
+           :ARG2 (a / actor))
+   :op2 (i / icon-GA
+           :ARG0 s
+           :ARG1 (m / move-01
+                    :ARG0 (i2 / implicit-role :op1 "mover")
+                    :ARG1 (i3 / implicit-role :op1 "moved")
+                    :ARG2 (i4 / implicit-role :op1 "destination")
+                    :ARG3 (i5 / implicit-role :op1 "aspect_domain_in_which_arg_moving"))
+           :ARG2 a))
+
+p33_g6 ::: (RA: surround;) (RA: move, front right; RH: into claw, down;) // (talk)
+(d / deixis-GA
+   :ARG0 (s / signaler)
+   :ARG1 (l / location)
+   :ARG2 (a / actor))
+
+p33_s4 ::: yea on the side with four on the last one on the inside corner there is another block yeah
+(b / be-located-at-91
+   :ARG1 (b2 / block
+             :mod (a / another))
+   :ARG2 (c / corner
+            :mod (i / inside)
+            :poss (i2 / implicit-role
+                      :ord (o / ordinal-entity :value -1)
+                      :location (o2 / on
+                                    :op1 (s / side
+                                            :ARG0-of (h / have-03
+                                                        :ARG1 (i3 / implicit-role :quant 4)))))))
+
+p33_g7 ::: (RA: move, front right; RH: into claw, down;) // (diagonal)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (d / diagonal)
+   :ARG2 (a / actor))
+
+p33_g8 ::: (RA: shake, left; RH: into open, left;) // (here)
+(d / deixis-GA
+   :ARG0 (s / signaler)
+   :ARG1 (b / block)
+   :ARG2 (a / actor))
+
+p33_g9 ::: (RA: move, left; hands: into facing, left, into open, left;) // (here) (talk)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (i1 / inside)
+   :ARG2 (a / actor))
+
+p33_g10 ::: (RH: into inch;) (RA: surround;) // (talk)
+(d / deixis-GA
+   :ARG0 (s / signaler)
+   :ARG1 (l / location)
+   :ARG2 (a / actor))
+
+p33_s5 ::: it's just on the table
+(b / be-located-at-91
+   :ARG0 (i / it)
+   :ARG1 (o / on
+            :op1 (t / table))
+   :mod (j / just))
+
+p33_g11 ::: (arms: move, front; hands: into point, down;) (head: shake; RA: move, back;) // (talk)
+(d / deixis-GA
+   :ARG0 (s / signaler)
+   :ARG1 (l / location)
+   :ARG2 (a / actor))
+
+p33_s6 ::: like not stacked
+(s / stack-01 :polarity -
+   :ARG0 (i2 / implicit-role :op1 "stacker")
+   :ARG1 (i3 / implicit-role :op1 "one_thing")
+   :ARG2 (i4 / implicit-role :op1 "the_other_thing_arg_istacked_onto_destination"))
+
+p33_g12 ::: (RA: move, up, surround; RH: into point, down;) // (there)
+(d / deixis-GA
+   :ARG0 (s / signaler)
+   :ARG1 (l / location)
+   :ARG2 (a / actor))
+
+p33_s7 ::: then down down one
+(i / implicit-predicate-00 :mode imperative
+   :ARG0 (y / you)
+   :direction (d / down :degree 1)
+   :time (t / then))
+
+p33_g13 ::: (RA: move, front; RH: into point, front;) // (there)
+(g / gesture-unit
+   :op1 (d / deixis-GA
+           :ARG0 (s / signaler)
+           :ARG1 (b / block)
+           :ARG2 (a / actor))
+   :op2 (i / icon-GA
+           :ARG0 s
+           :ARG1 (m / move-01
+                    :direction (d1 / down)
+                    :ARG0 (i2 / implicit-role :op1 "mover")
+                    :ARG1 (i3 / implicit-role :op1 "moved")
+                    :ARG2 (i4 / implicit-role :op1 "destination")
+                    :ARG3 (i5 / implicit-role :op1 "aspect_domain_in_which_arg_moving"))
+           :ARG2 a))
+
+p33_g14 ::: (arms: move, up; hands: into open, down;) // (stop)
+(e / emblem-GA
+   :ARG0 (s / signaler)
+   :ARG1 (s2 / stop)
+   :ARG2 (a / actor))
+
+p33_g15 ::: (RH: into point, front;) // (there)
+(d / deixis-GA
+   :ARG0 (s / signaler)
+   :ARG1 (l / location)
+   :ARG2 (a / actor))
+
+p33_g16 ::: (RA: shake, left; hands: into point, down;) // (talk)
+(g / gesture-unit
+   :op1 (d / deixis-GA
+           :ARG0 (s / signaler)
+           :ARG1 (b / block)
+           :ARG2 (a / actor))
+   :op2 (i / icon-GA
+           :ARG0 s
+           :ARG1 (m / move-01
+                    :ARG0 (i2 / implicit-role :op1 "mover")
+                    :ARG1 (i3 / implicit-role :op1 "moved")
+                    :ARG2 (i4 / implicit-role :op1 "destination")
+                    :ARG3 (i5 / implicit-role :op1 "aspect_domain_in_which_arg_moving"))
+           :ARG2 a))
+
+p33_s8 ::: yea and touching corners
+(t / touch-01
+   :ARG0 (c / corners)
+   :ARG1 (i2 / implicit-role :op1 "thing_touched")
+   :ARG2 (i3 / implicit-role :op1 "touched_with_if_separate_from_agent"))
+
+p33_g17 ::: (RA: move, front; hands: into point, down;) (RA: shake, left;) (RA: move, back right; RH: into open, down;) // (there) (talk)
+(d / deixis-GA :mode expressive
+   :ARG0 (s / signaler)
+   :ARG1 (l / location)
+   :ARG2 (a / actor))
+
+p33_s9 ::: save on the fourth block on the other side
+(s / same-01
+   :ARG0 (b / block
+            :ord (o / ordinal-entity :value 4)
+            :location (s1 / side
+                          :mod (o2 / other)))
+   :ARG1 (i2 / implicit-role :op1 "first_same_thing")
+   :ARG2 (i3 / implicit-role :op1 "second_same_thing_thing_being_compared_to")
+   :ARG3 (i4 / implicit-role :op1 "domain_in_which_args___are_the_same"))
+
+p33_g18 ::: (LA: move, up front; LH: into point, front;) // (there)
+(d / deixis-GA
+   :ARG0 (s / signaler)
+   :ARG1 (b / block)
+   :ARG2 (a / actor))
+
+p33_s10 ::: between the block you just placed and the third block on that side it's touching those two corners
+(t / touch-01
+   :ARG0 (i / it)
+   :ARG1 (c / corner
+            :mod (t2 / that)
+            :quant 2
+            :location (b / between
+                         :op1 (b2 / block
+                                  :ARG1-of (p / place-01
+                                              :ARG0 (y / you)
+                                              :mod (j / just)
+                                              :ARG2 (i3 / implicit-role :op1 "where_put")))
+                         :op2 (b3 / block
+                                  :ord (o / ordinal-entity :value 3)
+                                  :location (o2 / on
+                                                :op1 (s / side
+                                                        :mod (t3 / that))))))
+   :ARG2 (i2 / implicit-role :op1 "touched_with_if_separate_from_agent"))
+
+p33_g19 ::: (LA: move, up front; LH: into point, front;) (arms: move, left, into gap, left; hands: into facing, left, into open, left;) // (these)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (b / block)
+   :ARG2 (a / actor))
+
+p33_g20 ::: (RA: move, front; RH: into point, down;) (Unknown) // (there)
+(g / gesture-unit
+   :op1 (i / icon-GA
+           :ARG0 (s / signaler)
+           :ARG1 (b / block)
+           :ARG2 (a / actor))
+   :op2 (d / deixis-GA
+           :ARG0 s
+           :ARG1 (l / location)
+           :ARG2 a))
+
+p33_g21 ::: (RH: into inch;) // (talk) (talk)
+(d / deixis-GA
+   :ARG0 (s / signaler)
+   :ARG1 (l / location)
+   :ARG2 (a / actor))
+
+p33_s11 ::: and there's one touching that block's bottom
+(t / touch-01
+   :ARG0 (i / implicit-role :quant 1)
+   :ARG1 (c / corner
+            :mod (b / bottom)
+            :poss (b2 / block
+                      :mod (t2 / that)))
+   :ARG2 (i2 / implicit-role :op1 "touched_with_if_separate_from_agent"))
+
+p33_g22 ::: (hands: into point, down;) (arms: together, left; hands: into claw, down;) // (talk)
+(d / deixis-GA
+   :ARG0 (s / signaler)
+   :ARG1 (l / location)
+   :ARG2 (a / actor))
+
+p33_g23 ::: (RA: move, right; RH: into claw, down;) // (diagonal)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (m / move-01
+            :ARG0 (i2 / implicit-role :op1 "mover")
+            :ARG1 (i3 / implicit-role :op1 "moved")
+            :ARG2 (i4 / implicit-role :op1 "destination")
+            :ARG3 (i5 / implicit-role :op1 "aspect_domain_in_which_arg_moving"))
+   :ARG2 (a / actor))
+
+=========Raw File=======

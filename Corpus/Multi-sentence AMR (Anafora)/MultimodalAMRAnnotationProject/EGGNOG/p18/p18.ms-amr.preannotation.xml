@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<document id="p18" release="p18.txt">
+   <sentences>
+      <amr linearorder="0" id="p18_g1"/>
+      <amr linearorder="1" id="p18_g2"/>
+      <amr linearorder="2" id="p18_g3"/>
+      <amr linearorder="3" id="p18_s1"/>
+      <amr linearorder="4" id="p18_s2"/>
+      <amr linearorder="5" id="p18_s3"/>
+      <amr linearorder="6" id="p18_g4"/>
+      <amr linearorder="7" id="p18_s4"/>
+      <amr linearorder="8" id="p18_g5"/>
+      <amr linearorder="9" id="p18_s5"/>
+      <amr linearorder="10" id="p18_g6"/>
+      <amr linearorder="11" id="p18_s6"/>
+      <amr linearorder="12" id="p18_g7"/>
+      <amr linearorder="13" id="p18_s7"/>
+      <amr linearorder="14" id="p18_s8"/>
+      <amr linearorder="15" id="p18_g8"/>
+      <amr linearorder="16" id="p18_s9"/>
+      <amr linearorder="17" id="p18_g9"/>
+      <amr linearorder="18" id="p18_s10"/>
+      <amr linearorder="19" id="p18_g10"/>
+      <amr linearorder="20" id="p18_s11"/>
+      <amr linearorder="21" id="p18_g11"/>
+      <amr linearorder="22" id="p18_s12"/>
+      <amr linearorder="23" id="p18_g12"/>
+      <amr linearorder="24" id="p18_g13"/>
+      <amr linearorder="25" id="p18_g14"/>
+      <amr linearorder="26" id="p18_s13"/>
+      <amr linearorder="27" id="p18_g15"/>
+   </sentences>
+</document>

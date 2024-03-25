@@ -1,0 +1,215 @@
+
+
+p34_g1 ::: (LA: move, up; LH: into five, front;) (body: move, left;) (body: still;) (LH: into open, up;) // (five) (think) (wait)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 1
+   :ARG2 (a / actor))
+
+p34_s1 ::: five blocks to start
+(b / block :quant 5
+   :ARG1-of (s / start-01
+               :ARG0 (i2 / implicit-role :op1 "Agent")
+               :ARG2 (i3 / implicit-role :op1 "Instrument")))
+
+p34_s2 ::: put them coming diagonal
+(p / put-01 :mode imperative
+   :ARG0 (y / you)
+   :ARG1 (t / them)
+   :manner (c / come-33
+              :ARG2 (d / diagonal))
+   :ARG2 (i2 / implicit-role :op1 "where_put"))
+
+p34_g2 ::: (LA: move, down right;) (RA: move, up; hands: into contact, left;) // (new row)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (d / diagonal)
+   :ARG2 (a / actor))
+
+p34_g3 ::: (RA: move, up; hands: into contact, left;) (body: still;) // (here relative) (talk) (wait)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (t / touch-01
+            :ARG0 (i2 / implicit-role :op1 "toucher")
+            :ARG1 (i3 / implicit-role :op1 "thing_touched")
+            :ARG2 (i4 / implicit-role :op1 "touched_with_if_separate_from_agent"))
+   :ARG2 (a / actor))
+
+p34_s3 ::: touching corners touching corners
+(t / touch-01
+   :ARG0 (c / corner)
+   :ARG1 (c2 / corner)
+   :ARG2 (i2 / implicit-role :op1 "touched_with_if_separate_from_agent"))
+
+p34_g4 ::: (head: nod;) // (yes)
+(e / emblem-GA
+   :ARG0 (s / signaler)
+   :ARG1 (y / yes)
+   :ARG2 (a / actor))
+
+p34_g5 ::: (head: nod;) (body: still;) // (yes)
+(e / emblem-GA
+   :ARG0 (s / signaler)
+   :ARG1 (y / yes)
+   :ARG2 (a / actor))
+
+p34_s4 ::: okay
+(o / okay)
+
+p34_s5 ::: and then three more coming off from the other direction touching the corner
+(a / and
+   :op2 (i / implicit-role :quant 3
+           :mod (m / more)
+           :ARG1-of (c / come-33
+                       :ARG3 (f / from
+                                :op1 (d / direction
+                                        :mod (o / other)))
+                       :mod (o2 / off))
+           :ARG0-of (t / touch-01
+                       :ARG1 (c2 / corner)
+                       :ARG2 (i2 / implicit-role :op1 "touched_with_if_separate_from_agent"))
+           :time (t2 / then)))
+
+p34_g6 ::: (LA: move, left; LH: into closed, front;) (body: still;) (head: nod; LA: move, right; LH: into closed, right;) // (here relative) (talk)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (d / direction)
+   :ARG2 (a / actor))
+
+p34_g7 ::: (head: nod; LA: move, right; LH: into closed, right;) // (yes)
+(e / emblem-GA
+   :ARG0 (s / signaler)
+   :ARG1 (y / yes)
+   :ARG2 (a / actor))
+
+p34_s6 ::: okay
+(o / okay)
+
+p34_s7 ::: on the side with three the one closest to the middle put another block on top
+(p / put-01 :mode imperative
+   :ARG0 (y / you)
+   :ARG1 (b / block
+            :mod (a / another))
+   :ARG2 (o / on-top
+            :op1 (o2 / one
+                     :ARG1-of (h / have-degree-91
+                                 :ARG2 (c / close-10
+                                          :ARG1 o2
+                                          :ARG2 (m / middle))
+                                 :ARG3 (m2 / most))
+                     :location (o3 / on
+                                   :op1 (s / side
+                                           :ARG0-of (h2 / have
+                                                        :ARG1 (i2 / implicit-role :quant 3)))))))
+
+p34_g8 ::: (LA: move, left; LH: into open, front;) (body: still;) // (here) (talk)
+(d / deixis-GA
+   :ARG0 (s / signaler)
+   :ARG1 (s2 / side)
+   :ARG2 (a / actor))
+
+p34_g9 ::: (LH: into point, front;) (body: still;) // (there) (talk) (talk)
+(d / deixis-GA
+   :ARG0 (s / signaler)
+   :ARG1 (b / block)
+   :ARG2 (a / actor))
+
+p34_s8 ::: stack stack it up
+(s / stack-up-03 :mode imperative
+   :ARG0 (y / you)
+   :ARG1 (i / it))
+
+p34_g10 ::: (LA: move, up; LH: into open, right;) (arms: together, left; hands: into contact, left, into closed, left;) (body: still;) (head: nod;) // (together) (talk)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (c / close-10
+            :ARG1 (i2 / implicit-role :op1 "entity_located_near_something_close_thing")
+            :ARG2 (i3 / implicit-role :op1 "location_close_to_what"))
+   :ARG2 (a / actor))
+
+p34_s9 ::: no
+(n / no)
+
+p34_s10 ::: closest to the middle
+(h / have-degree-91
+   :ARG2 (c / close-10
+            :ARG2 (m / middle)
+            :ARG1 (i2 / implicit-role :op1 "entity_located_near_something_close_thing"))
+   :ARG3 (m2 / most))
+
+p34_g11 ::: (head: nod;) (body: move, left;) // (yes)
+(e / emblem-GA
+   :ARG0 (s / signaler)
+   :ARG1 (y / yes)
+   :ARG2 (a / actor))
+
+p34_s11 ::: yeah
+(y / yeah)
+
+p34_s12 ::: that one
+(o / one
+   :mod (t / that))
+
+p34_g12 ::: (RA: move, right; RH: into closed, front;) (body: still;) // (talk) (talk)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (s2 / side)
+   :ARG2 (a / actor))
+
+p34_s13 ::: okay
+(o / okay)
+
+p34_s14 ::: and then on the other side the two closest to the middle get stacked
+(a / and
+   :op2 (g / get-04
+           :ARG1 (s / stack-01
+                    :ARG2 (t / two
+                             :ARG1-of (h / have-degree-91
+                                         :ARG2 (c / close-10
+                                                  :ARG2 (m / middle)
+                                                  :ARG1 (i5 / implicit-role :op1 "entity_located_near_something_close_thing"))
+                                         :ARG3 (m2 / most)))
+                    :location (o / on
+                                 :op1 (s2 / side
+                                          :mod (o2 / other)))
+                    :ARG0 (i3 / implicit-role :op1 "stacker")
+                    :ARG1 (i4 / implicit-role :op1 "one_thing"))
+           :time (t2 / then)
+           :ARG0 (i2 / implicit-role :op1 "instigator")))
+
+p34_g13 ::: (RH: into two, front;) (body: still;) (RH: into point, front;) // (two) (talk) (talk) (wait) (talk)
+(e / emblem-GA
+   :ARG0 (s / signaler)
+   :ARG1 2
+   :ARG2 (a / actor))
+
+p34_s15 ::: get another one stacked on top
+(g / get-04 :mode imperative
+   :ARG0 (y / you)
+   :ARG1 (s / stack-01
+            :ARG1 (o / one
+                     :mod (a / another))
+            :ARG2 (o2 / on
+                      :op1 (t / top))
+            :ARG0 (i2 / implicit-role :op1 "stacker")))
+
+p34_s16 ::: and the one on the very end
+(a / and
+   :op2 (o / one
+           :location (o2 / on
+                         :op1 (e / end
+                                 :degree (v / very)))))
+
+p34_g14 ::: (RH: into point, front;) (RH: rotate;) (arms: together, left; hands: into hold;) // (there)
+(d / deixis-GA
+   :ARG0 (s / signaler)
+   :ARG1 (l / location)
+   :ARG2 (a / actor))
+
+p34_g15 ::: (head: nod;) // (yes)
+(e / emblem-GA
+   :ARG0 (s / signaler)
+   :ARG1 (y / yes)
+   :ARG2 (a / actor))
+
+=========Raw File=======

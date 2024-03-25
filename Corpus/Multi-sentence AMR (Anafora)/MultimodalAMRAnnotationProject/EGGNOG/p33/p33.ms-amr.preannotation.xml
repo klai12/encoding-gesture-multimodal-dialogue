@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<document id="lpp" release="p33.txt">
+   <sentences>
+      <amr linearorder="0" id="p33_s1"/>
+      <amr linearorder="1" id="p33_g1"/>
+      <amr linearorder="2" id="p33_g2"/>
+      <amr linearorder="3" id="p33_g3"/>
+      <amr linearorder="4" id="p33_s2"/>
+      <amr linearorder="5" id="p33_g4"/>
+      <amr linearorder="6" id="p33_s3"/>
+      <amr linearorder="7" id="p33_g5"/>
+      <amr linearorder="8" id="p33_g6"/>
+      <amr linearorder="9" id="p33_s4"/>
+      <amr linearorder="10" id="p33_g7"/>
+      <amr linearorder="11" id="p33_g8"/>
+      <amr linearorder="12" id="p33_g9"/>
+      <amr linearorder="13" id="p33_g10"/>
+      <amr linearorder="14" id="p33_s5"/>
+      <amr linearorder="15" id="p33_g11"/>
+      <amr linearorder="16" id="p33_s6"/>
+      <amr linearorder="17" id="p33_g12"/>
+      <amr linearorder="18" id="p33_s7"/>
+      <amr linearorder="19" id="p33_g13"/>
+      <amr linearorder="20" id="p33_g14"/>
+      <amr linearorder="21" id="p33_g15"/>
+      <amr linearorder="22" id="p33_g16"/>
+      <amr linearorder="23" id="p33_s8"/>
+      <amr linearorder="24" id="p33_g17"/>
+      <amr linearorder="25" id="p33_s9"/>
+      <amr linearorder="26" id="p33_g18"/>
+      <amr linearorder="27" id="p33_s10"/>
+      <amr linearorder="28" id="p33_g19"/>
+      <amr linearorder="29" id="p33_g20"/>
+      <amr linearorder="30" id="p33_g21"/>
+      <amr linearorder="31" id="p33_s11"/>
+      <amr linearorder="32" id="p33_g22"/>
+      <amr linearorder="33" id="p33_g23"/>
+   </sentences>
+</document>

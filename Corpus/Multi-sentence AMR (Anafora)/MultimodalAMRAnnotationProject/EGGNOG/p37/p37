@@ -1,0 +1,172 @@
+
+
+p37_g1 ::: (arms: shake, left; hands: into claw, down;) // (row)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (r / row)
+   :ARG2 (a / actor))
+
+p37_s1 ::: four blocks in the front
+(b / block :quant 4
+   :location (i / in
+                :op1 (f / front)))
+
+p37_s2 ::: okay
+(o / okay)
+
+p37_g2 ::: (arms: move, up; hands: into claw, down;) (arms: move, front; hands: into open, back;) // (grab) (slide forward)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 2
+   :ARG2 (a / actor))
+
+p37_g3 ::: (arms: move, front; hands: into open, back;) // (slide forward)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (f / front)
+   :ARG2 (a / actor))
+
+p37_g4 ::: (arms: move, up; hands: shake, front;) (arms: move, front; RH: into open, up;) // (slide forward)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (f / front)
+   :ARG2 (a / actor))
+
+p37_s3 ::: two in front of you and two at the back
+(a / and
+   :op1 (i / implicit-role :quant 2
+           :location (i2 / in-front-of
+                         :op1 (y / you)))
+   :op2 (i3 / implicit-role :quant 2
+            :location (a2 / at
+                          :op1 (b / back))))
+
+p37_g5 ::: (arms: move, front; RH: into open, up;) (arms: move, back, into contact, left; hands: into closed, back;) // (slide backward)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (b / back)
+   :ARG2 (a / actor))
+
+p37_g6 ::: (hands: into claw, front;) (arms: apart, left;) (LH: rotate; RH: shake, left;) (hands: shake;) (arms: apart, left, into gap, left; hands: into claw, left, into facing, left; RA: move, right;) (arms: together, left;) // (think) (apart) (talk) (apart) (together)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (i2 / interleave-01
+             :ARG0 (i3 / implicit-role :op1 "interleave-er")
+             :ARG1 (i4 / implicit-role :op1 "thing_interleaved")
+             :ARG2 (i5 / implicit-role :op1 "with_what"))
+   :ARG2 (a / actor))
+
+p37_s4 ::: place it such that they are like interleaving
+(p / place-01 :mode imperative
+   :ARG0 (y / you)
+   :ARG1 (i / it)
+   :cause-of (i2 / interleave-01
+                 :ARG1 (t / they)
+                 :ARG0 (i4 / implicit-role :op1 "interleave-er")
+                 :ARG2 (i5 / implicit-role :op1 "with_what"))
+   :ARG2 (i3 / implicit-role :op1 "where_put"))
+
+p37_s5 ::: and you can you can place them close to each other
+(a / and
+   :op2 (p / possible-01
+           :ARG1 (p2 / place-01
+                     :ARG0 (y / you)
+                     :ARG1 (t / them)
+                     :purpose (c / close-10
+                                 :ARG1 t
+                                 :ARG2 (o / other
+                                          :mod (e / each)))
+                     :ARG2 (i2 / implicit-role :op1 "where_put"))))
+
+p37_g7 ::: (hands: into open, back;) (hands: beckon, back;) // (slide backward)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (c / close)
+   :ARG2 (a / actor))
+
+p37_g8 ::: (hands: shake, left;) // (together)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (c / close)
+   :ARG2 (a / actor))
+
+p37_s6 ::: close even more close but not touching
+(h / have-degree-91
+   :ARG2 (c / close)
+   :ARG3 (e / even
+            :mod (m / more))
+   :ARG1-of (c2 / contrast-01
+                :ARG2 (t / touch-01 :polarity -
+                         :ARG0 (i3 / implicit-role :op1 "toucher")
+                         :ARG1 (i4 / implicit-role :op1 "thing_touched")
+                         :ARG2 (i5 / implicit-role :op1 "touched_with_if_separate_from_agent"))
+                :ARG0 (i2 / implicit-role :op1 "entity_making_comparison")))
+
+p37_s7 ::: yeah
+(y / yeah)
+
+p37_s8 ::: i don’t think can be touching
+(t / think-01
+   :ARG0 (i / i)
+   :ARG1 (p / possible-01
+            :ARG1 (t2 / touch-01
+                      :ARG0 (i3 / implicit-role :op1 "toucher")
+                      :ARG1 (i4 / implicit-role :op1 "thing_touched")
+                      :ARG2 (i5 / implicit-role :op1 "touched_with_if_separate_from_agent"))
+            :polarity -)
+   :ARG2 (i2 / implicit-role :op1 "Attributive_please_look_at_the_examples--_this_is_tricky"))
+
+p37_g9 ::: (head: rotate; hands: into claw, down;) (head: rotate;) (head: rotate;) (arms: move, up; hands: to face;) // (grab) (think) (talk) (think)
+(g / gesture-unit
+   :op1 (i / icon-GA
+           :ARG0 (s / signaler)
+           :ARG1 2
+           :ARG2 (a / actor))
+   :op2 (i2 / icon-GA
+            :ARG0 s
+            :ARG1 (o / on-top-of)
+            :ARG2 a))
+
+p37_s9 ::: you have two blocks on top of these
+(h / have-04
+   :ARG0 (y / you)
+   :ARG1 (b / be-located-at-91
+            :ARG1 (b2 / block :quant 2)
+            :ARG2 (o / on-top-of
+                     :op1 (t / this))))
+
+p37_s10 ::: that's right
+(r / right-06
+   :ARG1 (t / that)
+   :ARG2 (i2 / implicit-role :op1 "accurate_proposition_thought_right_about_what"))
+
+p37_s11 ::: one block on top of the both
+(b / be-located-at-91
+   :ARG1 (b2 / block :quant 1)
+   :ARG2 (o / on-top-of
+            :op1 (t / they
+                    :mod (b3 / both))))
+
+p37_g10 ::: (body: move, up; hands: into point, front;) (LA: move, back; LH: to hip; RA: move, front; RH: into claw, down;) // (these) (grab)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (b / block)
+   :ARG2 (a / actor))
+
+p37_g11 ::: (LA: move, back; LH: to hip; RA: move, front; RH: into claw, down;) (RA: move, back; RH: into closed, back;) // (grab) (wait)
+(d / deixis-GA
+   :ARG0 (s / signaler)
+   :ARG1 (l / location)
+   :ARG2 (a / actor))
+
+p37_g12 ::: (arms: move, up; hands: into open, front;) (head: rotate; arms; move, down;) // (done)
+(e / emblem-GA
+   :ARG0 (s / signaler)
+   :ARG1 (d / done)
+   :ARG2 (a / actor))
+
+p37_s12 ::: that's it
+(b / be-it-07
+   :ARG1 (t / that))
+
+=========Raw File=======

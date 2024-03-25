@@ -1,0 +1,267 @@
+
+
+p23_g1 ::: (body: move, front; LA: move, down;) (body: move, front; arms: into gap, left; hands: facing, into open;) (arms: move, down;) (RA: move, left;) // (talk) (new row) (talk)
+(a / and
+   :op1 (g / gesture-unit
+           :op1 (d / deixis-GA
+                   :ARG0 (s / signaler)
+                   :ARG1 (l / location)
+                   :ARG2 (a2 / actor))
+           :op2 (i / icon-GA
+                   :ARG0 s
+                   :ARG1 (p / put-01
+                            :ARG0 (i3 / implicit-role :op1 "putter")
+                            :ARG1 (i4 / implicit-role :op1 "thing_put")
+                            :ARG2 (i5 / implicit-role :op1 "where_put"))
+                   :ARG2 a2))
+   :op2 (g2 / gesture-unit
+            :op1 (d2 / deixis-GA
+                     :ARG0 s
+                     :ARG1 (l2 / location)
+                     :ARG2 a2)
+            :op2 (i2 / icon-GA
+                     :ARG0 s
+                     :ARG1 (p2 / put-01
+                               :ARG0 (i6 / implicit-role :op1 "putter")
+                               :ARG1 (i7 / implicit-role :op1 "thing_put")
+                               :ARG2 (i8 / implicit-role :op1 "where_put"))
+                     :ARG2 a2)))
+
+p23_s1 ::: it's gonna be a pyramid from three of the rows of two
+(p / pyramid
+   :consist-of (r / row :quant 3
+                  :consist-of (r2 / row :quant 2))
+   :domain (i / it))
+
+p23_g2 ::: (RA: move, left;) (RA: shake, right;) (RA: move, down;) // (talk) (talk)
+(g / gesture-unit
+   :op1 (i / icon-GA
+           :ARG0 (s / signaler)
+           :ARG1 (r / row)
+           :ARG2 (a / actor))
+   :op2 (d / deixis-GA
+           :ARG0 s
+           :ARG1 (l / location)
+           :ARG2 a))
+
+p23_s2 ::: from three to one but they all gonna be rotated a
+(r / rotate-02
+   :ARG0 (y / you)
+   :ARG1 (t / they :quant 3)
+   :ARG3 (t2 / implicit-role :quant 1)
+   :ARG2 (i2 / implicit-role :op1 "old_thing"))
+
+p23_g3 ::: (RA: move, up;) (RA: move, down;) // (talk)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (p / put-01
+            :ARG0 (i2 / implicit-role :op1 "putter")
+            :ARG1 (i3 / implicit-role :op1 "thing_put")
+            :ARG2 (i4 / implicit-role :op1 "where_put"))
+   :ARG2 (a / actor))
+
+p23_g4 ::: (hands: rotate;) // (rotate)
+(a / and
+   :op1 (g / gesture-unit
+           :op1 (d / deixis-GA
+                   :ARG0 (s / signaler)
+                   :ARG1 (l / location)
+                   :ARG2 (a2 / actor))
+           :op2 (i / icon-GA
+                   :ARG0 s
+                   :ARG1 (r / row)
+                   :ARG2 a2))
+   :op3 (i2 / icon-GA
+            :ARG0 s
+            :ARG1 (r2 / rotate-01
+                      :ARG0 (i3 / implicit-role :op1 "causer_of_rotation")
+                      :ARG1 (i4 / implicit-role :op1 "thing_rotating"))
+            :ARG2 a2))
+
+p23_g5 ::: (body: still;) (arms: move, back; hands: into fist;) // (talk) (talk)
+(g / gesture-unit
+   :op1 (i / icon-GA
+           :ARG0 (s / signaler)
+           :ARG1 (r / row)
+           :ARG2 (a / actor))
+   :op2 (d / deixis-GA
+           :ARG0 s
+           :ARG1 (l / location)
+           :ARG2 a))
+
+p23_g6 ::: (arms: move, back; hands: into fist;) (arms: move, front; hands: facing, into closed;) (arms: together, left; hands: rotate;) // (talk) (here relative) (talk)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (a2 / angle)
+   :ARG2 (a / actor))
+
+p23_s3 ::: I'm sorry
+(s / sorry-01
+   :ARG0 (i / i)
+   :ARG1 (i2 / implicit-role :op1 "apologizer_sorry_entity")
+   :ARG2 (i3 / implicit-role :op1 "crime_sorry_for_what"))
+
+p23_s4 ::: it's gonna be at an angle on the bottom of three
+(a / angle
+   :location (b / bottom :quant 3)
+   :domain (i / it))
+
+p23_g7 ::: (arms: together, left; hands: rotate;) (Unknown) (arms: move, back; hands: into claw, down;) // (talk) (wait)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (a2 / angle)
+   :ARG2 (a / actor))
+
+p23_g8 ::: (arms: move, front; hands: facing, into closed;) (Unknown) (arms: move, back; hands: into fist, back;) // (here relative) (talk) (wait)
+(i / icon-GA :mode expressive
+   :ARG0 (s / signaler)
+   :ARG1 (a2 / angle)
+   :ARG2 (a / actor))
+
+p23_s5 ::: make it like an angle
+(m / make-01 :mode imperative
+   :ARG0 (y / you)
+   :ARG1 (l / like-04 :ARG1 angle
+            :ARG1 (i3 / implicit-role :op1 "first_item_in_comparison")
+            :ARG2 (i4 / implicit-role :op1 "second_item_in_comparison"))
+   :ARG2 (i / it)
+   :ARG3 (i2 / implicit-role :op1 "benefactive"))
+
+p23_s6 ::: they gonna  be  all connecting
+(c / connect-01
+   :ARG1 (t / they)
+   :ARG0 (i2 / implicit-role :op1 "agent_entity_doing_the_tying")
+   :ARG2 (i3 / implicit-role :op1 "second_thing_tied_to_what")
+   :ARG3 (i4 / implicit-role :op1 "instrument_string"))
+
+p23_g9 ::: (arms: move, front;) (arms: move, back;) // (talk)
+(g / gesture-unit
+   :op1 (i / icon-GA
+           :ARG0 (s / signaler)
+           :ARG1 (b / block)
+           :ARG2 (a / actor))
+   :op2 (d / deixis-GA
+           :ARG0 s
+           :ARG1 (l / location)
+           :ARG2 a))
+
+p23_s7 ::: all walls are gonna be connected so
+(c / connect-01
+   :ARG1 (w / wall)
+   :mod (a / all)
+   :ARG0 (i2 / implicit-role :op1 "agent_entity_doing_the_tying")
+   :ARG2 (i3 / implicit-role :op1 "second_thing_tied_to_what")
+   :ARG3 (i4 / implicit-role :op1 "instrument_string"))
+
+p23_g10 ::: (arms: move, front; hands: facing, into closed;) (arms: move, up;) (arms: move, down;) (arms: together, left; hands: rotate;) (arms: move, back;) // (here relative) (Unknown) (rotate) (wait)
+(a / and
+   :op1 (i / icon-GA
+           :ARG0 (s / signaler)
+           :ARG1 (a3 / angle-02
+                     :ARG2 (a2 / actor)
+                     :ARG0 (i3 / implicit-role :op1 "Agent_cause")
+                     :ARG1 (i4 / implicit-role :op1 "Entity_now_in_an_angled_positionpath_of_motion"))
+           :op2 (i2 / icon-GA
+                    :ARG0 s
+                    :ARG1 a3
+                    :ARG2 i2)))
+
+p23_s8 ::: like an angle
+(r / resemble-01
+   :ARG1 (i / it)
+   :ARG2 (a / angle))
+
+p23_s9 ::: rotate
+(r / rotate-01 :mode imperative
+   :ARG0 (y / you)
+   :ARG1 (i / implicate-predicate))
+
+p23_s10 ::: connect two and then connect third
+(a / and :mode imperative
+   :op1 (c / connect-01
+           :ARG0 (y / you)
+           :ARG1 (i / implicit-role :quant 2)
+           :ARG2 (i3 / implicit-role :op1 "second_thing_tied_to_what")
+           :ARG3 (i4 / implicit-role :op1 "instrument_string"))
+   :op2 (c2 / connect-01
+            :ARG0 y
+            :ARG1 (i2 / implicit-role :quant 3)
+            :ARG2 (i5 / implicit-role :op1 "second_thing_tied_to_what")
+            :ARG3 (i6 / implicit-role :op1 "instrument_string")))
+
+p23_g11 ::: (RA: move, front; RH: claw, down;) (head: nod: RA: move, back;) // (talk) (yes)
+(d / deixis-GA
+   :ARG0 (s / signaler)
+   :ARG1 (b / block :quant 2)
+   :ARG2 (a / actor))
+
+p23_g12 ::: (RA: move, up; RH: claw, down;) (RA: move, left; RH: into point, front;) (RA: move, right;) (RA: move, back;) // (talk) (that) (talk)
+(g / gesture-unit
+   :op1 (i / icon-GA
+           :ARG0 (s / signaler)
+           :ARG1 (p / put-01
+                    :ARG0 (i2 / implicit-role :op1 "putter")
+                    :ARG1 (i3 / implicit-role :op1 "thing_put")
+                    :ARG2 (i4 / implicit-role :op1 "where_put"))
+           :ARG2 (a / actor))
+   :op2 (d / deixis-GA
+           :ARG0 s
+           :ARG1 (l / location)
+           :ARG2 a))
+
+p23_s11 ::: and then put the third one on the fourth one on top of these the middle one
+(p / put :mode imperative
+   :ARG0 (y / you)
+   :ARG1 (f / fourth)
+   :ARG2 (m / middle))
+
+p23_g13 ::: (RA: move, back; RH: into fist, back;) (RA: move, up; RH: into one, left;) // (talk) (one)
+(d / deixis-GA
+   :ARG0 (s / signaler)
+   :ARG1 (l / location)
+   :ARG2 (a / actor))
+
+p23_s12 ::: just one
+(i / implicit-role :quant 1)
+
+p23_g14 ::: (RA: move, up; RH: into one, left;) (RA: move, down; RH: into fist, back;) // (one) (wait)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 1
+   :ARG2 (a / actor))
+
+p23_g15 ::: (body: move, back;) (LA: move, up; LH: into thumbs, up;) (LA: move, up;) (LA: move, down;) (LA: move, down; RA: move, up; RH: into claw, up;) // (wait) (talk)
+(e / emblem-GA
+   :ARG0 (s / signaler)
+   :ARG1 (y / yes)
+   :ARG2 (a / actor))
+
+p23_s13 ::: towards to me at the top layer block
+(i / implicit-predicate-00 :mode imperative
+   :ARG0 (y / you)
+   :ARG1 (i2 / implicit-role)
+   :direction (t / toward
+                 :op1 (m / me))
+   :destination (a / at
+                   :op1 (t2 / top-layer)
+                   :op2 (b / block)))
+
+p23_g16 ::: (LA: move, down; RA: move, up; RH: into claw, up;) (body: move, front; RA: move, down;) (RA: move, front;) (RA: move, down;) (Unknown) (head: nod;) (LA: move, down; RA: move, up;) (RA: move, down;) (Unknown) // (talk) (servo slide back) (talk) (wait) (talk) (yes) (Unknown)
+(i / icon-GA :mode expressive
+   :ARG0 (s / signaler)
+   :ARG1 (m / move-01
+            :ARG2 (c / close-10
+                     :ARG1 (i5 / implicit-role :op1 "entity_located_near_something_close_thing")
+                     :ARG2 (i6 / implicit-role :op1 "location_close_to_what"))
+            :ARG0 (i2 / implicit-role :op1 "mover")
+            :ARG1 (i3 / implicit-role :op1 "moved")
+            :ARG3 (i4 / implicit-role :op1 "aspect_domain_in_which_arg_moving"))
+   :ARG2 (a / actor))
+
+p23_s14 ::: come evenly there
+(c / cover-02
+   :ARG0 (y / you)
+   :ARG1 (t / there)
+   :ARG2 (i / implicit-role))
+
+=========Raw File=======

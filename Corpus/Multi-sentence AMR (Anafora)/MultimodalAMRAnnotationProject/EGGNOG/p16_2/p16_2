@@ -1,0 +1,293 @@
+
+
+p16_2_s1 ::: Seven blocks in a row
+(i / implicit-predicate-00 :mode imperative
+   :ARG0 (y / you)
+   :ARG1 (b / block :quant 7)
+   :manner (r / row))
+
+p16_2_g1 ::: (arms: move, up; LH: into two, front; RH: into five, front;) (LA: move, down; RA: move, right; RH: closed, down;) // (seven)
+(e / emblem-GA
+   :ARG0 (s / signaler)
+   :ARG1 7
+   :ARG2 (a / actor))
+
+p16_2_g2 ::: (LA: move, down; RA: move, right; RH: closed, down;) (RA: move, back;) (Unknown) // (new row)
+(g / gesture-unit
+   :op1 (i / icon-GA
+           :ARG0 (s / signaler)
+           :ARG1 (r / row)
+           :ARG2 (a / actor))
+   :op2 (i2 / icon-GA
+            :ARG0 s
+            :ARG1 (p / place-01
+                     :ARG0 (i3 / implicit-role :op1 "putter")
+                     :ARG1 (i4 / implicit-role :op1 "thing_put")
+                     :ARG2 (i5 / implicit-role :op1 "where_put"))
+            :ARG2 a))
+
+p16_2_g3 ::: (RA: move, up; RH: into five, front;) // (five)
+(e / emblem-GA
+   :ARG0 (s / signaler)
+   :ARG1 5
+   :ARG2 (a / actor))
+
+p16_2_s2 ::: five blocks in a row Right in front of them
+(i / implicit-predicate-00 :mode imperative
+   :ARG0 (y / you)
+   :ARG1 (b / block :quant 5)
+   :manner (r / row)
+   :location (f / front
+                :poss (t / them)
+                :mod (r2 / right)))
+
+p16_2_g4 ::: (arms: move, front; hands: facing, into point, down;) // (five) (here relative)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (r / row)
+   :ARG2 (a / actor))
+
+p16_2_g5 ::: (RA: move, front; RH: closed, left;) (RA: move, left; RH: closed, left;) (LA: move, front; LH: closed, right; RA: move, back;) // (slide left)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (s2 / slide-01
+             :direction (l / left)
+             :ARG0 (i2 / implicit-role :op1 "agent_causer_of_sliding")
+             :ARG1 (i3 / implicit-role :op1 "thing_sliding"))
+   :ARG2 (a / actor))
+
+p16_2_s3 ::: scoot It over so there's the blocks are flush on one side
+(s / scoot-01 :mode imperative
+   :ARG0 (y / you)
+   :ARG1 (i / it)
+   :ARG2 (o / over)
+   :purpose (f / flush
+               :domain (b / block)
+               :location (o2 / on
+                             :op1 (s2 / side :quant 1)))
+   :ARG3 (i2 / implicit-role :op1 "destination"))
+
+p16_2_g6 ::: (LA: move, front; LH: closed, right; RA: move, back;) (LA: shake, up; LH: closed, right;) // (these)
+(i / icon-GA :mode expressive
+   :ARG0 (s / signaler)
+   :ARG1 (f / flush)
+   :ARG2 (a / actor))
+
+p16_2_g7 ::: (RA: move, front; RH: closed, front;) // (slide relative left)
+(d / deixis-GA
+   :ARG0 (s / signaler)
+   :ARG1 (l / location)
+   :ARG2 (a / actor))
+
+p16_2_s4 ::: Scoot The Five Over
+(s / scoot-01 :mode imperative
+   :ARG0 (y / you)
+   :ARG1 (i / implicit-role :quant 5)
+   :ARG2 (o / over)
+   :ARG3 (i2 / implicit-role :op1 "destination"))
+
+p16_2_g8 ::: (RA: move, left; RH: closed, left;) // (slide relative left)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (s2 / slide-01
+             :direction (l / left)
+             :ARG0 (i2 / implicit-role :op1 "agent_causer_of_sliding")
+             :ARG1 (i3 / implicit-role :op1 "thing_sliding"))
+   :ARG2 (a / actor))
+
+p16_2_g9 ::: (LA: move, up; LH: closed, right;) // (wait)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (f / flush)
+   :ARG2 (a / actor))
+
+p16_2_s5 ::: Okay
+(o / okay-04
+   :ARG1 (i2 / implicit-role :op1 "generally_alright_thing")
+   :ARG2 (i3 / implicit-role :op1 "target_of_ok_behavior"))
+
+p16_2_g10 ::: (head: nod; LA: move, back;) // (ok)
+(e / emblem-GA :mode expressive
+   :ARG0 (s / signaler)
+   :ARG1 (y / yes)
+   :ARG2 (a / actor))
+
+p16_2_s6 ::: Now These are a little jiggled
+(j / jiggle-01
+   :ARG1 (t / these)
+   :mod (l / little)
+   :ARG0 (i2 / implicit-role :op1 "causer_of_jiggling"))
+
+p16_2_g11 ::: (RA: move, up; RH: shake, down, open;) // (ok) (Unknown)
+(i / icon-GA :mode expressive
+   :ARG0 (s / signaler)
+   :ARG1 (j / jiggle-01
+            :ARG0 (i2 / implicit-role :op1 "causer_of_jiggling")
+            :ARG1 (i3 / implicit-role :op1 "thing_jiggling"))
+   :ARG2 (a / actor))
+
+p16_2_g12 ::: (RA: move, front; RH: into point, down;) (RH: shake, down;) // (Unknown) (this) (Unknown)
+(g / gesture-unit
+   :op1 (i / icon-GA :mode expressive
+           :ARG0 (s / signaler)
+           :ARG1 (j / jiggle-01
+                    :ARG0 (i2 / implicit-role :op1 "causer_of_jiggling")
+                    :ARG1 (i3 / implicit-role :op1 "thing_jiggling"))
+           :ARG2 (a / actor))
+   :op2 (a1 / and
+            :op1 (d1 / deixis-GA
+                     :ARG0 s
+                     :ARG1 (b1 / block)
+                     :ARG2 a)
+            :op2 (d2 / deixis-GA
+                     :ARG0 s
+                     :ARG1 (b2 / block)
+                     :ARG2 a)))
+
+p16_2_s7 ::: so Jiggle The
+(j / jiggle-01 :mode imperative
+   :ARG0 (y / you)
+   :ARG1 (i2 / implicit-role :op1 "thing_jiggling"))
+
+p16_2_g13 ::: (RH: into point, front;) // (Unknown)
+(d / deixis-GA
+   :ARG0 (s / signaler)
+   :ARG1 (b / block)
+   :ARG2 (a / actor))
+
+p16_2_g14 ::: (Unknown) // (Unknown)
+(g / gesture-unit
+   :op1 (i / icon-GA
+           :ARG0 (s / signaler)
+           :ARG1 (c / count-01
+                    :ARG2 (a / actor)
+                    :ARG0 (i2 / implicit-role :op1 "counter")
+                    :ARG1 (i3 / implicit-role :op1 "thing_counted"))
+           :op2 (d / deixis-GA
+                   :ARG0 s
+                   :ARG1 (b / block)
+                   :ARG2 a)))
+
+p16_2_s8 ::: Count in with your left hand count to block three and four
+(c / count-01 :mode imperative
+   :ARG0 (y / you)
+   :instrument (h / hand
+                  :part-of y
+                  :mod (l / left))
+   :destination (b / block
+                   :ord (o / ordinal-entity
+                           :value (a / and :op1 3 :op2 4)))
+   :ARG1 (i2 / implicit-role :op1 "thing_counted")
+   :ARG2 (i3 / implicit-role :op1 "Count_itself_measure_amount_extent"))
+
+p16_2_g15 ::: (Unknown) // (Unknown)
+(d / deixis-GA
+   :ARG0 (s / signaler)
+   :ARG1 (l / left)
+   :ARG2 (a / actor))
+
+p16_2_g16 ::: (Unknown) (body: still;) // (Unknown) (wait)
+(d / deixis-GA :mode expressive
+   :ARG0 (s / signaler)
+   :ARG1 (b / block)
+   :ARG2 (a / actor))
+
+p16_2_s9 ::: Okay And They’e just kind of Jiggled around
+(a / and
+   :op1 (j / jiggle-01
+           :ARG1 (t / they)
+           :degree (k / kind-of
+                      :mod (j2 / just))
+           :path (a1 / around)
+           :ARG0 (i2 / implicit-role :op1 "causer_of_jiggling")))
+
+p16_2_g17 ::: (hands: shake;) // (Unknown)
+(i / icon-GA :mode expressive
+   :ARG0 (s / signaler)
+   :ARG1 (j / jiggle-01
+            :ARG0 (i2 / implicit-role :op1 "causer_of_jiggling")
+            :ARG1 (i3 / implicit-role :op1 "thing_jiggling"))
+   :ARG2 (a / actor))
+
+p16_2_g18 ::: (Unknown) // (Unknown)
+(e / emblem-GA :mode expressive
+   :ARG0 (s / signaler)
+   :ARG1 (k / know-01 :polarity -
+            :ARG0 (i2 / implicit-role :op1 "knower")
+            :ARG1 (i3 / implicit-role :op1 "fact_that_is_known")
+            :ARG2 (i4 / implicit-role :op1 "entity_that_arg_is_known_ABOUT"))
+   :ARG2 (a / actor))
+
+p16_2_s10 ::: They’re in other words are not perfectly clear
+(c / clear-06
+   :manner (w / words
+              :mod (o / other))
+   :ARG1 (t / they)
+   :polarity -
+   :ARG1-of (p / perfect-02
+               :ARG2 (i4 / implicit-role :op1 "suited_for"))
+   :ARG0 (i2 / implicit-role :op1 "Cause_of_clarification_evidencefacts")
+   :ARG2 (i3 / implicit-role :op1 "whom_it_is_obvious_to"))
+
+p16_2_g19 ::: (hands: enough;) (hands: shake, closed;) // (stop)
+(e / emblem-GA :mode expressive
+   :ARG0 (s / signaler)
+   :ARG1 (e2 / enough)
+   :ARG2 (a / actor))
+
+p16_2_s11 ::: good enough good enough
+(e / enough-01
+   :ARG2 (g / good)
+   :ARG1 (i2 / implicit-role :op1 "thing_that_is_enough")
+   :ARG3 (i3 / implicit-role :op1 "to_satisfy_what"))
+
+p16_2_s12 ::: and then Jiggle the two in front of them
+(a / and
+   :op1 (j / jiggle-01
+           :time (t / then)
+           :mode imperative
+           :ARG0 (y / you)
+           :ARG1 (i / implicit-role :quant 2
+                    :location (f / front
+                                 :poss (t2 / them)))))
+
+p16_2_g20 ::: (hands: shake, closed;) // (Unknown)
+(i / icon-GA :mode expressive
+   :ARG0 (s / signaler)
+   :ARG1 (j / jiggle-01
+            :ARG0 (i2 / implicit-role :op1 "causer_of_jiggling")
+            :ARG1 (i3 / implicit-role :op1 "thing_jiggling"))
+   :ARG2 (a / actor))
+
+p16_2_g21 ::: (hands: shake, front, into point, down;) (arms: move, down;) // (these)
+(g / gesture-unit
+   :op1 (i / icon-GA
+           :ARG0 (s / signaler)
+           :ARG1 (s2 / slide-01
+                     :direction (f / forward)
+                     :ARG0 (i2 / implicit-role :op1 "agent_causer_of_sliding")
+                     :ARG1 (i3 / implicit-role :op1 "thing_sliding"))
+           :ARG2 (a / actor))
+   :op2 (a1 / and
+            :op1 (d / deixis-GA
+                    :ARG0 s
+                    :ARG1 (b1 / block)
+                    :ARG2 a)
+            :op2 (d2 / deixis-GA
+                     :ARG0 s
+                     :ARG1 (b / block)
+                     :ARG2 a)))
+
+p16_2_g22 ::: (arms: move, up; hands: into open, front;) // (wait) (ok)
+(e / emblem-GA
+   :ARG0 (s / signaler)
+   :ARG1 (o / ok)
+   :ARG2 (a / actor))
+
+p16_2_s13 ::: good enough
+(e / enough-01
+   :ARG2 (g / good)
+   :ARG1 (i2 / implicit-role :op1 "thing_that_is_enough")
+   :ARG3 (i3 / implicit-role :op1 "to_satisfy_what"))
+
+=========Raw File=======

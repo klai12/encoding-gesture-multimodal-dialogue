@@ -1,0 +1,331 @@
+
+
+p17_s1 ::: alright grab three blocks
+(g / grab-01 :mode imperative
+   :ARG0 (y / you)
+   :ARG1 (b / block :quant 3)
+   :mod (a / all-right))
+
+p17_g1 ::: (arms: move, front, into contact, left; hands: into inch, down;) (arms: apart, left; hands: inch, down;) // (apart)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (s2 / space-01
+             :ARG0 (i2 / implicit-role :op1 "putter_agent")
+             :ARG1 (i3 / implicit-role :op1 "thing_put")
+             :ARG2 (i4 / implicit-role :op1 "how_far_apart_amount_of_space_in_between"))
+   :ARG2 (a / actor))
+
+p17_s2 ::: space two out a little less than a block length
+(s / space-01 :mode imperative
+   :ARG0 (y / you)
+   :ARG1 (i / implicit-role :quant 2)
+   :ARG2 (q / distance-quantity
+            :unit (b / block)
+            :ARG1-of (h / have-quant-91 :ARG2 1
+                        :ARG3 (l / less
+                                 :mod (l2 / little)))))
+
+p17_g2 ::: (body: still;) (arms: apart, left; hands: inch, down;) // (apart)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (s2 / space-01
+             :ARG0 (i2 / implicit-role :op1 "putter_agent")
+             :ARG1 (i3 / implicit-role :op1 "thing_put")
+             :ARG2 (i4 / implicit-role :op1 "how_far_apart_amount_of_space_in_between"))
+   :ARG2 (a / actor))
+
+p17_s3 ::: only two of them
+(i / implicit-role :quant 2
+   :ARG1-of (i2 / include-91
+                :ARG2 (t / they))
+   :mod (o / only))
+
+p17_s4 ::: and then you’re going to take one of them and push it slightly forward so it's on the diagonal
+(a / and
+   :op2 (a2 / and
+            :op1 (t / take-hold-24
+                    :ARG0 (y / you)
+                    :ARG1 (i / implicit-role :quant 1))
+            :op2 (p / push-01
+                    :ARG0 y
+                    :ARG1 (i2 / it)
+                    :ARG2 (f / forward
+                             :mod (s / slight))
+                    :purpose (i3 / it
+                                 :location (o / on
+                                              :op1 (d / diagonal))))
+            :time (t2 / then)))
+
+p17_g3 ::: (LA: move, down; RA: move, front;) // (slide forward)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (s2 / slide-01
+             :direction (f / forward)
+             :ARG0 (i2 / implicit-role :op1 "agent_causer_of_sliding")
+             :ARG1 (i3 / implicit-role :op1 "thing_sliding"))
+   :ARG2 (a / actor))
+
+p17_g4 ::: (LA: move, up; LH: into claw, right) (arms: together, left, into contact;) (arms: move, back; hands: facing, into fist;) // (touching)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (t / touch-01
+            :ARG0 (i2 / implicit-role :op1 "toucher")
+            :ARG1 (i3 / implicit-role :op1 "thing_touched")
+            :ARG2 (i4 / implicit-role :op1 "touched_with_if_separate_from_agent"))
+   :ARG2 (a / actor))
+
+p17_s5 ::: ever so slightly
+(s / slight
+   :degree (s2 / so
+               :mod (e / ever)))
+
+p17_g5 ::: (body: still;) (hands: into open, down;) (RA: move, up right; RH: closed, back;) (RA: move, down left; RH: open, down;) // (slide right)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (s2 / slide-01
+             :direction (r / right)
+             :ARG0 (i2 / implicit-role :op1 "agent_causer_of_sliding")
+             :ARG1 (i3 / implicit-role :op1 "thing_sliding"))
+   :ARG2 (a / actor))
+
+p17_s6 ::: alright move one of the blocks off to the side
+(m / move-01 :mode imperative
+   :ARG0 (y / you)
+   :ARG1 (b / block :quant 1)
+   :ARG2 (o / off
+            :op1 (s / side))
+   :mod (a / all-right)
+   :ARG3 (i2 / implicit-role :op1 "aspect_domain_in_which_arg_moving"))
+
+p17_s7 ::: one of blocks off to the side
+(i / implicit-predicate-00 :mode imperative
+   :ARG0 (y / you)
+   :ARG1 (b / block :quant 1)
+   :ARG2 (o / off
+            :op1 (s / side)))
+
+p17_g6 ::: (Unknown) (LA: move, front; LH: closed, right; RA: move, back; RH: closed, left;) // (slide)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (f / flip-01
+            :ARG0 (i2 / implicit-role :op1 "flipper_agent")
+            :ARG1 (i3 / implicit-role :op1 "thing_flipped")
+            :ARG2 (i4 / implicit-role :op1 "flipped_tointo"))
+   :ARG2 (a / actor))
+
+p17_s8 ::: flip those two
+(f / flip-01 :mode imperative
+   :ARG0 (y / you)
+   :ARG1 (i / implicit-role :quant 2
+            :mod (t / that))
+   :ARG2 (i2 / implicit-role :op1 "flipped_tointo"))
+
+p17_g7 ::: (Unknown) // (no)
+(e / emblem-GA
+   :ARG0 (s / signaler)
+   :ARG1 (n / no)
+   :ARG2 (a / actor))
+
+p17_s9 ::: no
+(n / no)
+
+p17_g8 ::: (Unknown) (LA: move, front; LH: closed, right; RA: move, back; RH: closed, left;) // (slide)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (s2 / slide-01
+             :ARG0 (i2 / implicit-role :op1 "agent_causer_of_sliding")
+             :ARG1 (i3 / implicit-role :op1 "thing_sliding"))
+   :ARG2 (a / actor))
+
+p17_s10 ::: move them this direction like you had it before so they’re touching corners
+(m / move-01 :mode imperative
+   :ARG0 (y / you)
+   :ARG1 (t / them)
+   :direction (d / direction
+                 :mod (t2 / this))
+   :ARG1-of (l / like-04
+               :ARG2 (h / have-04
+                        :ARG0 y
+                        :ARG1 (i / it)
+                        :time (b / before)))
+   :purpose (t3 / touch-01
+                :ARG0 (t4 / they)
+                :ARG1 (c / corner)
+                :ARG2 (i4 / implicit-role :op1 "touched_with_if_separate_from_agent"))
+   :ARG2 (i2 / implicit-role :op1 "destination")
+   :ARG3 (i3 / implicit-role :op1 "aspect_domain_in_which_arg_moving"))
+
+p17_g9 ::: (body: still;) (arms: move, into contact;) // (touching)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (t / touch-01
+            :ARG0 (i2 / implicit-role :op1 "toucher")
+            :ARG1 (i3 / implicit-role :op1 "thing_touched")
+            :ARG2 (i4 / implicit-role :op1 "touched_with_if_separate_from_agent"))
+   :ARG2 (a / actor))
+
+p17_g10 ::: (body: still;) (arms: move, into gap; hands: facing, closed;) // (rotate)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (r / rotate-01
+            :ARG0 (i2 / implicit-role :op1 "causer_of_rotation")
+            :ARG1 (i3 / implicit-role :op1 "thing_rotating"))
+   :ARG2 (a / actor))
+
+p17_s11 ::: yeah
+(y / yeah)
+
+p17_g11 ::: (Unknown) // (Unknown)
+(d / deixis-GA
+   :ARG0 (s / signaler)
+   :ARG1 (l / location)
+   :ARG2 (a / actor))
+
+p17_s12 ::: almost like that
+(l / like-04
+   :ARG1 (t / that)
+   :mod (a / almost)
+   :ARG2 (i2 / implicit-role :op1 "second_item_in_comparison"))
+
+p17_g12 ::: (Unknown) // (rotate)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (r / rotate-01
+            :ARG0 (i2 / implicit-role :op1 "causer_of_rotation")
+            :ARG1 (i3 / implicit-role :op1 "thing_rotating"))
+   :ARG2 (a / actor))
+
+p17_s13 ::: keep going a little bit more
+(k / keep-02 :mode imperative
+   :ARG0 (y / you)
+   :ARG2 (g / go-01
+            :ARG2 (m / more
+                     :quant (b / bit
+                               :mod (l / little)))
+            :ARG1 (i3 / implicit-role :op1 "entity_in_motiongoer")
+            :ARG3 (i4 / implicit-role :op1 "start_point")
+            :ARG4 (i5 / implicit-role :op1 "end_point_end_state_of_arg"))
+   :ARG1 (i2 / implicit-role :op1 "continued_entity"))
+
+p17_s14 ::: there you go
+(g / go-24
+   :ARG1 (y / you)
+   :direction (t / there)
+   :ARGM (i2 / implicit-role :op1 "here_there"))
+
+p17_s15 ::: okay
+(o / okay)
+
+p17_g13 ::: (LA: move, right; LH: claw, right;) // (slide right)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (s2 / slide-01
+             :direction (r / right)
+             :ARG0 (i2 / implicit-role :op1 "agent_causer_of_sliding")
+             :ARG1 (i3 / implicit-role :op1 "thing_sliding"))
+   :ARG2 (a / actor))
+
+p17_s16 ::: move that block
+(m / move-01 :mode imperative
+   :ARG0 (y / you)
+   :ARG1 (b / block
+            :mod (t / that))
+   :ARG2 (i2 / implicit-role :op1 "destination")
+   :ARG3 (i3 / implicit-role :op1 "aspect_domain_in_which_arg_moving"))
+
+p17_s17 ::: make a little bit of gap but in line with the back block
+(m / make-01 :mode imperative
+   :ARG0 (y / you)
+   :ARG1 (c / contrast-01
+            :ARG1 (g / gap
+                     :quant (b / bit
+                               :mod (l / little)))
+            :ARG2 (i / in-line-04
+                     :ARG2 (b2 / block
+                               :mod (b3 / back)))
+            :ARG0 (i4 / implicit-role :op1 "entity_making_comparison"))
+   :ARG2 (i2 / implicit-role :op1 "created-from_thing_changed")
+   :ARG3 (i3 / implicit-role :op1 "benefactive"))
+
+p17_g14 ::: (arms: apart, left; hands: claw, down;) // (new row)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (l / line)
+   :ARG2 (a / actor))
+
+p17_g15 ::: (body: still;) (Unknown) // (ok)
+(e / emblem-GA
+   :ARG0 (s / signaler)
+   :ARG1 (o / ok)
+   :ARG2 (a / actor))
+
+p17_s18 ::: okay
+(o / okay)
+
+p17_s19 ::: perfect
+(p / perfect)
+
+p17_s20 ::: grab one more block
+(g / grab-01 :mode imperative
+   :ARG0 (y / you)
+   :ARG1 (b / block :quant 1
+            :mod (m / more)))
+
+p17_g16 ::: (RH: rotate, into point, down left;) (RA: move, down; RH: point, down;) // (here)
+(d / deixis-GA
+   :ARG0 (s / signaler)
+   :ARG1 (l / location)
+   :ARG2 (a / actor))
+
+p17_s21 ::: place it on the two that are diagonal
+(p / place-01 :mode imperative
+   :ARG0 (y / you)
+   :ARG1 (i / it)
+   :ARG2 (o / on
+            :op1 (i2 / implicit-role :quant 2
+                     :mod (d / diagonal))))
+
+p17_g17 ::: (RA: move, down; RH: point, down;) (Unknown) (RH: into closed, left;) // (new block)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (b / block)
+   :ARG2 (a / actor))
+
+p17_s22 ::: and then grab another block
+(a / and
+   :op2 (g / grab-01 :mode imperative
+           :ARG0 (y / you)
+           :ARG1 (b / block
+                    :mod (a2 / another))
+           :time (t / then)))
+
+p17_g18 ::: (RH: into closed, left;) (hands: into facing, closed;) (arms: together, left, into contact, left; hands: closed, up;) // (rotate)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (r / rotate-01
+            :ARG0 (i2 / implicit-role :op1 "causer_of_rotation")
+            :ARG1 (i3 / implicit-role :op1 "thing_rotating"))
+   :ARG2 (a / actor))
+
+p17_s23 ::: place it so it's um sitting in between the two like that
+(p / place-01 :mode imperative
+   :ARG0 (y / you)
+   :ARG1 (i / it)
+   :purpose (s / sit-01
+               :ARG1 i
+               :ARG2 (i2 / in-between
+                         :op1 (i3 / implicit-role :quant 2))
+               :ARG1-of (l / like-04
+                           :ARG2 (t / that)))
+   :ARG2 (i4 / implicit-role :op1 "where_put"))
+
+p17_s24 ::: yes
+(y / yes)
+
+p17_g19 ::: (Unknown) (head: nod;) // (ok done)
+(e / emblem-GA
+   :ARG0 (s / signaler)
+   :ARG1 (o / ok)
+   :ARG2 (a / actor))
+
+=========Raw File=======

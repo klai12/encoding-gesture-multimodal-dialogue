@@ -1,0 +1,224 @@
+
+
+p20_g1 ::: (arms: move, up front, into gap, left; hands: facing, closed;) (arms: move, down; hands: into claw, down;) // (talk) (talk)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (p / put-01
+            :ARG0 (i2 / implicit-role :op1 "putter")
+            :ARG1 (i3 / implicit-role :op1 "thing_put")
+            :ARG2 (i4 / implicit-role :op1 "where_put"))
+   :ARG2 (a / actor))
+
+p20_s1 ::: okay
+(o / okay-04
+   :ARG1 (i2 / implicit-role :op1 "generally_alright_thing")
+   :ARG2 (i3 / implicit-role :op1 "target_of_ok_behavior"))
+
+p20_s2 ::: put one block wherever you want
+(p / put-01 :mode imperative
+   :ARG0 (y / you)
+   :ARG1 (b / block :quant 1)
+   :ARG2 (w / wherever
+            :ARG1-of (w2 / want-01
+                         :ARG0 y
+                         :ARG2 (i2 / implicit-role :op1 "beneficiary")
+                         :ARG3 (i3 / implicit-role :op1 "in-exchange-for")
+                         :ARG4 (i4 / implicit-role :op1 "from"))))
+
+p20_s3 ::: in the center i think
+(t / think-01
+   :ARG0 (i / i)
+   :ARG1 (i2 / in
+             :op1 (c / center))
+   :ARG2 (i3 / implicit-role :op1 "Attributive_please_look_at_the_examples--_this_is_tricky"))
+
+p20_s4 ::: and uh one block uh ahead of it
+(a / and
+   :op2 (b / block :quant 1
+           :ARG1-of (a2 / ahead-01
+                        :ARG2 (i / it)
+                        :ARG3 (i2 / implicit-role :op1 "schedule_goal"))))
+
+p20_g2 ::: (hands: beckon;) (arms: move, down; hands: facing, closed;) // (slide backward)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (s2 / slide-01
+             :direction (b / backward)
+             :ARG0 (i2 / implicit-role :op1 "agent_causer_of_sliding")
+             :ARG1 (i3 / implicit-role :op1 "thing_sliding"))
+   :ARG2 (a / actor))
+
+p20_s5 ::: yeah
+(y / yeah)
+
+p20_s6 ::: great
+(g / great-01
+   :ARG1 (i2 / implicit-role :op1 "generally_positivepleasing_entity_concation_may_be_required")
+   :ARG2 (i3 / implicit-role :op1 "recipient_of_goodness_behavior_directed_toward"))
+
+p20_s7 ::: and one block left of the first block first block and a bit in front of it
+(a / and
+   :op2 (b / block :quant 1
+           :ARG1-of (l / left-20
+                       :ARG2 (b2 / block
+                                 :ord (o / ordinal-entity :value 1)))
+           :ARG1-of (f / front-01
+                       :ARG2 b2
+                       :degree (b3 / bit))))
+
+p20_g3 ::: (hands: beckon;) (Unknown) // (servo slide forward)
+(i / icon-GA :mode expressive
+   :ARG0 (s / signaler)
+   :ARG1 (s2 / slide-01
+             :direction (f / forward)
+             :ARG0 (i2 / implicit-role :op1 "agent_causer_of_sliding")
+             :ARG1 (i3 / implicit-role :op1 "thing_sliding"))
+   :ARG2 (a / actor))
+
+p20_g4 ::: (Unknown) (body: still;) // (servo slide forward)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (s2 / slide-01
+             :direction (f / forward)
+             :ARG0 (i2 / implicit-role :op1 "agent_causer_of_sliding")
+             :ARG1 (i3 / implicit-role :op1 "thing_sliding"))
+   :ARG2 (a / actor))
+
+p20_s8 ::: move forward a bit
+(m / move-01 :mode imperative
+   :ARG0 (y / you)
+   :direction (f / forward
+                 :degree (b / bit))
+   :ARG1 (i2 / implicit-role :op1 "moved")
+   :ARG2 (i3 / implicit-role :op1 "destination")
+   :ARG3 (i4 / implicit-role :op1 "aspect_domain_in_which_arg_moving"))
+
+p20_s9 ::: yes
+(y / yes)
+
+p20_s10 ::: and one block on the right side of the first block and move back a bit
+(a / and
+   :op2 (b / block :quant 1
+           :location (o / on
+                        :op1 (s / side
+                                :ARG1-of (r / right-04
+                                            :ARG2 (i2 / implicit-role :op1 "to_the_right_of"))
+                                :poss (b2 / block
+                                          :ord (o2 / ordinal-entity :value 1)))))
+   :op3 (m / move-01 :mode imperative
+           :ARG0 (y / you)
+           :direction (b3 / back
+                          :degree (b4 / bit))
+           :ARG1 (i3 / implicit-role :op1 "moved")
+           :ARG2 (i4 / implicit-role :op1 "destination")
+           :ARG3 (i5 / implicit-role :op1 "aspect_domain_in_which_arg_moving")))
+
+p20_g5 ::: (hands: into facing, left;) (arms: beckon;) (body: still;) // (slide backward)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (s2 / slide-01
+             :direction (b / backward)
+             :ARG0 (i2 / implicit-role :op1 "agent_causer_of_sliding")
+             :ARG1 (i3 / implicit-role :op1 "thing_sliding"))
+   :ARG2 (a / actor))
+
+p20_s11 ::: first block
+(b / block
+   :ord (o / ordinal-entity :value 1))
+
+p20_s12 ::: the first block you put it the one nearest and the right side of it
+(a / and
+   :op1 (b / block
+           :ord (o / ordinal-entity :value 1)
+           :ARG1-of (p / put-01
+                       :ARG0 (y / you)
+                       :ARG2 (i2 / implicit-role :op1 "where_put"))
+           :ARG1-of (h / have-degree-91
+                       :ARG2 (n / near-02
+                                :ARG1 (i3 / implicit-role :op1 "near_entity")
+                                :ARG2 (i4 / implicit-role :op1 "in_relation_to_near_to_what"))
+                       :ARG3 (m / most)))
+   :op2 (s / side
+           :ARG1-of (r / right-04
+                       :ARG2 (i5 / implicit-role :op1 "to_the_right_of"))
+           :poss b))
+
+p20_g6 ::: (Unknown) // (talk)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (p / put-01
+            :ARG0 (i2 / implicit-role :op1 "putter")
+            :ARG1 (i3 / implicit-role :op1 "thing_put")
+            :ARG2 (i4 / implicit-role :op1 "where_put"))
+   :ARG2 (a / actor))
+
+p20_g7 ::: (Unknown) (body: still;) // (servo slide right)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (s2 / slide-01
+             :direction (r / right)
+             :ARG0 (i2 / implicit-role :op1 "agent_causer_of_sliding")
+             :ARG1 (i3 / implicit-role :op1 "thing_sliding"))
+   :ARG2 (a / actor))
+
+p20_g8 ::: (Unknown) (arms: move, right;) (body: still;) // (servo slide right)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (s2 / slide-01
+             :direction (r / right)
+             :ARG0 (i2 / implicit-role :op1 "agent_causer_of_sliding")
+             :ARG1 (i3 / implicit-role :op1 "thing_sliding"))
+   :ARG2 (a / actor))
+
+p20_s13 ::: put a bit a bit right
+(p / put-01 :mode imperative
+   :ARG0 (y / you)
+   :ARG2 (r / right-04
+            :degree (b / bit)
+            :ARG1 (i3 / implicit-role :op1 "theme_entity_located_on_the_right")
+            :ARG2 (i4 / implicit-role :op1 "to_the_right_of"))
+   :ARG1 (i2 / implicit-role :op1 "thing_put"))
+
+p20_g9 ::: (hands: shake, left;) (Unknown) // (servo slide right)
+(i / icon-GA :mode expressive
+   :ARG0 (s / signaler)
+   :ARG1 (s2 / slide-01
+             :direction (r / right)
+             :ARG0 (i2 / implicit-role :op1 "agent_causer_of_sliding")
+             :ARG1 (i3 / implicit-role :op1 "thing_sliding"))
+   :ARG2 (a / actor))
+
+p20_s14 ::: more
+(m / more)
+
+p20_s15 ::: great
+(g / great)
+
+p20_s16 ::: and one block pick up one block and it is in front of the block you just put it and rotate it forty five degrees
+(a / and
+   :op2 (p / pick-up-04 :mode imperative
+           :ARG0 (y / you)
+           :ARG1 (b / block :quant 1))
+   :op3 (f / front-02
+           :ARG1 b
+           :ARG2 (b2 / block
+                     :ARG1-of (p2 / put-01
+                                  :ARG0 y
+                                  :time (j / just)
+                                  :ARG2 (i2 / implicit-role :op1 "where_put"))))
+   :op4 (r / rotate-01 :mode imperative
+           :ARG0 y
+           :ARG1 b
+           :extent (a2 / angle-quantity :quant 45
+                       :unit (d / degree))))
+
+p20_g10 ::: (hands: into facing, left;) (LA: move, to face;) (LA: move, down; RH: into fist, back;) // (talk)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (p / pick-up-04)
+   :ARG2 (a / actor))
+
+p20_s17 ::: yes
+(y / yes)
+
+=========Raw File=======

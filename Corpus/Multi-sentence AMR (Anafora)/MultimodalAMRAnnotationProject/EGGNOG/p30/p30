@@ -1,0 +1,261 @@
+
+
+p30_g1 ::: (head: move, down; LA: move, front; LH: into open, back; RA: move, down;) (head: move, up;) (LA: move, back;) (head: rotate;) // (start) (talk) (talk) (think)
+(g / gesture-unit
+   :op1 (i / icon-GA
+           :ARG0 (s / signaler)
+           :ARG1 2
+           :ARG2 (a / actor))
+   :op2 (d / deixis-GA
+           :ARG0 s
+           :ARG1 (l / location)
+           :ARG2 a))
+
+p30_s1 ::: Gonna have two blocks Right next to each other
+(h / have-03
+   :ARG0 (y / you)
+   :ARG1 (b / block :quant 2)
+   :destination (n / next-to
+                   :op1 (o / other
+                           :mod (e / each))))
+
+p30_s2 ::: then on like the same line you're going to have a space
+(h / have-03
+   :time (t / then)
+   :location (l / line
+                :mod (s / same))
+   :ARG0 (y / you)
+   :ARG1 (s2 / space))
+
+p30_g2 ::: (body: still;) (head: move, down; RA: move, front; RH: into open, back;) (RA: move, left;) (arms: into gap, left; hands: into facing, left, into open, left;) // (think) (these) (here)
+(g / gesture-unit
+   :op1 (i / icon-GA
+           :ARG0 (s / signaler)
+           :ARG1 (l / line)
+           :ARG2 (a / actor))
+   :op2 (d / deixis-GA
+           :ARG0 s
+           :ARG1 (l2 / location)
+           :ARG2 a))
+
+p30_g3 ::: (arms: into gap, left; hands: into facing, left, into open, left;) (head: move, up;) (body: still;) (arms: move, left;) // (here) (Unknown) (talk) (talk)
+(g / gesture-unit
+   :op1 (i / icon-GA
+           :ARG0 (s / signaler)
+           :ARG1 (s2 / space)
+           :ARG2 (a / actor))
+   :op2 (d / deixis-GA
+           :ARG0 s
+           :ARG1 (l2 / location)
+           :ARG2 a))
+
+p30_s3 ::: like a block space and on a third block
+(i / implicit-predicate-00
+   :ARG1 (a / and
+            :op1 (r / resemble-01
+                    :ARG1 (s / space)
+                    :mod (b / block)
+                    :ARG2 (i2 / implicit-role :op1 "original"))
+            :op2 (b2 / block
+                     :ord (o / ordinal-entity :value 3))
+            :time (t / then)))
+
+p30_g4 ::: (arms: move, left;) (head: rotate; arms: move, back;) (body: still;) (head: nod;) // (talk) (talk) (think) (yes)
+(g / gesture-unit
+   :op1 (i / icon-GA
+           :ARG0 (s / signaler)
+           :ARG1 (b / block)
+           :ARG2 (a / actor))
+   :op2 (d / deixis-GA
+           :ARG0 s
+           :ARG1 (l / location)
+           :ARG2 a))
+
+p30_g5 ::: (head: nod;) // (yes)
+(e / emblem-GA
+   :ARG0 (s / signaler)
+   :ARG1 (y / yes)
+   :ARG2 (a / actor))
+
+p30_s4 ::: then you're going to have
+(h / have-03
+   :ARG0 (y / you)
+   :time (t / then)
+   :ARG1 (i2 / implicit-role :op1 "possession"))
+
+p30_s5 ::: those too blocks right next each other
+(i / implicit-predicate-00
+   :ARG0 (y / you)
+   :ARG1 (b / block :quant 2
+            :mod (t / that)
+            :location (n / next-to
+                         :mod (r / right)
+                         :op1 (o / other
+                                 :mod (e / each)))))
+
+p30_g6 ::: (LA: move, up; LH: into point, front;) (LA: move, left;) // (talk) (talk)
+(d / deixis-GA
+   :ARG0 (s / signaler)
+   :ARG1 (l / location)
+   :ARG2 (a / actor))
+
+p30_g7 ::: (LA: move, left;) (LA: move, down; LH: into open, right;) // (talk) (talk)
+(d / deixis-GA
+   :ARG0 (s / signaler)
+   :ARG1 (l / location)
+   :ARG2 (a / actor))
+
+p30_s6 ::: put a block on like Like on the crack of those two blocks
+(p / put :mode imperative
+   :ARG0 (y / you)
+   :ARG1 (b / block)
+   :location (c / crack
+                :poss b
+                :quant 2
+                :mod (t / that)))
+
+p30_g8 ::: (LA: move, down; LH: into open, right;) // (talk)
+(g / gesture-unit
+   :op1 (i / icon-GA
+           :ARG0 (s / signaler)
+           :ARG1 (c / crack)
+           :ARG2 (a / actor))
+   :op2 (d / deixis-GA
+           :ARG0 s
+           :ARG1 (l / location)
+           :ARG2 a))
+
+p30_s7 ::: then you Going to have a fourth Block
+(h / have-03
+   :ARG0 (y / you)
+   :ARG1 (b / block :ord 4))
+
+p30_g9 ::: (LA: move, down; LH: into open, right;) // (think)
+(d / deixis-GA
+   :ARG0 (s / signaler)
+   :ARG1 (l / location)
+   :ARG2 (a / actor))
+
+p30_s8 ::: over the space in between the blocks so It’ll Be  On
+(r / resemble-01
+   :ARG1 (o / over
+            :op1 (s / space
+                    :location (b / between
+                                 :op1 (b2 / block))))
+   :purpose (b3 / be-located-at-91
+                :ARG1 (i / it)
+                :ARG2 (o2 / on))
+   :ARG2 (i2 / implicit-role :op1 "original"))
+
+p30_g10 ::: (RA: move, up; RH: into point, front;) (RA: move, down; hands: into point, down;) (body: still;) // (there) (talk) (talk)
+(d / deixis-GA
+   :ARG0 (s / signaler)
+   :ARG1 (l / location)
+   :ARG2 (a / actor))
+
+p30_g11 ::: (body: still;) (head: nod;) (RA: move, up; RH: to face;) // (talk) (yes) (think)
+(e / emblem-GA
+   :ARG0 (s / signaler)
+   :ARG1 (y / yes)
+   :ARG2 (a / actor))
+
+p30_s9 ::: On
+(y / yeah)
+
+p30_s10 ::: Then you’re Gonna Have
+(h / have-03
+   :ARG0 (y / you)
+   :time (t / then)
+   :ARG1 (i2 / implicit-role :op1 "possession"))
+
+p30_s11 ::: another block the goes on top of the block You just placed but not totally Centered
+(i / implicit-predicate-00
+   :ARG0 (y / you)
+   :ARG1 (b / block
+            :mod (a / another)
+            :ARG1-of (b2 / be-located-at-91
+                         :ARG2 (c / contrast-01
+                                  :ARG1 (o / on
+                                           :op1 (t / top
+                                                   :poss b
+                                                   :ARG1-of (p / place-01
+                                                               :ARG0 b
+                                                               :time (j / just)
+                                                               :ARG2 (i3 / implicit-role :op1 "where_put"))))
+                                  :ARG2 (c2 / center-01 :polarity -
+                                            :mod (t2 / total)
+                                            :ARG0 (i4 / implicit-role :op1 "agent_focuser")
+                                            :ARG1 (i5 / implicit-role :op1 "thing_focused")
+                                            :ARG2 (i6 / implicit-role :op1 "focused-on"))
+                                  :ARG0 (i2 / implicit-role :op1 "entity_making_comparison")))))
+
+p30_g12 ::: (LA: move, up; LH: into point, front;) (body: still;) (body: move, down; arms: move, down; hands: into open, back down;) // (there) (wait)
+(d / deixis-GA
+   :ARG0 (s / signaler)
+   :ARG1 (l / location)
+   :ARG2 (a / actor))
+
+p30_s12 ::: Yeah
+(y / yeah)
+
+p30_g13 ::: (RA: move, up; RH: into open, left;) (RA: move, right;) // (that) (there)
+(d / deixis-GA
+   :ARG0 (s / signaler)
+   :ARG1 (l / location)
+   :ARG2 (a / actor))
+
+p30_s13 ::: Gonna Have another block right next to that Block So It’d be over the space of those two bottom blocks
+(h / have-02
+   :ARG0 (y / you)
+   :ARG1 (b / block
+            :mod (a / another))
+   :location (n / next-to
+                :ARG1 (t / that)
+                :mod (r / right))
+   :purpose (b2 / be-located-at-91
+                :ARG1 b
+                :ARG2 (o / over
+                         :op1 (s / space
+                                 :poss (b3 / block
+                                           :mod (t2 / that)
+                                           :location (b4 / bottom))))))
+
+p30_g14 ::: (RA: move, right;) // (there)
+(d / deixis-GA
+   :ARG0 (s / signaler)
+   :ARG1 (l / location)
+   :ARG2 (a / actor))
+
+p30_g15 ::: (LA: move, front; RA: move, down; hands: into open, back;) // (talk)
+(g / gesture-unit
+   :op1 (i / icon-GA
+           :ARG0 (s / signaler)
+           :ARG1 (s2 / space)
+           :ARG2 (a / actor))
+   :op2 (d / deixis-GA
+           :ARG0 s
+           :ARG1 (l / location)
+           :ARG2 a))
+
+p30_s14 ::: Then A Last block on the crack of those two blocks
+(i / implicit-predicate-00
+   :ARG1 (b / block
+            :mod (l / last))
+   :location (o / on
+                :op1 (c / crack
+                        :poss (b2 / block :quant 2
+                                  :mod (t / that)))))
+
+p30_g16 ::: (RA: move, up; RH: into point, front;) (head: move, up; LA: move, back; RA: move, down;) // (there) (talk)
+(d / deixis-GA
+   :ARG0 (s / signaler)
+   :ARG1 (l / location)
+   :ARG2 (a / actor))
+
+p30_g17 ::: (body: still;) (head: nod;) // (wait) (yes)
+(e / emblem-GA
+   :ARG0 (s / signaler)
+   :ARG1 (y / yes)
+   :ARG2 (a / actor))
+
+=========Raw File=======

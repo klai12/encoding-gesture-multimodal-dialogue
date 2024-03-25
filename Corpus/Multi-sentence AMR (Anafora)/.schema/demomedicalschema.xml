@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<schema>
+<defaultattribute>
+  <required>True</required>
+</defaultattribute>
+<definition>
+<entities type="Entities" color="015367">
+	<entity type="EntitySuggestion" color="7ED960">
+		<properties>
+        </properties>
+	</entity>
+	<entity type="EventSuggestion" color="F7A44B">
+		<properties>
+        </properties>
+	</entity>
+	<entity type="Concept" color="F4DDB4">
+		<properties>
+        </properties>
+	</entity>
+
+	<entity type="SalientImplicit" color="BAF2D2">
+		<properties>
+        </properties>
+	</entity>
+
+        <entity type="PossibleImplicit" color="E0FADE">
+                <properties>
+        </properties>
+        </entity>
+
+	<entity type="WIKIFIED" color="DF8551">
+		<properties>
+        </properties>
+	</entity>
+
+</entities>
+
+<relations type="Identity" color="FFFF00">
+
+
+
+	<relation type="IdentityChain" color="FFFF00" hotkey="u">
+		<properties>
+                        <property type="Nickname" input="text"/>
+			<property type="Mentions" input="list" maxlink="1000" 
+instanceOf="WIKIFIED,EntitySuggestion,EventSuggestion,Concept,SalientImplicit,PossibleImplicit"/>
+		</properties>
+	</relation>
+
+        <relation type="InstanceOfGenericWiki" color="FACC2E" hotkey="g">
+                <properties>
+                        <property type="Mentions" input="list" maxlink="1000" instanceOf="WIKIFIED,EntitySuggestion,EventSuggestion,Concept,SalientImplicit,PossibleImplicit"/>
+                </properties>
+        </relation>
+        <relation type="Wiki" color="FACC2E" hotkey="w">
+                <properties>
+                        <property type="Mentions" input="list" maxlink="1000" 
+instanceOf="WIKIFIED,EntitySuggestion,EventSuggestion,Concept,SalientImplicit,PossibleImplicit"/>
+                        <property type="CorrectedWiki" input="text"/>
+                </properties>
+        </relation>
+
+
+</relations>
+
+<relations type="Bridging" color="BDBDBD">
+
+
+
+	<relation type="SetMember" color="CECEF6" hotkey="s">
+		<properties>
+			<property type="SuperSet" input="list" maxlink="1" 
+instanceOf="WIKIFIED,EntitySuggestion,EventSuggestion,Concept,SalientImplicit,PossibleImplicit"/>
+			<property type="MemberOrSubset" input="list" maxlink="1000" 
+instanceOf="WIKIFIED,EntitySuggestion,EventSuggestion,Concept,SalientImplicit,PossibleImplicit"/>
+		</properties>
+	</relation>
+	<relation type="PartWhole" color="F6CEE3" hotkey="p">
+		<properties>
+			<property type="MainEntity" input="list" maxlink="1" 
+instanceOf="WIKIFIED,EntitySuggestion,EventSuggestion,Concept,SalientImplicit,PossibleImplicit"/>
+			<property type="Part" input="list" maxlink="1000" 
+instanceOf="WIKIFIED,EntitySuggestion,EventSuggestion,Concept,SalientImplicit,PossibleImplicit"/>
+		</properties>
+	</relation>
+</relations>
+
+<relations type="OpenIssue" color="FF4d4d">
+        <relation type="AnnotationMistake" color="FF4d4d" hotkey="o">
+                <properties>
+                        <property type="Thing1" input="list" maxlink="1000"
+instanceOf="WIKIFIED,EntitySuggestion,EventSuggestion,Concept,SalientImplicit,PossibleImplicit"/>
+                        <property type="Thing2" input="list" maxlink="1000"
+instanceOf="WIKIFIED,EntitySuggestion,EventSuggestion,Concept,SalientImplicit,PossibleImplicit"/>
+                        <property type="Problem" input="text"/>
+                </properties>
+        </relation>
+</relations>
+
+
+
+
+</definition>
+</schema>

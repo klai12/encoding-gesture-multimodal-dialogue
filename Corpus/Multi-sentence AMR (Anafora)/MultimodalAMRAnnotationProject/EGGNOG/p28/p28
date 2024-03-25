@@ -1,0 +1,313 @@
+
+
+p28_s1 ::: it's another five by eight grid
+(g / grid
+   :mod (p / product-of :op1 5 :op2 8)
+   :mod (a / another)
+   :domain (i / it))
+
+p28_s2 ::: this time it looks like
+(l / look-02
+   :ARG0 (i / it)
+   :time (t / time
+            :mod (t2 / this))
+   :ARG1 (i2 / implicit-role :op1 "seemed_like_attribute_of_arg")
+   :ARG2 (i3 / implicit-role :op1 "seemed_to"))
+
+p28_s3 ::: it starts in the top left
+(s / start-01
+   :ARG0 (i / it)
+   :location (i2 / in
+                 :op1 (l / left
+                         :mod (t / top)))
+   :ARG1 (i3 / implicit-role :op1 "Theme-Creation")
+   :ARG2 (i4 / implicit-role :op1 "Instrument"))
+
+p28_g1 ::: (LH: into claw, down;) (body: still;) // (here)
+(d / deixis-GA
+   :ARG0 (s / signaler)
+   :ARG1 (l / location)
+   :ARG2 (a / actor))
+
+p28_s4 ::: there's a block
+(b / block)
+
+p28_s5 ::: and then i'm going to go down in rows this time
+(a / and
+   :op2 (g / go-06
+           :ARG0 (i / i)
+           :ARG2 (d / down)
+           :manner (i2 / in
+                       :op1 (r / row))
+           :time (t / then)
+           :time (t2 / time
+                     :mod (t3 / this))
+           :ARG1 (i3 / implicit-role :op1 "project")))
+
+p28_s6 ::: skip one row
+(s / skip-01 :mode imperative
+   :ARG0 (y / you)
+   :ARG1 (r / row :quant 1))
+
+p28_s7 ::: there's another block
+(b / block
+   :mod (a / another))
+
+p28_s8 ::: skip one row
+(s / skip-01 :mode imperative
+   :ARG0 (y / you)
+   :ARG1 (r / row :quant 1))
+
+p28_s9 ::: there’s another block
+(b / block
+   :mod (a / another))
+
+p28_s10 ::: so there’s one on the first third and fifth
+(b / be-located-at-91
+   :ARG1 (i / implicit-role :quant 1)
+   :ARG2 (o / on
+            :op1 (a / and
+                    :op1 (i2 / implicit-role
+                             :ord (o2 / ordinal-entity :value 1))
+                    :op2 (i3 / implicit-role
+                             :ord (o3 / ordinal-entity :value 3))
+                    :op3 (i4 / implicit-role
+                             :ord (o4 / ordinal-entity :value 5)))))
+
+p28_s11 ::: looking at the sec second column
+(l / look-01
+   :ARG1 (a / at
+            :op1 (c / column
+                    :ord (o / ordinal-entity :value 2)))
+   :ARG0 (i2 / implicit-role :op1 "looker")
+   :ARG2 (i3 / implicit-role :op1 "attribute_of_arg"))
+
+p28_s12 ::: it kind of goes down diagonally or so in yours
+(g / go-06
+   :ARG0 (i / it)
+   :ARG2 (d / down)
+   :manner (a / about
+              :op1 (d2 / diagonal))
+   :location (i2 / in
+                 :op1 (i3 / implicit-role
+                          :poss (y / you)))
+   :degree (k / kind-of)
+   :ARG1 (i4 / implicit-role :op1 "project"))
+
+p28_g2 ::: (body: move, down; RA: move, front; RH: into open, left;) (body: move, up; RA: move, back right;) // (here) (here)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (d / diagonal)
+   :ARG2 (a / actor))
+
+p28_g3 ::: (RA: move, front;) // (here)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (c / column)
+   :ARG2 (a / actor))
+
+p28_s13 ::: the way you see it
+(w / way
+   :manner-of (s / see-01
+                 :ARG0 (y / you)
+                 :ARG1 (i / it)
+                 :ARG2 (i2 / implicit-role :op1 "attribute_of_arg_further_description")))
+
+p28_s14 ::: i'm not sure
+(s / sure-02
+   :ARG0 (i / i)
+   :polarity -
+   :ARG1 (i2 / implicit-role :op1 "belief"))
+
+p28_s15 ::: yeah
+(y / yeah)
+
+p28_g4 ::: (RA: move, up; RH: into open, down;) (RA: move, down;) // (talk) (talk)
+(d / deixis-GA
+   :ARG0 (s / signaler)
+   :ARG1 (l / location)
+   :ARG2 (a / actor))
+
+p28_s16 ::: right there
+(t / there
+   :mod (r / right))
+
+p28_s17 ::: skip a row
+(s / skip-01 :mode imperative
+   :ARG0 (y / you)
+   :ARG1 (r / row))
+
+p28_s18 ::: yep
+(y / yep)
+
+p28_s19 ::: right there
+(t / there
+   :mod (r / right))
+
+p28_s20 ::: then the same thing again
+(i / implicit-predicate-00 :mode imperative
+   :ARG0 (y / you)
+   :ARG1 (t / thing
+            :mod (s / same))
+   :time (t2 / then)
+   :mod (a / again))
+
+p28_s21 ::: it starts on the third third col or third row
+(s / start-01
+   :ARG0 (i / it)
+   :location (o / on
+                :op1 (r / row
+                        :ord (o2 / ordinal-entity :value 3)))
+   :ARG1 (i2 / implicit-role :op1 "Theme-Creation")
+   :ARG2 (i3 / implicit-role :op1 "Instrument"))
+
+p28_s22 ::: yep
+(y / yep)
+
+p28_s23 ::: skip one
+(s / skip-01 :mode imperative
+   :ARG0 (y / you)
+   :ARG1 (i / implicit-role :quant 1))
+
+p28_s24 ::: then one on the fifth
+(i / implicit-predicate-00 :mode imperative
+   :ARG0 (y / you)
+   :ARG1 (i2 / implicit-role :quant 1)
+   :destination (o / on
+                   :op1 (i3 / implicit-role
+                            :ord (o2 / ordinal-entity :value 5)))
+   :time (t / then))
+
+p28_s25 ::: repeats again in that same pattern
+(r / repeat-01
+   :mod (a / again)
+   :manner (i / in
+              :op1 (p / pattern
+                      :mod (t / that)
+                      :mod (s / same)))
+   :ARG0 (i2 / implicit-role :op1 "speaker_agent")
+   :ARG1 (i3 / implicit-role :op1 "utterance_or_action")
+   :ARG2 (i4 / implicit-role :op1 "listener")
+   :ARG3 (i5 / implicit-role :op1 "number_of_repetitions"))
+
+p28_s26 ::: so one on the fourth
+(i / implicit-role :quant 1
+   :location (o / on
+                :op1 (i2 / implicit-role
+                         :ord (o2 / ordinal-entity :value 4))))
+
+p28_s27 ::: we’re going to go back on this next column
+(g / go-back-19
+   :ARG1 (w / we)
+   :ARG2 (o / on
+            :op1 (c / column
+                    :mod (t / this)
+                    :mod (n / next))))
+
+p28_s28 ::: we’re going to go to the third row
+(g / go-06
+   :ARG0 (w / we)
+   :ARG2 (t / to
+            :op1 (r / row
+                    :ord (o / ordinal-entity :value 3)))
+   :ARG1 (i2 / implicit-role :op1 "project"))
+
+p28_s29 ::: and then we're going to go
+(a / and
+   :op2 (g / go-06
+           :ARG0 (w / we)
+           :time (t / then)
+           :ARG1 (i2 / implicit-role :op1 "project")
+           :ARG2 (i3 / implicit-role :op1 "direction_usually_a_particle")))
+
+p28_s30 ::: one on the fourth row
+(i / implicit-role :quant 1
+   :location (o / on
+                :op1 (r / row
+                        :ord (o2 / ordinal-entity :value 4))))
+
+p28_s31 ::: so there’d be a block on the fourth row
+(b / block
+   :location (o / on
+                :op1 (r / row
+                        :ord (o2 / ordinal-entity :value 4))))
+
+p28_s32 ::: yes
+(y / yes)
+
+p28_s33 ::: right there
+(t / there
+   :mod (r / right))
+
+p28_s34 ::: and then one diagonally down to the right from there
+(a / and
+   :op2 (i / implicit-predicate-00 :mode imperative
+           :ARG0 (y / you)
+           :ARG1 (i2 / implicit-role :quant 1)
+           :destination (r / relative-position
+                           :op1 (t / there)
+                           :direction (d / down
+                                         :mod (d2 / diagonal)
+                                         :mod (t2 / to
+                                                  :op1 (r2 / right))))
+           :time (t3 / then)))
+
+p28_s35 ::: actually that last block goes on the fifth row
+(g / go-35
+   :ARG1 (b / block
+            :mod (t / that)
+            :mod (l / last))
+   :ARG2 (o / on
+            :op1 (r / row
+                    :ord (o2 / ordinal-entity :value 5)))
+   :ARG1-of (a / actual-02
+               :ARG2 (i2 / implicit-role :op1 "what_arg_is_an_actual_instantiation_of")))
+
+p28_s36 ::: no
+(n / no)
+
+p28_s37 ::: that block’s good
+(g / good
+   :domain (b / block
+              :mod (t / that)))
+
+p28_s38 ::: the block you have in your left hand or in your hands goes in between that diagonal shape
+(g / go-35
+   :ARG1 (b / block
+            :ARG1-of (h / have-03
+                        :ARG0 (y / you)
+                        :location (i / in
+                                     :op1 (h2 / hand
+                                              :poss y))))
+   :ARG2 (i2 / in
+             :op1 (b2 / between
+                      :op1 (s / shape
+                              :mod (t / that)
+                              :mod (d / diagonal)))))
+
+p28_g5 ::: (RA: move, front; RH: into claw, down;) (RA: move, back;) (RH: tap;) // (this) (here)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (g / go-35)
+   :ARG2 (a / actor))
+
+p28_g6 ::: (body: move, down; arms: move, front, into gap, left; hands: into facing, left, into open, left;) (body: move, up; arms: move, back;) // (these)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (d / diagonal)
+   :ARG2 (a / actor))
+
+p28_s39 ::: yep
+(y / yep)
+
+p28_s40 ::: right there
+(t / there
+   :mod (r / right))
+
+p28_s41 ::: that looks right
+(l / look-02
+   :ARG0 (t / that)
+   :ARG1 (r / right)
+   :ARG2 (i2 / implicit-role :op1 "seemed_to"))
+
+=========Raw File=======

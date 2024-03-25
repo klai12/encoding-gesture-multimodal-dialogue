@@ -1,0 +1,247 @@
+
+
+p29_g1 ::: (arms: move, up, into gap, left; hands: into facing, left, into claw, left;) // (here)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (b / block)
+   :ARG2 (a / actor))
+
+p29_s1 ::: start off with just a block and then put a block on top
+(a / and
+   :op1 (s / start-off-2 :mode imperative
+           :ARG0 (y / you)
+           :ARG1 (b / block
+                    :mod (j / just)))
+   :op2 (p / put-01 :mode imperative
+           :ARG0 y
+           :ARG1 (b2 / block)
+           :ARG2 (o / on
+                    :op1 (t / top
+                            :op1 (t2 / that)))
+           :time (t3 / then)))
+
+p29_g2 ::: (body: move, up; RH: tap;) // (talk) (wait)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (t / top)
+   :ARG2 (a / actor))
+
+p29_s2 ::: the third block is it's on top of that block but it's pushed just slightly to the a off of it
+(b / be-located-at-91
+   :ARG1 (b2 / block
+             :ord (o / ordinal-entity :value 3))
+   :ARG2 (o2 / on
+             :op1 (t / top
+                     :op1 (b3 / block
+                              :mod (t2 / that))))
+   :concession (p / push-01
+                  :ARG1 (i / it)
+                  :ARG2 (r / right
+                           :degree (s / slight
+                                      :mod (j / just))
+                           :direction (o3 / off
+                                          :op1 (i2 / it)))
+                  :time (t3 / then)
+                  :ARG0 (i3 / implicit-role :op1 "pusher")))
+
+p29_g3 ::: (RA: move, up, shake, down; RH: into claw, left;) // (stack)
+(g / gesture-unit
+   :op1 (i / icon-GA
+           :ARG0 (s / signaler)
+           :ARG1 (b / block)
+           :ARG2 (a / actor))
+   :op2 (i2 / icon-GA
+            :ARG0 s
+            :ARG1 (p / put-01
+                     :ARG0 (i3 / implicit-role :op1 "putter")
+                     :ARG1 (i4 / implicit-role :op1 "thing_put")
+                     :ARG2 (i5 / implicit-role :op1 "where_put"))
+            :ARG2 a)
+   :op3 (d / deixis-GA
+           :ARG0 s
+           :ARG1 (l / location)
+           :ARG2 a))
+
+p29_g4 ::: (RA: move, right;) // (right)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (s2 / slide-01
+             :direction (r / right)
+             :ARG0 (i2 / implicit-role :op1 "agent_causer_of_sliding")
+             :ARG1 (i3 / implicit-role :op1 "thing_sliding"))
+   :ARG2 (a / actor))
+
+p29_g5 ::: (RA: move, up, shake, down; RH: into point, front;) // (there)
+(d / deixis-GA
+   :ARG0 (s / signaler)
+   :ARG1 (y / you)
+   :ARG2 (a / actor))
+
+p29_s3 ::: was to
+(r / right
+   :poss (y / you)
+   :domain (t / this))
+
+p29_s4 ::: little bit less than that
+(h / have-degree-91
+   :ARG3 (l / less)
+   :ARG4 (t / that))
+
+p29_s5 ::: maybe even a little bit less
+(h / have-degree-91
+   :ARG3 (l / less)
+   :ARG4 (t / that))
+
+p29_s6 ::: it's just like barely not on top of it
+(b / be-located-at-91
+   :ARG1 (i / it)
+   :ARG2 (o / on
+            :op1 (t / top
+                    :op1 (i2 / it))
+            :polarity -
+            :degree (b2 / barely)))
+
+p29_s7 ::: yeah it's probably good that's probably good right there
+(g / good
+   :domain (i / it)
+   :location (t / there
+                :degree (r / right)))
+
+p29_s8 ::: then you're gonna do the same thing with the fourth block
+(d / do-02
+   :ARG0 (y / you)
+   :ARG1 (t / thing
+            :mod (s / same))
+   :ARG2 (b / block
+            :ord (o / ordinal-entity :value 4))
+   :time (t2 / then)
+   :ARG3 (i2 / implicit-role :op1 "instrumental")
+   :ARG4 (i3 / implicit-role :op1 "comitative_companion_while_doing"))
+
+p29_g6 ::: (arms: move, up, into gap, left; hands: into facing, left, into claw, left;) // (stack)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (p / put-01
+            :ARG0 (i2 / implicit-role :op1 "putter")
+            :ARG1 (i3 / implicit-role :op1 "thing_put")
+            :ARG2 (i4 / implicit-role :op1 "where_put"))
+   :ARG2 (a / actor))
+
+p29_s9 ::: pushed off like the same direction
+(p / push-01 :mode imperative
+   :ARG0 (y / you)
+   :ARG1 (i / it)
+   :ARG2 (d / direction
+            :mod (s / same))
+   :direction (o / off))
+
+p29_g7 ::: (LA: move, left;) // (left)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (s2 / slide
+             :direction (l / left))
+   :ARG2 (a / actor))
+
+p29_g8 ::: (RA: move, up, shake, left; RH: into point, left;) (RA: move, down; RH: into open, down;) // (slide left)
+(d / deixis-GA :mode expressive
+   :ARG0 (s / signaler)
+   :ARG1 (l / left)
+   :ARG2 (a / actor))
+
+p29_s10 ::: same direction that that's pushed off yea
+(s / same-01
+   :ARG2 (p / push-01
+            :ARG1 (t / that)
+            :ARG2 (o / off)
+            :ARG0 (i3 / implicit-role :op1 "pusher"))
+   :ARG3 (d / direction)
+   :ARG1 (i2 / implicit-role :op1 "first_same_thing"))
+
+p29_g9 ::: (arms: move, up, into gap, left; hands: into facing, left, into claw, left;) (LA: move, left;) // (slide left)
+(a / and
+   :op1 (i / icon-GA
+           :ARG0 (s / signaler)
+           :ARG1 (s2 / slide
+                     :direction (l / left))
+           :ARG2 (a2 / actor))
+   :op2 (i2 / icon-GA
+            :ARG0 s
+            :ARG1 (b / block)
+            :ARG2 a2))
+
+p29_g10 ::: (head: move, up, nod; LA: move, up; LH: into thumbs, up;) // (yes)
+(e / emblem-GA
+   :ARG0 (s / signaler)
+   :ARG1 (y / yes)
+   :ARG2 (a / actor))
+
+p29_s11 ::: yea yea and then it
+(g / good
+   :domain (t / that))
+
+p29_s12 ::: looks like the the next block is almost directly on top of that
+(l / look-02
+   :ARG1 (b / block
+            :mod (n / next))
+   :ARG2 (b2 / be-located-at-91
+             :ARG1 b
+             :ARG2 (o / on
+                      :op1 (t / top
+                              :op1 (t2 / that)))
+             :ARG1-of (d / direct-02
+                         :mod (a / almost)))
+   :time (t3 / then)
+   :ARG0 (i2 / implicit-role :op1 "seemer"))
+
+p29_g11 ::: (body: move, up; RA: move, up left; RH: into open, left;) // (slide left)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (p / push-01
+            :direction (l / left)
+            :ARG0 (i2 / implicit-role :op1 "pusher")
+            :ARG1 (i3 / implicit-role :op1 "thing_pushed")
+            :ARG2 (i4 / implicit-role :op1 "direction_destination"))
+   :ARG2 (a / actor))
+
+p29_s13 ::: maybe just pushed like slightly in the same
+(p / push-01 :mode imperative
+   :ARG0 (y / you)
+   :ARG2 (s / same)
+   :degree (s2 / slight
+               :mod (j / just))
+   :ARG1-of (p2 / possible-01)
+   :ARG1 (i2 / implicit-role :op1 "thing_pushed"))
+
+p29_s14 ::: and the final one is just pretty much exactly on top of it
+(b / be-located-at-91
+   :ARG1 (o / one
+            :mod (o2 / ordinal-entity :value -1))
+   :ARG2 (o3 / on
+             :op1 (t / top
+                     :op1 (i / it))
+             :mod (e / exactly
+                     :degree (p / pretty-much)))
+   :mod (j / just)
+   :time (t2 / then))
+
+p29_g12 ::: (RA: move, up, shake, down; RH: into open, down;) // (stack)
+(g / gesture-unit
+   :op1 (i / icon-GA
+           :ARG0 (s / signaler)
+           :ARG1 (p / put-01
+                    :ARG0 (i3 / implicit-role :op1 "putter")
+                    :ARG1 (i4 / implicit-role :op1 "thing_put")
+                    :ARG2 (i5 / implicit-role :op1 "where_put"))
+           :ARG2 (a / actor))
+   :op2 (i2 / icon-GA
+            :ARG0 s
+            :ARG1 (t / top)
+            :ARG2 a))
+
+p29_s15 ::: it like that
+(l / liken-03
+   :ARG2 (t / that)
+   :ARG0 (i2 / implicit-role :op1 "entity_making_comparison_agent")
+   :ARG1 (i3 / implicit-role :op1 "topic"))
+
+=========Raw File=======

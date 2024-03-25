@@ -1,0 +1,368 @@
+
+
+p21_s1 ::: this reminds me of You Know berlin
+(r / remind-01
+   :ARG0 (t / this)
+   :ARG1 (b / Berlin)
+   :ARG2 (m / me))
+
+p21_s2 ::: it's Ah ah the Riech- Stag
+(r / Reichstag
+   :domain (i / it))
+
+p21_s3 ::: forget about that
+(f / forget-01 :mode imperative
+   :ARG0 (y / you)
+   :ARG1 (t / that))
+
+p21_s4 ::: it's not the Reich- Stag
+(r / Reichstag :polarity -
+   :domain (i / it))
+
+p21_g1 ::: (arms: move, up, into gap, left; hands: into facing, claw;) (arms: move, down;) // (two new stacks)
+(a / and
+   :op1 (i / icon-GA
+           :ARG0 (s / signaler)
+           :ARG1 (s2 / stack)
+           :ARG2 (a2 / actor))
+   :op2 (i2 / icon-GA
+            :ARG0 s
+            :ARG1 s2
+            :ARG2 a2))
+
+p21_s5 ::: but it's still in Berlin
+(c / contrast-01
+   :ARG2 (b / be-located-at-91
+            :ARG1 (i / it)
+            :ARG2 (b2 / Berlin))
+   :ARG0 (i2 / implicit-role :op1 "entity_making_comparison")
+   :ARG1 (i3 / implicit-role :op1 "first_item_in_comparison"))
+
+p21_g2 ::: (Unknown) // (two new blocks)
+(a / and
+   :op1 (i / icon-GA
+           :ARG0 (s / signaler)
+           :ARG1 (b / block)
+           :ARG2 (a2 / actor))
+   :op2 (i2 / icon-GA
+            :ARG0 s
+            :ARG1 b2
+            :ARG2 a2))
+
+p21_s6 ::: We’ll have two blocks Ah  Like Apart from each other yeah a block space A block space
+(h / have-03
+   :ARG0 (w / we)
+   :ARG1 (b / block :quant 2
+            :mod (a / apart
+                    :op1 (o / other)
+                    :extent (b2 / block :quant 1))))
+
+p21_g3 ::: (arms: move, down;) // (here)
+(a / and
+   :op1 (i / icon-GA
+           :ARG0 (s / sigaler)
+           :ARG1 (p / put-01
+                    :ARG0 (i3 / implicit-role :op1 "putter")
+                    :ARG1 (i4 / implicit-role :op1 "thing_put")
+                    :ARG2 (i5 / implicit-role :op1 "where_put"))
+           :ARG2 (a2 / actor))
+   :op2 (i2 / icon-GA
+            :ARG0 s
+            :ARG1 p
+            :ARG2 a2))
+
+p21_g4 ::: (Unknown) (arms: apart, left; hands: facing, into closed;) // (gap) (together)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (s2 / space)
+   :ARG2 (a / actor))
+
+p21_g5 ::: (arms: apart, left; hands: facing, into closed;) (arms: together, left;) // (together)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (b / block)
+   :ARG2 (a / actor))
+
+p21_s7 ::: So That’s Our New you did not miss from in right blocks space
+(u / unit
+   :ARG1-of (n / new-01)
+   :poss (w / we)
+   :ARG2-of (m / measure-01
+               :ARG0 (i2 / implicit-role :op1 "measurer")
+               :ARG1 (i3 / implicit-role :op1 "thing_measured")
+               :ARG3 (i4 / implicit-role :op1 "measurement"))
+   :domain (b / block_space))
+
+p21_g6 ::: (arms: apart, left;) // (gap)
+(i / icon-GA
+   :ARG0 (s / singnaler)
+   :ARG1 (b / block)
+   :ARG2 (a / actor))
+
+p21_s8 ::: We’ll Have Another block just falling down as if it just for fell down from heaven
+(h / have-03
+   :ARG0 (w / we)
+   :ARG1 (b / block
+            :mod (a / another)
+            :ARG1-of (f / fall-01
+                        :direction (d / down)
+                        :mod (j / just)
+                        :conj-as-if f
+                        :ARG1 (i / it)
+                        :ARG3 (f2 / from
+                                  :op1 (h2 / heaven))
+                        :ARG2 (i2 / implicit-role :op1 "EXT_amount_fallen")
+                        :ARG4 (i3 / implicit-role :op1 "end_point_end_state_of_arg")
+                        :ARGM (i4 / implicit-role :op1 "medium"))))
+
+p21_g7 ::: (LA: move, down;) // (one new block)
+(i / icon-GA
+   :ARG0 (s / singaler)
+   :ARG1 1
+   :ARG2 (a / actor))
+
+p21_g8 ::: (arms: move, up; hands: into facing, into open;) (LH: rotate;) // (Unknown)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (b / block)
+   :ARG2 (a / actor))
+
+p21_g9 ::: (arms: move, down;) // (Unknown)
+(g / gesture-unit
+   :op1 (i / icon-GA
+           :ARG0 (s / signaler)
+           :ARG1 (b / block)
+           :ARG2 (a / actor))
+   :op2 (i2 / icon-GA
+            :ARG0 s
+            :ARG1 (m / move-01
+                     :direction (d / down)
+                     :ARG0 (i3 / implicit-role :op1 "mover")
+                     :ARG1 (i4 / implicit-role :op1 "moved")
+                     :ARG2 (i5 / implicit-role :op1 "destination")
+                     :ARG3 (i6 / implicit-role :op1 "aspect_domain_in_which_arg_moving"))
+            :ARG2 a))
+
+p21_s9 ::: It Cannot Fall Down from the Ground right
+(p / possible-01 :polarity -
+   :ARG1 (f / fall-01
+            :ARG1 (i / it)
+            :ARG3 (g / ground)
+            :ARG2 (i2 / implicit-role :op1 "EXT_amount_fallen")
+            :ARG4 (i3 / implicit-role :op1 "end_point_end_state_of_arg")
+            :ARGM (i4 / implicit-role :op1 "medium"))
+   :ARG1-of (r / request-confirmation-91))
+
+p21_g10 ::: (LA: move, down; LH: into point, front;) // (that)
+(d / deixis-GA
+   :ARG0 (s / signaler)
+   :ARG1 (b / block)
+   :ARG2 (a / actor))
+
+p21_s10 ::: it will be Diagonal Like A Diamond
+(d / diagonal
+   :domain (i / it
+              :ARG1-of (r / resemble-01
+                          :ARG2 (d2 / diamond))))
+
+p21_g11 ::: (arms: rotate;) (arms: shake;) // (rotate)
+(i / icon-GA :mode expressive
+   :ARG0 (s / signaler)
+   :ARG1 (r / rotate-01
+            :ARG0 (i2 / implicit-role :op1 "causer_of_rotation")
+            :ARG1 (i3 / implicit-role :op1 "thing_rotating"))
+   :ARG2 (a / actor))
+
+p21_g12 ::: (arms: move, down; hands: shake;) // (no)
+(e / emblem-GA :mode expressive
+   :ARG0 (s / signaler)
+   :ARG1 (n / no)
+   :ARG2 (a / actor))
+
+p21_s11 ::: But That should be on top on top of the Of The Other blocks
+(c / contrast-01
+   :ARG2 (r / recommend-01
+            :ARG1 (b / be-located-at-91
+                     :ARG1 (t / that)
+                     :ARG2 (o / on
+                              :op1 (t2 / top
+                                       :poss (b2 / block
+                                                 :mod (o2 / other)))))
+            :ARG0 (i4 / implicit-role :op1 "Recommender")
+            :ARG2 (i5 / implicit-role :op1 "Recommended_to")
+            :ARG3 (i6 / implicit-role :op1 "Secondary_attribute_recommended_as")
+            :ARG4 (i7 / implicit-role :op1 "subject_matter_of_recommendation_if_unclear_what_the_recommendation_is"))
+   :ARG0 (i2 / implicit-role :op1 "entity_making_comparison")
+   :ARG1 (i3 / implicit-role :op1 "first_item_in_comparison"))
+
+p21_g13 ::: (hands: shake, into point, front;) // (that)
+(d / deixis-GA :mode expressive
+   :ARG0 (s / signaler)
+   :ARG1 (b / block)
+   :ARG2 (a / actor))
+
+p21_g14 ::: (RA: move, up; RH: into claw, left;) (RH: shake, front;) (RA: move, down;) // (stack)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (t / top)
+   :ARG2 (a / actor))
+
+p21_g15 ::: (Unknown) // (stack)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (b / backward)
+   :ARG2 (a / actor))
+
+p21_g16 ::: (body: still;) (arms: move, front; hands: into claw, up;) (hands: rotate;) // (rotate)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (r / rotate-01
+            :ARG0 (i2 / implicit-role :op1 "causer_of_rotation")
+            :ARG1 (i3 / implicit-role :op1 "thing_rotating"))
+   :ARG2 (a / actor))
+
+p21_s12 ::: But bothe opposite Way
+(c / contrast-01
+   :ARG2 (i / implicit-predicate-00 :mode imperative
+            :ARG0 (y / you)
+            :direction (w / way
+                          :mod (o / opposite)))
+   :ARG0 (i2 / implicit-role :op1 "entity_making_comparison")
+   :ARG1 (i3 / implicit-role :op1 "first_item_in_comparison"))
+
+p21_s13 ::: Don’t Do that
+(d / do-01 :mode imperative :polarity -
+   :ARG0 (y / you)
+   :ARG1 (t / that))
+
+p21_g17 ::: (arms: move, down; hands: shake, into point, front;) // (no)
+(g / gesture-unit
+   :op1 (e / emblem-GA :mode expressive
+           :ARG0 (s / signaler)
+           :ARG1 (n / no)
+           :ARG2 (a / actor))
+   :op2 (d / deixis-GA :mode expressive
+           :ARG0 s
+           :ARG1 (b / block)
+           :ARG2 a))
+
+p21_g18 ::: (arms: move, up; hands: into claw, up;) (arms: move, down;) // (rotate)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (b / block)
+   :ARG2 (a / actor))
+
+p21_s14 ::: just turn It turn It Vertical
+(t / turn-01 :mode imperative
+   :mod (j / just)
+   :ARG0 (y / you)
+   :ARG1 (i / it)
+   :direction (v / vertical)
+   :ARGM (i2 / implicit-role :op1 "direction_location_destination"))
+
+p21_g19 ::: (hands: rotate;) // (rotate)
+(g / gesture-unit
+   :op1 (i / icon-GA
+           :ARG0 (s / signaler)
+           :ARG1 (b / block)
+           :ARG2 (a / actor))
+   :op2 (i2 / icon-GA
+            :ARG0 s
+            :ARG1 (r / rotate-01
+                     :ARG0 (i3 / implicit-role :op1 "causer_of_rotation")
+                     :ARG1 (i4 / implicit-role :op1 "thing_rotating"))
+            :ARG2 a))
+
+p21_s15 ::: On That Exactly On  That Axis
+(o / on
+   :op1 (a / axis
+           :mod (t / that)))
+
+p21_g20 ::: (body: still;) (Unknown) // (ok)
+(e / emblem-GA :mode expressive
+   :ARG0 (s / signaler)
+   :ARG1 (y / yes)
+   :ARG2 (a / actor))
+
+p21_s16 ::: (Unknown) Yeah it Shouldn’t Fall It Shouldn’t Fall
+(c / contrast-01
+   :ARG2 (r / recommend-01 :polarity -
+            :ARG1 (f / fall-01
+                     :ARG1 (i / it)
+                     :ARG2 (i8 / implicit-role :op1 "EXT_amount_fallen")
+                     :ARG3 (i9 / implicit-role :op1 "start_point")
+                     :ARG4 (i10 / implicit-role :op1 "end_point_end_state_of_arg")
+                     :ARGM (i11 / implicit-role :op1 "medium"))
+            :ARG0 (i4 / implicit-role :op1 "Recommender")
+            :ARG2 (i5 / implicit-role :op1 "Recommended_to")
+            :ARG3 (i6 / implicit-role :op1 "Secondary_attribute_recommended_as")
+            :ARG4 (i7 / implicit-role :op1 "subject_matter_of_recommendation_if_unclear_what_the_recommendation_is"))
+   :ARG0 (i2 / implicit-role :op1 "entity_making_comparison")
+   :ARG1 (i3 / implicit-role :op1 "first_item_in_comparison"))
+
+p21_g21 ::: (Unknown) // (think) (Unknown)
+(d / deixis-GA :mode expressive
+   :ARG0 (s / signaler)
+   :ARG1 (b / block)
+   :ARG2 (a / actor))
+
+p21_s17 ::: please close a little bit the Base the base
+(c / close-01 :mode imperative :polite +
+   :ARG0 (y / you)
+   :ARG1 (b / base)
+   :degree (b2 / bit
+               :mod (l / little))
+   :ARG2 (i2 / implicit-role :op1 "anti-beneficiary"))
+
+p21_g22 ::: (arms: together, left;) (arms: shake;) // (servo together)
+(i / icon-GA :mode expressive
+   :ARG0 (s / signaler)
+   :ARG1 (t / together)
+   :ARG2 (a / actor))
+
+p21_s18 ::: Close A Little Bit More
+(c / close-01 :mode imperative
+   :ARG0 (y / you)
+   :degree (m / more
+              :degree (b2 / bit
+                          :mod (l / little)))
+   :ARG1 (i2 / implicit-role :op1 "thing_closing")
+   :ARG2 (i3 / implicit-role :op1 "anti-beneficiary"))
+
+p21_s19 ::: not Not too much
+(i / implicit-predicate-00 :mode imperative
+   :ARG0 (y / you)
+   :manner (m / much :polarity -
+              :degree (t / too)))
+
+p21_g23 ::: (arms: shake;) // (servo apart)
+(i / icon-GA :mode expressive
+   :ARG0 (s / signaler)
+   :ARG1 (a / apart)
+   :ARG2 (a2 / actor))
+
+p21_s20 ::: can you just open it open it A Little Bit
+(o / open-01 :mode imperative :polite +
+   :mod (j / just)
+   :ARG0 (y / you)
+   :ARG1 (i / it)
+   :degree (b / bit
+              :mod (l / little))
+   :ARG2 (i2 / implicit-role :op1 "instrument")
+   :ARG3 (i3 / implicit-role :op1 "benefactive"))
+
+p21_s21 ::: That has some motion it
+(h / have-03
+   :ARG0 (t / that)
+   :ARG1 (m / motion
+            :mod (s / some)
+            :location (o / on
+                         :op1 (i / it))))
+
+p21_g24 ::: (Unknown) (arms: move, down; hands: into open, back;) // (ok done)
+(e / emblem-GA :mode expressive
+   :ARG0 (s / signaler)
+   :ARG1 (y / yes)
+   :ARG2 (a / actor))
+
+=========Raw File=======

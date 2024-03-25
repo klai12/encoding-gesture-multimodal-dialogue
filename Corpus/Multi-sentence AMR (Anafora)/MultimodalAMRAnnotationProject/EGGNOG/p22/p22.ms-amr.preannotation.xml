@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<document id="p22" release="p22.txt">
+   <sentences>
+      <amr linearorder="0" id="p22_s1"/>
+      <amr linearorder="1" id="p22_g1"/>
+      <amr linearorder="2" id="p22_s2"/>
+      <amr linearorder="3" id="p22_g2"/>
+      <amr linearorder="4" id="p22_s3"/>
+      <amr linearorder="5" id="p22_s4"/>
+      <amr linearorder="6" id="p22_g3"/>
+      <amr linearorder="7" id="p22_g4"/>
+      <amr linearorder="8" id="p22_s5"/>
+      <amr linearorder="9" id="p22_s6"/>
+      <amr linearorder="10" id="p22_s7"/>
+      <amr linearorder="11" id="p22_g5"/>
+      <amr linearorder="12" id="p22_s8"/>
+      <amr linearorder="13" id="p22_g6"/>
+      <amr linearorder="14" id="p22_g7"/>
+      <amr linearorder="15" id="p22_s9"/>
+      <amr linearorder="16" id="p22_s10"/>
+      <amr linearorder="17" id="p22_g8"/>
+      <amr linearorder="18" id="p22_s11"/>
+      <amr linearorder="19" id="p22_s12"/>
+   </sentences>
+</document>

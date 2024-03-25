@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<document id="p15" release="p15.txt">
+   <sentences>
+      <amr linearorder="0" id="p15_s1"/>
+      <amr linearorder="1" id="p15_g1"/>
+      <amr linearorder="2" id="p15_s2"/>
+      <amr linearorder="3" id="p15_s3"/>
+      <amr linearorder="4" id="p15_g2"/>
+      <amr linearorder="5" id="p15_s4"/>
+      <amr linearorder="6" id="p15_g3"/>
+      <amr linearorder="7" id="p15_s5"/>
+      <amr linearorder="8" id="p15_s6"/>
+      <amr linearorder="9" id="p15_s7"/>
+      <amr linearorder="10" id="p15_s8"/>
+      <amr linearorder="11" id="p15_g4"/>
+      <amr linearorder="12" id="p15_g5"/>
+      <amr linearorder="13" id="p15_s9"/>
+      <amr linearorder="14" id="p15_s10"/>
+      <amr linearorder="15" id="p15_g6"/>
+      <amr linearorder="16" id="p15_s11"/>
+      <amr linearorder="17" id="p15_s12"/>
+      <amr linearorder="18" id="p15_s13"/>
+      <amr linearorder="19" id="p15_g7"/>
+      <amr linearorder="20" id="p15_g8"/>
+      <amr linearorder="21" id="p15_g9"/>
+      <amr linearorder="22" id="p15_s14"/>
+      <amr linearorder="23" id="p15_g10"/>
+      <amr linearorder="24" id="p15_g11"/>
+      <amr linearorder="25" id="p15_s15"/>
+      <amr linearorder="26" id="p15_s16"/>
+      <amr linearorder="27" id="p15_g12"/>
+      <amr linearorder="28" id="p15_s17"/>
+      <amr linearorder="29" id="p15_s18"/>
+      <amr linearorder="30" id="p15_g13"/>
+      <amr linearorder="31" id="p15_s19"/>
+      <amr linearorder="32" id="p15_g14"/>
+      <amr linearorder="33" id="p15_g15"/>
+      <amr linearorder="34" id="p15_s20"/>
+      <amr linearorder="35" id="p15_s21"/>
+      <amr linearorder="36" id="p15_g16"/>
+      <amr linearorder="37" id="p15_s22"/>
+      <amr linearorder="38" id="p15_g17"/>
+      <amr linearorder="39" id="p15_s23"/>
+      <amr linearorder="40" id="p15_s24"/>
+      <amr linearorder="41" id="p15_g18"/>
+   </sentences>
+</document>

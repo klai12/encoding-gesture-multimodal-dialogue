@@ -1,0 +1,151 @@
+
+
+p22_s1 ::: okay this one's somewhat similar to the last one except it's a four four layers
+(s / similar-01
+   :ARG0 (o / one
+            :mod (t / this))
+   :ARG1 o
+   :mod (l / last)
+   :ARG2 (l2 / layers :quant 4)
+   :ARG3 (i2 / implicit-role :op1 "characteristic_that_args__and__hold_in_common"))
+
+p22_g1 ::: (LA: move, down; hands: into fist, down;) (arms: move, front; hands: into open, down;) // (think) (new row)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (l / layers)
+   :ARG2 (a / actor))
+
+p22_s2 ::: and the bottom layer starts with four blocks
+(s / starts-01
+   :ARG0 (l / layer
+            :ARG0-of (b / bottom))
+   :instrument (b2 / blocks :quant 4))
+
+p22_g2 ::: (arms: move, front; hands: into open, down;) (arms: apart, left;) (Unknown) // (new row) (wait)
+(g / gesture-unit
+   :op1 (i / icon-GA
+           :ARG0 (s / signaler)
+           :ARG1 (b / bottom)
+           :ARG2 (a / actor))
+   :op2 i
+   :ARG0 s
+   :ARG1 (l / layer)
+   :ARG2 a)
+
+p22_s3 ::: but this time they're not they're not touching corners quite the same way
+(t / touch-01
+   :ARG0 (t2 / they)
+   :ARG1 (c / corners)
+   :mod (w / way
+           :mod (s / same
+                   :degree (q / quite)))
+   :polarity -
+   :ARG2 (i2 / implicit-role :op1 "touched_with_if_separate_from_agent"))
+
+p22_s4 ::: they're more laid out in a flower pattern
+(l / lay-out-01
+   :ARG0 (t / they)
+   :mod (m / more)
+   :mod (p / pattern
+           :mod (f / flower)))
+
+p22_g3 ::: (arms: apart, left; hands: claw, down;) (arms: into contact, left;) // (here) (here)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (p / pattern
+            :mod (f / flower))
+   :ARG2 (a / actor))
+
+p22_g4 ::: (arms: apart, left;) (hands: into fist;) (body: move, down;) // (here) (think)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (s2 / splayed)
+   :ARG2 (a / actor))
+
+p22_s5 ::: they're kind  of splayed yeah
+(s / splay-01
+   :ARG0 (t / they)
+   :mod (k / kind-of)
+   :ARG1 (i2 / implicit-role :op1 "thing_splayed")
+   :ARG2 (i3 / implicit-role :op1 "amount_increased_by_EXT_or_MNR")
+   :ARG3 (i4 / implicit-role :op1 "start_point")
+   :ARG4 (i5 / implicit-role :op1 "end_point"))
+
+p22_s6 ::: yeah something like that
+(l / like
+   :ARG0 (s / something)
+   :ARG1 (t / that))
+
+p22_s7 ::: the right were were about correct
+(c / correct-01
+   :ARG0 (t / those :quant 2
+            :location (r / right))
+   :ARG1 (i2 / implicit-role :op1 "thing_that_was_wrong"))
+
+p22_g5 ::: (LA: move, up; LH: into open, down;) (LA: move, down;) // (here relative) (wait)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (b / block)
+   :ARG2 (a / actor))
+
+p22_s8 ::: then the gap should be a little less of between him
+(b / be-03
+   :ARG0 (g / gap)
+   :degree (l / less
+              :mod (l2 / little))
+   :mod (b2 / between
+            :ARG1 (t / them)))
+
+p22_g6 ::: (arms: move, up; hands: facing, into gap, left;) (Unknown) // (Unknown)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (l / less)
+   :ARG2 (a / actor))
+
+p22_g7 ::: (Unknown) (arms: shake, left; hands: closed;) (arms: move, down; RH: into fist, down;) // (Unknown) (servo together) (wait)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (s2 / squeeze
+             :direction (t / together))
+   :ARG2 (a / actor))
+
+p22_s9 ::: so you could squeeze them together a little bit there you go
+(s / squeeze-01 :mode imperative
+   :ARG0 (y / you)
+   :ARG1 (t / them)
+   :direction (t2 / together
+                  :mod (l / little)))
+
+p22_s10 ::: then the next row is just three on top of that in the middle of those gaps
+(b / be-01
+   :ARG0 (r / row
+            :mod (n / next))
+   :ARG1 (t / three
+            :location (t2 / top
+                          :location (g / gap)
+                          :mod (m / middle)))
+   :ARG2 (i2 / implicit-role :op1 "comment"))
+
+p22_g8 ::: (Unknown) (arms: move, up; hands: facing, into gap, open;) (LA: move, down; RA: move, up; RH: to face) // (wait) (stack) (Unknown)
+(g / gesture-unit
+   :op1 (i / icon-GA
+           :ARG0 (s / signaler)
+           :ARG1 (b / block)
+           :ARG2 (a / actor))
+   :op2 i
+   :ARG0 s
+   :ARG1 (t / top)
+   :ARG2 a)
+
+p22_s11 ::: and then two on top of that
+(o / on-01
+   :ARG0 (t / two)
+   :ARG1 (t2 / top
+             :mod (t3 / that)))
+
+p22_s12 ::: and one on top
+(o / on-01
+   :ARG0-of (o / one
+               :ARG1 (t / top)))
+
+=========Raw File=======

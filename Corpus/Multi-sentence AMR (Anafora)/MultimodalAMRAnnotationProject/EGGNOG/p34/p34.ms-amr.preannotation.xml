@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<document id="lpp" release="p34.txt">
+   <sentences>
+      <amr linearorder="0" id="p34_g1"/>
+      <amr linearorder="1" id="p34_s1"/>
+      <amr linearorder="2" id="p34_s2"/>
+      <amr linearorder="3" id="p34_g2"/>
+      <amr linearorder="4" id="p34_g3"/>
+      <amr linearorder="5" id="p34_s3"/>
+      <amr linearorder="6" id="p34_g4"/>
+      <amr linearorder="7" id="p34_g5"/>
+      <amr linearorder="8" id="p34_s4"/>
+      <amr linearorder="9" id="p34_s5"/>
+      <amr linearorder="10" id="p34_g6"/>
+      <amr linearorder="11" id="p34_g7"/>
+      <amr linearorder="12" id="p34_s6"/>
+      <amr linearorder="13" id="p34_s7"/>
+      <amr linearorder="14" id="p34_g8"/>
+      <amr linearorder="15" id="p34_g9"/>
+      <amr linearorder="16" id="p34_s8"/>
+      <amr linearorder="17" id="p34_g10"/>
+      <amr linearorder="18" id="p34_s9"/>
+      <amr linearorder="19" id="p34_s10"/>
+      <amr linearorder="20" id="p34_g11"/>
+      <amr linearorder="21" id="p34_s11"/>
+      <amr linearorder="22" id="p34_s12"/>
+      <amr linearorder="23" id="p34_g12"/>
+      <amr linearorder="24" id="p34_s13"/>
+      <amr linearorder="25" id="p34_s14"/>
+      <amr linearorder="26" id="p34_g13"/>
+      <amr linearorder="27" id="p34_s15"/>
+      <amr linearorder="28" id="p34_s16"/>
+      <amr linearorder="29" id="p34_g14"/>
+      <amr linearorder="30" id="p34_g15"/>
+   </sentences>
+</document>

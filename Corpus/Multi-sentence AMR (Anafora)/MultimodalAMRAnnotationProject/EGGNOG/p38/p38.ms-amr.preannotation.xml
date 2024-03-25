@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<document id="lpp" release="p38.txt">
+   <sentences>
+      <amr linearorder="0" id="p38_s1"/>
+      <amr linearorder="1" id="p38_g1"/>
+      <amr linearorder="2" id="p38_s2"/>
+      <amr linearorder="3" id="p38_s3"/>
+      <amr linearorder="4" id="p38_g2"/>
+      <amr linearorder="5" id="p38_g3"/>
+      <amr linearorder="6" id="p38_s4"/>
+      <amr linearorder="7" id="p38_g4"/>
+      <amr linearorder="8" id="p38_g5"/>
+      <amr linearorder="9" id="p38_s5"/>
+      <amr linearorder="10" id="p38_s6"/>
+      <amr linearorder="11" id="p38_s7"/>
+      <amr linearorder="12" id="p38_s8"/>
+      <amr linearorder="13" id="p38_g6"/>
+      <amr linearorder="14" id="p38_g7"/>
+      <amr linearorder="15" id="p38_g8"/>
+      <amr linearorder="16" id="p38_s9"/>
+      <amr linearorder="17" id="p38_s10"/>
+      <amr linearorder="18" id="p38_s11"/>
+      <amr linearorder="19" id="p38_g9"/>
+      <amr linearorder="20" id="p38_g10"/>
+      <amr linearorder="21" id="p38_s12"/>
+      <amr linearorder="22" id="p38_g11"/>
+      <amr linearorder="23" id="p38_s13"/>
+      <amr linearorder="24" id="p38_s14"/>
+      <amr linearorder="25" id="p38_g12"/>
+      <amr linearorder="26" id="p38_g13"/>
+      <amr linearorder="27" id="p38_s15"/>
+      <amr linearorder="28" id="p38_g14"/>
+      <amr linearorder="29" id="p38_g15"/>
+      <amr linearorder="30" id="p38_s16"/>
+      <amr linearorder="31" id="p38_s17"/>
+      <amr linearorder="32" id="p38_g16"/>
+   </sentences>
+</document>

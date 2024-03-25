@@ -1,0 +1,247 @@
+
+
+p41_s1 ::: step one take four blocks
+(t / take-01 :li 1 :mode imperative
+   :ARG0 (y / you)
+   :ARG1 (b / block :quant 4)
+   :ARG2 (i2 / implicit-role :op1 "taken_FROM_SOURCE_of_thing_taken")
+   :ARG3 (i3 / implicit-role :op1 "destination"))
+
+p41_s2 ::: stick them on the table in a line in front of you
+(s / stick-01 :mode imperative
+   :ARG0 (y / you)
+   :ARG1 (t / them)
+   :ARG2 (t2 / table)
+   :manner (l / line
+              :location (f / front
+                           :poss y)))
+
+p41_g1 ::: (head: move, down; arms: together, left; hands: into claw, down;) (arms: apart, left;) // (new row)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (l / line)
+   :ARG2 (a / actor))
+
+p41_s3 ::: okay
+(o / okay)
+
+p41_s4 ::: i want you to tilt all of them so that the one corner is touching
+(w / want-01
+   :ARG0 (i / I)
+   :ARG1 (t / tilt-01
+            :ARG0 (y / you)
+            :ARG1 (t2 / them
+                      :mod (a / all))
+            :purpose (t3 / touch-01
+                         :ARG0 (c / corner :quant 1)
+                         :ARG1 (i7 / implicit-role :op1 "thing_touched")
+                         :ARG2 (i8 / implicit-role :op1 "touched_with_if_separate_from_agent"))
+            :ARG2 (i5 / implicit-role :op1 "path_of_tilt_tilt_towards")
+            :ARG3 (i6 / implicit-role :op1 "destination_goal_actually_reached_by_tilting_end_state"))
+   :ARG2 (i2 / implicit-role :op1 "beneficiary")
+   :ARG3 (i3 / implicit-role :op1 "in-exchange-for")
+   :ARG4 (i4 / implicit-role :op1 "from"))
+
+p41_g2 ::: (body: shake, front; arms: shake, front; hands: into open, down;) // (talk)
+(i / icon-GA :mode expressive
+   :ARG0 (s / signaler)
+   :ARG1 (t / tilt-01
+            :ARG0 (i2 / implicit-role :op1 "cause_agent")
+            :ARG1 (i3 / implicit-role :op1 "thing_not_level")
+            :ARG2 (i4 / implicit-role :op1 "path_of_tilt_tilt_towards")
+            :ARG3 (i5 / implicit-role :op1 "destination_goal_actually_reached_by_tilting_end_state"))
+   :ARG2 (a / actor))
+
+p41_g3 ::: (LA: shake, up; LH: into four, down;) // (talk)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (t / touch-01
+            :ARG0 (i2 / implicit-role :op1 "toucher")
+            :ARG1 (i3 / implicit-role :op1 "thing_touched")
+            :ARG2 (i4 / implicit-role :op1 "touched_with_if_separate_from_agent"))
+   :ARG2 (a2 / actor))
+
+p41_s5 ::: you see how there are three divots
+(s / see-01
+   :polarity (a / amr-unknown)
+   :ARG0 (y / you)
+   :ARG1 (d / divot :quant 3)
+   :ARG2 (i2 / implicit-role :op1 "attribute_of_arg_further_description"))
+
+p41_g4 ::: (arms: move, front; hands: into facing, left, into claw, left;) // (talk)
+(g / gesture-unit
+   :op1 (i / icon-GA
+           :ARG0 (s / signaler)
+           :ARG1 (d / divot)
+           :ARG2 (a / actor))
+   :op2 (d2 / deixis-GA
+            :ARG0 s
+            :ARG1 (l / location)
+            :ARG2 a))
+
+p41_s6 ::: and in on the one far on three divots farthest from you
+(i / implicit-predicate-00
+   :ARG1 (d / divot :quant 3
+            :ARG1-of (h / have-degree-91
+                        :ARG2 (f / far
+                                 :op1 (y / you))
+                        :ARG3 (m / most))))
+
+p41_g5 ::: (body: move, down; arms: move, front; hands: into closed, back;) (arms: shake, front;) // (here relative) (wait)
+(a / and
+   :op1 (g / gesture-unit
+           :op1 (d / deixis-GA
+                   :ARG0 (s / signaler)
+                   :ARG1 (l / location)
+                   :ARG2 (a2 / actor))
+           :op2 (i / icon-GA
+                   :ARG0 s
+                   :ARG1 (f / far)
+                   :ARG2 a2)
+           :op2 (g2 / gesture-unit
+                    :op1 (d2 / deixis-GA
+                             :ARG0 s
+                             :ARG1 l
+                             :ARG2 a2)
+                    :op2 (i2 / icon-GA
+                             :ARG0 s
+                             :ARG1 f
+                             :ARG2 a2))))
+
+p41_g6 ::: (LA: move, up; LH: into point, front;) // (talk)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 1
+   :ARG2 (a / actor))
+
+p41_s7 ::: i want you take one block
+(w / want-01
+   :ARG0 (i / I)
+   :ARG1 (t / take-01
+            :ARG0 (y / you)
+            :ARG1 (b / block :quant 1)
+            :ARG2 (i5 / implicit-role :op1 "taken_FROM_SOURCE_of_thing_taken")
+            :ARG3 (i6 / implicit-role :op1 "destination"))
+   :ARG2 (i2 / implicit-role :op1 "beneficiary")
+   :ARG3 (i3 / implicit-role :op1 "in-exchange-for")
+   :ARG4 (i4 / implicit-role :op1 "from"))
+
+p41_s8 ::: on your right side i want you to position it in the divot
+(w / want-01
+   :ARG0 (i / I)
+   :ARG1 (p / position-01
+            :ARG0 (y / you)
+            :ARG1 (i2 / it)
+            :ARG2 (i3 / in
+                      :op1 (d / divot))
+            :location (s / side
+                         :mod (r / right
+                                 :poss y)))
+   :ARG2 (i4 / implicit-role :op1 "beneficiary")
+   :ARG3 (i5 / implicit-role :op1 "in-exchange-for")
+   :ARG4 (i6 / implicit-role :op1 "from"))
+
+p41_s9 ::: yep
+(y / yes)
+
+p41_s10 ::: take another one
+(t / take-01 :mode imperative
+   :ARG1 (a / another :quant 1)
+   :ARG0 (i2 / implicit-role :op1 "Taker")
+   :ARG2 (i3 / implicit-role :op1 "taken_FROM_SOURCE_of_thing_taken")
+   :ARG3 (i4 / implicit-role :op1 "destination"))
+
+p41_g7 ::: (head: nod; hands: shake, left;) // (talk)
+(d / deixis-GA
+   :ARG0 (s / signaler)
+   :ARG1 (l / location)
+   :ARG2 (a / actor))
+
+p41_s11 ::: stick it on the other side divot
+(s / stick-01 :mode imperative
+   :ARG0 (y / you)
+   :ARG1 (i / it)
+   :ARG2 (d / divot
+            :poss (s2 / side
+                      :mod (o / other))))
+
+p41_s12 ::: now the ones i just told you to put that were two that last two i told you to put
+(k / know-02
+   :polarity (a / amr-unknown)
+   :ARG0 (y / you)
+   :ARG1 (i / implicit-role :quant 2
+            :mod (l / last)
+            :ARG1-of (p / put-01
+                        :ARG0 y
+                        :ARG1-of (t / tell-01
+                                    :ARG0 (i2 / I)
+                                    :ARG2 (i6 / implicit-role :op1 "Hearer"))
+                        :ARG2 (i5 / implicit-role :op1 "where_put")))
+   :ARG2 (i3 / implicit-role :op1 "what_arg_is_known_AS_or_TO_be_do_attribute")
+   :ARG3 (i4 / implicit-role :op1 "what_arg_is_known_FOR"))
+
+p41_g8 ::: (Unknown) // (talk)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (p / put-01
+            :ARG0 (i2 / implicit-role :op1 "putter")
+            :ARG1 (i3 / implicit-role :op1 "thing_put")
+            :ARG2 (i4 / implicit-role :op1 "where_put"))
+   :ARG2 (a / actor))
+
+p41_g9 ::: (hands: tap;) // (talk)
+(a / and
+   :op1 (d / deixis-GA :mode expressive
+           :ARG0 (s / signaler)
+           :ARG1 (l / location)
+           :ARG2 (a2 / actor))
+   :op2 (d2 / deixis-GA :mode expressive
+            :ARG0 s
+            :ARG1 l
+            :ARG2 a2))
+
+p41_g10 ::: (body: move, down; arms: move, front;) (body: move, up; arms: move, back; hands: into claw, down;) // (slide front)
+(a / and
+   :op1 (g / gesture-unit
+           :op1 (d / deixis-GA
+                   :ARG0 (s / signaler)
+                   :ARG1 (l / location)
+                   :ARG2 (a2 / actor))
+           :op2 (i / icon-GA
+                   :ARG0 s
+                   :ARG1 (p / push-01
+                            :ARG0 (i3 / implicit-role :op1 "pusher")
+                            :ARG1 (i4 / implicit-role :op1 "thing_pushed")
+                            :ARG2 (i5 / implicit-role :op1 "direction_destination"))
+                   :ARG2 a2)
+           :op2 (g2 / gesture-unit
+                    :op1 (d2 / deixis-GA
+                             :ARG0 s
+                             :ARG1 l
+                             :ARG2 a2)
+                    :op2 (i2 / icon-GA
+                             :ARG0 s
+                             :ARG1 p
+                             :ARG2 a2))))
+
+p41_s13 ::: push them up a little bit
+(p / push-01 :mode imperative
+   :ARG0 (y / you)
+   :ARG1 (t / them)
+   :ARG2 (u / up
+            :degree (b / bit
+                       :mod (l / little))))
+
+p41_s14 ::: same position
+(s / same-01
+   :ARG1 (p / position)
+   :ARG2 (i2 / implicit-role :op1 "second_same_thing_thing_being_compared_to")
+   :ARG3 (i3 / implicit-role :op1 "domain_in_which_args___are_the_same"))
+
+p41_g11 ::: (head: rotate; arms: move, up; hands: into thumbs, up;) (arms: move, down; hands: into open, down;) // (done)
+(e / emblem-GA
+   :ARG0 (s / signaler)
+   :ARG1 (y / yes)
+   :ARG2 (a / actor))
+
+=========Raw File=======

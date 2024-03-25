@@ -1,0 +1,254 @@
+
+
+p42_s1 ::: this one is like three towers next to each other
+(l / like-04
+   :ARG0 (t / this :quant 1)
+   :ARG1 (t2 / tower :quant 3
+             :mod (n / next-02
+                     :ARG1 (e / each)
+                     :ARG2 (i3 / implicit-role :op1 "second_item_thing_the_first_item_is_near")))
+   :ARG2 (i2 / implicit-role :op1 "second_item_in_comparison"))
+
+p42_g1 ::: (arms: move, down, into gap, left; hands: into facing, left, into closed, left;) (RA: move, right;) (RA: move, right;) (body: still;) // (here) (here relative) (here relative) (talk) (these)
+(a / and
+   :op1 (g / gesture-unit
+           :op1 (d / deixis-GA
+                   :ARG0 (s / signaler)
+                   :ARG1 (l / location)
+                   :ARG2 (a2 / actor))
+           :op2 (i / icon-GA
+                   :ARG0 s
+                   :ARG1 (p / put-01 :quant 3
+                            :ARG0 (i2 / implicit-role :op1 "putter")
+                            :ARG1 (i3 / implicit-role :op1 "thing_put")
+                            :ARG2 (i4 / implicit-role :op1 "where_put"))
+                   :ARG2 a2)))
+
+p42_s2 ::: and um the middle tower
+(t / tower)
+
+p42_g2 ::: (arms: together, left, gap, left;) (body: move, down; head: rotate;) (body: move, up; arms: move, up;) (arms: move, down;) // (these) (talk) (column)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (t / tower)
+   :ARG2 (a / actor))
+
+p42_s3 ::: it stacks like straight up
+(s / stack_up-03
+   :mod (s2 / straight)
+   :ARG0 (i2 / implicit-role :op1 "stacker")
+   :ARG1 (i3 / implicit-role :op1 "things_being_stacked"))
+
+p42_s4 ::: looks like like a like jenga
+(l / look-02
+   :ARG1 (j / jenga)
+   :ARG0 (i2 / implicit-role :op1 "seemer")
+   :ARG2 (i3 / implicit-role :op1 "seemed_to"))
+
+p42_g3 ::: (arms: move, down;) (hands: tap;) (arms: move, up; hands: into closed, up;) (arms: move, down, into gap, left; hands: into facing, left, into closed, left;) // (column) (here) (this column)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (t / tower)
+   :ARG2 (a / actor))
+
+p42_g4 ::: (arms: move, down, into gap, left; hands: into facing, left, into closed, left;) (arms: move, up; hands: into closed, back;) (Unknown) // (this column) (talk) (fidget)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (s2 / stack-01
+             :ARG0 (i2 / implicit-role :op1 "stacker")
+             :ARG1 (i3 / implicit-role :op1 "one_thing")
+             :ARG2 (i4 / implicit-role :op1 "the_other_thing_arg_istacked_onto_destination"))
+   :ARG2 (a / actor))
+
+p42_s5 ::: like they're all  stacked right on top of each other
+(l / like-04
+   :ARG1 (t / they)
+   :ARG2 (s / stack-01
+            :quant (a / all)
+            :destination (r / right
+                            :op1 (t2 / top
+                                     :quant (e / each-other)))
+            :ARG0 (i2 / implicit-role :op1 "stacker")
+            :ARG1 (i3 / implicit-role :op1 "one_thing")
+            :ARG2 (i4 / implicit-role :op1 "the_other_thing_arg_istacked_onto_destination")))
+
+p42_s6 ::: four blocks
+(b / block :quantity 4)
+
+p42_g5 ::: (RA: move, up; RH: into four, left;) (hands: into hold;) // (four) (think)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 4
+   :ARG2 (a / actor))
+
+p42_s7 ::: and then you got two towers like that on the sides
+(g / get-01
+   :ARG0 (y / you)
+   :ARG1 (t / tower :quantity 2
+            :location (o / on
+                         :op1 (s / sides)))
+   :ARG2 (i2 / implicit-role :op1 "giver")
+   :ARG3 (i3 / implicit-role :op1 "price_paid_in-exchange-for")
+   :ARG4 (i4 / implicit-role :op1 "benefactive"))
+
+p42_g6 ::: (arms: move, down, into gap, left; hands: into facing, left, into closed, left;) (arms: shake, left;) (arms: rotate; hands: into opposed, left, into open, left;) // (here) (apart) (rotate)
+(d / deixis-GA :mode expressive
+   :ARG0 (s / signaler)
+   :ARG1 (l / location)
+   :ARG2 (a / actor))
+
+p42_g7 ::: (arms: rotate; hands: into opposed, left, into open, left;) (hands: rotate;) (RH: rotate;) (LA: move, down; LH: into open, up; RH: rotate;) // (rotate) (rotate) (servo rotate)
+(i / icon-GA :mode expressive
+   :ARG0 (s / signaler)
+   :ARG1 (t / turn-01
+            :ARG0 (i2 / implicit-role :op1 "turner")
+            :ARG1 (i3 / implicit-role :op1 "thing_turning")
+            :ARGM (i4 / implicit-role :op1 "direction_location_destination"))
+   :ARG2 (a / actor))
+
+p42_s8 ::: the blocks are turned like half way on top of each block yeah
+(t / turn-01
+   :ARG1 (b / block)
+   :ARG2 (h / halfway)
+   :location (o / on
+                :op1 (t2 / top
+                         :mod b
+                         :quant (e / each)))
+   :ARG0 (i2 / implicit-role :op1 "turner")
+   :ARGM (i3 / implicit-role :op1 "direction_location_destination"))
+
+p42_g8 ::: (LA: move, down; LH: into open, up; RH: rotate;) (hands: rotate;) (body: still;) // (servo rotate) (talk)
+(a / and
+   :op1 (g / gesture-unit
+           :op1 (d / deixis-GA
+                   :ARG0 (s / signaler)
+                   :ARG1 (l / location)
+                   :ARG2 (a2 / actor))
+           :op2 (i / icon-GA
+                   :ARG0 s
+                   :ARG1 (t / tower)
+                   :ARG2 a2))
+   :op2 (g2 / gesture-unit
+            :op1 (i2 / icon-GA
+                     :ARG0 s
+                     :ARG1 (b / block)
+                     :ARG2 a2)
+            :op2 (i3 / icon-GA
+                     :ARG0 s
+                     :ARG1 (t2 / turn-01
+                               :ARG0 (i4 / implicit-role :op1 "turner")
+                               :ARG1 (i5 / implicit-role :op1 "thing_turning")
+                               :ARGM (i6 / implicit-role :op1 "direction_location_destination"))
+                     :ARG2 a2)))
+
+p42_s9 ::: the first block is like is like like the first tower yeah
+(s / similar-01
+   :ARG0 (b / block
+            :ord (o / ordinal-entity :value 1))
+   :ARG1 (t / tower
+            :ord (o2 / ordinal-entity :value 1))
+   :ARG2 (i2 / implicit-role :op1 "similar_to")
+   :ARG3 (i3 / implicit-role :op1 "characteristic_that_args__and__hold_in_common"))
+
+p42_g9 ::: (body: move, down; hands: into open, down;) (hands: into facing, left, into open, left;) (arms: shake, up;) (RA: shake, up left;) (body: still;) // (this) (talk)
+(a / and
+   :op1 (g / gesture-unit
+           :op1 (i / icon-GA :ARG0 s
+                   :ARG1 (t / tower
+                            :ord (o / ordinal-entity :value 1))
+                   :ARG2 a2)
+           :op2 (d / deixis-GA :ARG0 s
+                   :ARG1 (l / location)
+                   :ARG2 a2))
+   :op2 (g2 / gesture-unit
+            :op1 (i2 / icon-GA :ARG0 s
+                     :ARG1 t
+                     :ARG2 a2)
+            :op2 (d2 / deixis-GA :ARG0 s
+                     :ARG1 (l2 / location)
+                     :ARG2 a2)))
+
+p42_s10 ::: and then the second block goes on top of that
+(g / go-01
+   :ARG1 (b / block
+            :ord (o / ordinal-entity :value 2)
+            :ARG4 (o2 / on
+                      :op1 (t / top
+                              :location (t2 / that))))
+   :ARG2 (i2 / implicit-role :op1 "extent")
+   :ARG3 (i3 / implicit-role :op1 "start_point")
+   :ARG4 (i4 / implicit-role :op1 "end_point_end_state_of_arg"))
+
+p42_g10 ::: (RA: move, up;) (RA: move, down; RH: into open, left;) (RA: rotate) (body: still;) (hands: rotate;) (body: still;) // (fidget) (here relative) (talk) (rotate) (talk)
+(a / and
+   :op1 (g / gesture-unit
+           :op1 (i / icon-GA :ARG0 s
+                   :ARG1 (p / put-01
+                            :ARG0 (i5 / implicit-role :op1 "putter")
+                            :ARG1 (i6 / implicit-role :op1 "thing_put")
+                            :ARG2 (i7 / implicit-role :op1 "where_put"))
+                   :ARG2 a2)
+           :op2 (i2 / icon-GA :ARG0 s
+                    :ARG1 (r / rotate-01
+                             :ARG0 (i8 / implicit-role :op1 "causer_of_rotation")
+                             :ARG1 (i9 / implicit-role :op1 "thing_rotating"))
+                    :ARG2 a2))
+   :op2 (g2 / gesture-unit
+            :op1 (i3 / icon-GA :ARG0 s
+                     :ARG1 (t / tower)
+                     :ARG2 a2)
+            :op2 (i4 / icon-GA :ARG0 s
+                     :ARG1 (r2 / rotate-01
+                               :ARG0 (i10 / implicit-role :op1 "causer_of_rotation")
+                               :ARG1 (i11 / implicit-role :op1 "thing_rotating"))
+                     :ARG2 a2)))
+
+p42_s11 ::: and it's turned at an angle
+(t / turn-01
+   :ARG1 (i / it)
+   :destination (a2 / angle)
+   :ARG0 (i2 / implicit-role :op1 "turner")
+   :ARGM (i3 / implicit-role :op1 "direction_location_destination"))
+
+p42_s12 ::: no on top
+(i / implicate-predicate-00 :mode imperative
+   :ARG0 (y / you)
+   :ARG1 (t / top :polarity -))
+
+p42_g11 ::: (RH: rotate, into open, back;) (RA: shake, front; RH: into point, front;) (RH: rotate, into point, left;) // (slide front) (yes) (talk)
+(g / gesture-unit
+   :op1 (d / deixis-GA
+           :ARG0 (s / signaler)
+           :ARG1 (l / location)
+           :ARG2 (a2 / actor))
+   :op2 (i / icon-GA
+           :ARG0 s
+           :ARG1 (t / tower)
+           :ARG2 a2))
+
+p42_g12 ::: (RH: rotate, into point, left;) (RA: rotate, into point, left;) (body: still;) // (talk) (stack relative) (wait)
+(a / and
+   :op1 (i / icon-GA :ARG0 s
+           :ARG1 (r / rotate-01
+                    :mod (u / up)
+                    :ARG0 (i3 / implicit-role :op1 "causer_of_rotation")
+                    :ARG1 (i4 / implicit-role :op1 "thing_rotating"))
+           :ARG2 a2)
+   :op1 (i2 / icon-GA :ARG0 s
+            :ARG1 (r2 / rotate-01
+                      :ARG0 (i5 / implicit-role :op1 "causer_of_rotation")
+                      :ARG1 (i6 / implicit-role :op1 "thing_rotating"))
+            :ARG2 a2))
+
+p42_s13 ::: and then you do that same process all the way up
+(d / do-02
+   :ARG0 (y / you)
+   :ARG1 (p / process
+            :mod (s / same))
+   :mod (a / all)
+   :manner (u / up)
+   :ARG2 (i2 / implicit-role :op1 "benefactive_done_for_or_about")
+   :ARG3 (i3 / implicit-role :op1 "instrumental")
+   :ARG4 (i4 / implicit-role :op1 "comitative_companion_while_doing"))
+
+=========Raw File=======

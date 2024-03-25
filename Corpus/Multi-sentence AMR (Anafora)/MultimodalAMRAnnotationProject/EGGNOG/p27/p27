@@ -1,0 +1,247 @@
+
+
+p27_g1 ::: (LA: move, front; LH: into claw, down;) (LH: into point, down;) (Unknown) (body: still;) (LA: move, back;) // (here) (think) (this row)
+(d / deixis-GA
+   :ARG0 (s / signaler)
+   :ARG1 (l / location)
+   :ARG2 (a / actor))
+
+p27_s1 ::: starting at Row three Column three
+(s / start-01 :mode imperative
+   :ARG0 (y / you)
+   :ARG1 (b / be-located-at-91
+            :ARG1 (a / and
+                     :op1 (r / row
+                             :ord (t / third))
+                     :op2 (c / column :ord 3)))
+   :ARG2 (i2 / implicit-role :op1 "Instrument"))
+
+p27_g2 ::: (LA: move, back;) (body: still;) (Unknown) (body: still;) // (this row) (think)
+(d / deixis-GA
+   :ARG0 (s / signaler)
+   :ARG1 (l / location)
+   :ARG2 (a / actor))
+
+p27_g3 ::: (body: still;) (LA: move, up front;) (LA: move, down;) (Unknown) // (think) (this column) (wait)
+(d / deixis-GA
+   :ARG0 (s / signaler)
+   :ARG1 (l / location)
+   :ARG2 (a / actor))
+
+p27_g4 ::: (Unknown) (LA: move, up; LH: into closed, right;) (LA: move, down;) (body: still;) (Unknown) // (wait) (here) (wait) (talk)
+(d / deixis-GA
+   :ARG0 (s / signaler)
+   :ARG1 (l / location)
+   :ARG2 (a / actor))
+
+p27_s2 ::: you're Gonna Have one block
+(h / have-01 :mode imperative
+   :ARG0 (y / you)
+   :ARG1 (b / block :quant 1))
+
+p27_g5 ::: (Unknown) (LA: move, right;) (LA: move, right;) // (talk) (here relative right) (here relative right)
+(d / deixis-GA
+   :ARG0 (s / signaler)
+   :ARG1 (l / location)
+   :ARG2 (a / actor))
+
+p27_s3 ::: then you're going to put one right next to it and one right next to that
+(a / and
+   :op1 (p / put-01 :mode imperative
+           :ARG0 (y / you)
+           :ARG1 (b / block :quant 1)
+           :location (n / next
+                        :ARG1 (i / it))
+           :ARG2 (i2 / implicit-role :op1 "where_put"))
+   :op2 (p2 / put-01 :mode imperative
+            :ARG0 y
+            :ARG1 b
+            :quant 1
+            :ARG2 (i3 / implicit-role :op1 "where_put")))
+
+p27_g6 ::: (LA: move, right;) (head: rotate;) (LH: rotate, closed, down;) // (here relative right) (Unknown)
+(d / deixis-GA
+   :ARG0 (s / signaler)
+   :ARG1 (l / location)
+   :ARG2 (a / actor))
+
+p27_s4 ::: then That’s It for your base Uh your Height you’re
+(b / be-01
+   :ARG2 (o / or
+            :op1 (b2 / base
+                     :ord (z / zero)
+                     :poss (y / your))
+            :op2 (h / height
+                    :ord z
+                    :poss y))
+   :ARG1 (i2 / implicit-role :op1 "topic"))
+
+p27_g7 ::: (LA: move, right;) (LA: shake, left;) (Unknown) // (first layer) (wait)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (b / base)
+   :ARG2 (a / actor))
+
+p27_s5 ::: you’re every things on top of that
+(b / be-01
+   :ARG1 (e / everything)
+   :location (t / top
+                :ARG2 (t2 / that))
+   :ARG2 (i2 / implicit-role :op1 "comment"))
+
+p27_s6 ::: so then your next one is going to be Up one and it's going to be shifted over half a block to
+(a / and
+   :op1 (b / be-01
+           :ARG0 (o / one
+                    :mod (n / next))
+           :location (u / up
+                        :mod o)
+           :ARG1 (i2 / implicit-role :op1 "topic")
+           :ARG2 (i3 / implicit-role :op1 "comment"))
+   :op2 (s / shift-01
+           :mod (b2 / block
+                    :quant (h / half))
+           :ARG0 (i4 / implicit-role :op1 "agent_of_movement")
+           :ARG1 (i5 / implicit-role :op1 "thing_moving")
+           :ARG2 (i6 / implicit-role :op1 "destination")
+           :ARG3 (i7 / implicit-role :op1 "source")
+           :ARG4 (i8 / implicit-role :op1 "attribute_of_arg_actually_shifting_if_in_addition_to_arg")))
+
+p27_g8 ::: (Unknown) (body: still;) (Unknown) (LA: move, up;) (LA: move, right;) // (wait) (talk) (second layer) (slide right)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (u / up :quant 1)
+   :ARG2 (a / actor))
+
+p27_g9 ::: (LA: move, right;) (body: still;) // (slide right) (talk)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (s2 / shift
+             :direction (r / right))
+   :ARG2 (a / actor))
+
+p27_g10 ::: (Unknown) (RA: move, up left; RH: into closed, left;) (RA: shake;) (RA: move, down right; RH: rotate, closed, down;) (Unknown) // (new block) (Unknown) (slide left) (talk)
+(d / deixis-GA
+   :ARG0 (s / signaler)
+   :ARG1 (l / location)
+   :ARG2 (a / actor))
+
+p27_s7 ::: and There’s Gonna be third one that's going to hang over The Edge Nope On Uh Height One
+(b / be-01
+   :ARG0 (t / there)
+   :ARG1 (o / one :ord 3)
+   :ARG1 (h / hang
+            :location (e / edge
+                         :location (h2 / height :ord 1)))
+   :ARG2 (i2 / implicit-role :op1 "comment"))
+
+p27_s8 ::: You Can Scoot It In
+(s / scoot-01
+   :ARG0 (y / you)
+   :ARG1 (i / it)
+   :direction (i2 / in)
+   :ARG2 (i3 / implicit-role :op1 "path")
+   :ARG3 (i4 / implicit-role :op1 "destination"))
+
+p27_s9 ::: Just like that and then You’re Gonna do that one more time in the same direction so It’s kind Of like a slanting height Three
+(d / do-02
+   :ARG0 (y / you)
+   :ARG1 (i / it)
+   :quant 2
+   :ARG6 (h / height :quant 3)
+   :mod (s / slanting)
+   :ARG2 (i2 / implicit-role :op1 "benefactive_done_for_or_about")
+   :ARG3 (i3 / implicit-role :op1 "instrumental")
+   :ARG4 (i4 / implicit-role :op1 "comitative_companion_while_doing"))
+
+p27_g11 ::: (RA: move, up; RH: into open, down;) (RA: shake, down;) (RH: rotate, into claw, left;) (RA: move, left;) (RA: move, down right; RH: into open, down;) // (Unknown) (slide left)
+(d / deixis-GA
+   :ARG0 (s / signaler)
+   :ARG1 (l / location)
+   :ARG2 (a / actor))
+
+p27_g12 ::: (arms: together, left, into gap, left; hands: into claw, down;) (body: still;) // (top) (think)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (t / top)
+   :ARG2 (a / actor))
+
+p27_s10 ::: on top of that you're going to between the overlapping the two you're Going to have two blocks or the Uh middle Three
+(h / have-01
+   :ARG0 (y / you)
+   :ARG1 (b / block :quant 2)
+   :ARG2 (o / on
+            :location (m / middle :quant 3))
+   :location (o2 / or)
+   :op1 (t / top
+           :ARG1 (t2 / that))
+   :op2 (b2 / between
+            :ARG2 b
+            :quant 2
+            :mod (o3 / overlapping)))
+
+p27_g13 ::: (Unknown) (arms: move, up; hands: into facing, closed;) (body: still;) // (think) (between)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (b / between)
+   :ARG2 (a / actor))
+
+p27_g14 ::: (body: still;) (hands: into inch, front;) (body: still;) (hands: into claw, down;) // (between) (these) (two new blocks)
+(g / gesture-unit
+   :op1 (i / icon-GA
+           :ARG0 (s / signaler)
+           :ARG1 (b / block :quant 2)
+           :ARG2 (a / actor))
+   :op2 (d / deixis-GA
+           :ARG0 s
+           :ARG1 (l / location)
+           :ARG2 a))
+
+p27_g15 ::: (hands: into claw, down;) (arms: move, down;) (body: still;) (head: rotate;) (head: nod;) // (two new blocks) (ok)
+(g / gesture-unit
+   :op1 (i / iconic-GA
+           :ARG0 (s / signaler)
+           :ARG1 (b / block :quant 2)
+           :ARG2 (a / actor))
+   :op2 (d / deixis-GA
+           :ARG0 s
+           :ARG1 (l / location)
+           :ARG2 a))
+
+p27_s11 ::: one Right Next to it touching
+(n / next
+   :ARG0 (o / one)
+   :ARG1 (i / it)
+   :mod (r / right)
+   :mod (t / touching))
+
+p27_g16 ::: (RA: move, left;) (body: still;) // (here relative left) (wait)
+(g / gesture-unit
+   :op1 (i / icon-GA
+           :ARG0 (s / signaler)
+           :ARG1 (b / block :quant 1)
+           :ARG2 (a / actor))
+   :op2 i
+   :ARG0 s
+   :ARG1 (n / next)
+   :ARG2 a)
+
+p27_s12 ::: one on The your Le- Yeah  That One Your Left side its Gonna be Just one on top
+(b / be-01
+   :ARG0 (o / one
+            :mod (o2 / on
+                     :direction (l / left
+                                   :poss (y / your))))
+   :ARG6 o
+   :mod o2
+   :location (t / top)
+   :ARG1 (i2 / implicit-role :op1 "topic")
+   :ARG2 (i3 / implicit-role :op1 "comment"))
+
+p27_g17 ::: (RA: move, up;) (body: still;) (RA: move, right;) (Unknown) (RA: move, up;) (RA: move, down;) (Unknown) // (here) (here relative right) (slide servo right) (here) (Unknown)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (l / left)
+   :ARG2 (a / actor))
+
+=========Raw File=======

@@ -1,0 +1,367 @@
+
+
+p15_s1 ::: all right put a block
+(p / put-01 :mode imperative
+   :ARG0 (y / you)
+   :ARG1 (b / block :quant 1
+            :direction (d / down))
+   :mod (a / all-right)
+   :ARG2 (i2 / implicit-role :op1 "where_put"))
+
+p15_g1 ::: (RA: move, front left; RH: into claw, down;) (body: still;) // (here) (wait)
+(g / gesture-unit
+   :op1 (i / icon-GA
+           :ARG0 (s / signaler)
+           :ARG1 (p / put-01
+                    :ARG0 (i2 / implicit-role :op1 "putter")
+                    :ARG1 (i3 / implicit-role :op1 "thing_put")
+                    :ARG2 (i4 / implicit-role :op1 "where_put"))
+           :ARG2 (a / actor))
+   :op2 (d / deixis-GA
+           :ARG0 s
+           :ARG1 (l / location)
+           :ARG2 a))
+
+p15_s2 ::: um
+(u / um :mode expressive)
+
+p15_s3 ::: put a block One block apart behind
+(p / put-01 :mode imperative
+   :ARG0 (y / you)
+   :ARG1 (b / block :quant 1)
+   :location (a / apart
+                :mod (b2 / block :quant 1))
+   :location (b3 / behind)
+   :ARG2 (i2 / implicit-role :op1 "where_put"))
+
+p15_g2 ::: (LA: move, front, into gap, front; LH: into claw, down;) (LA: move, down; LH: claw, down;) (body: still;) // (here relative backward) (wait)
+(a / and
+   :op2 (g / gesture-unit
+           :op1 (i / icon-GA
+                   :ARG0 (s / signaler)
+                   :ARG1 (p / put-01
+                            :ARG1 (b / block)
+                            :ARG0 (i2 / implicit-role :op1 "putter")
+                            :ARG2 (i3 / implicit-role :op1 "where_put"))
+                   :ARG2 (a2 / actor))
+           :op2 (d / deixis-GA
+                   :ARG0 s
+                   :ARG1 (l / location)
+                   :ARG2 a2)))
+
+p15_s4 ::: So Towards you
+(t / towards
+   :op1 (y / you))
+
+p15_g3 ::: (body: still;) (arms: rotate, gap, left; hands: claw, down;) (arms: move, down, gap, left; hands: claw, down;) // (wait) (rotate)
+(a / and
+   :op1 (g2 / gesture-unit
+            :op1 (i / icon-GA
+                    :ARG0 (s / signaler)
+                    :ARG1 (p / put-01
+                             :ARG1 (b / block)
+                             :ARG0 (i3 / implicit-role :op1 "putter")
+                             :ARG2 (i4 / implicit-role :op1 "where_put"))
+                    :ARG2 (a2 / actor))
+            :op2 (d / deixis-GA
+                    :ARG0 s
+                    :ARG1 (l / location)
+                    :ARG2 a2))
+   :op2 (g / gesture-unit
+           :op1 (i2 / icon-GA
+                    :ARG0 s
+                    :ARG1 (p2 / put-01
+                              :ARG1 (b2 / block)
+                              :ARG0 (i5 / implicit-role :op1 "putter")
+                              :ARG2 (i6 / implicit-role :op1 "where_put"))
+                    :ARG2 a2)
+           :op2 (d2 / deixis-GA
+                    :ARG0 s
+                    :ARG1 (l2 / location)
+                    :ARG2 a2)))
+
+p15_s5 ::: Um
+(u / um :mode expressive)
+
+p15_s6 ::: Put two blocks
+(p / put-01 :mode imperative
+   :ARG0 (y / you)
+   :ARG1 (b / block :quant 2)
+   :ARG2 (i2 / implicit-role :op1 "where_put"))
+
+p15_s7 ::: kind of
+(k / kind-of)
+
+p15_s8 ::: like about a third of a block A Part So more close in than that
+(l / like-04
+   :ARG2 (q / distance-quantity
+            :mod (a / about)
+            :unit (b / block
+                     :ARG1-of (h / have-quant-91
+                                 :ARG2 (t / third)))
+            :mod (a2 / apart))
+   :ARG2-of (i / infer-01
+               :ARG1 (h2 / have-degree-91
+                         :ARG2 (c / close-10
+                                  :ARG1 (i4 / implicit-role :op1 "entity_located_near_something_close_thing")
+                                  :ARG2 (i5 / implicit-role :op1 "location_close_to_what"))
+                         :ARG3 (m / more)
+                         :ARG4 (t2 / that))
+               :ARG0 (i3 / implicit-role :op1 "agent_entity_now_believing_something"))
+   :ARG1 (i2 / implicit-role :op1 "first_item_in_comparison"))
+
+p15_g4 ::: (body: still;) (arms: shake, gap, left; hands: facing, into closed;) // (wait) (together)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (c / close-06 :mode expressive
+            :ARG1 (i2 / implicit-role :op1 "entity_in_motion")
+            :ARG2 (i3 / implicit-role :op1 "target"))
+   :ARG2 (a / actor))
+
+p15_g5 ::: (body: still;) (arms: move, up, gap, left; hands: claw, down;) (arms: move, down; hands: into claw, down;) // (wait) (here relative up)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (g / grab-01
+            :ARG1 (b / block :quant 2)
+            :ARG0 (i2 / implicit-role :op1 "grabber"))
+   :ARG2 (a / actor))
+
+p15_s9 ::: all right then stick
+(s / stick-01 :mode imperative
+   :ARG0 (y / you)
+   :time (t / then)
+   :mod (a / all-right)
+   :ARG1 (i2 / implicit-role :op1 "thing_sticking_adhering_being_placed")
+   :ARG2 (i3 / implicit-role :op1 "stuck-to_destination_of_placement"))
+
+p15_s10 ::: no that doesn't look like It’s Going to work
+(m / multi-sentence
+   :snt1 (n / no)
+   :snt2 (l / look-02
+            :ARG0 (t / that)
+            :ARG1 (w / work-09
+                     :ARG0 (i3 / implicit-role :op1 "causer")
+                     :ARG1 (i4 / implicit-role :op1 "thing_functioning")
+                     :ARG2 (i5 / implicit-role :op1 "beneficiary"))
+            :polarity -
+            :ARG2 (i2 / implicit-role :op1 "seemed_to")))
+
+p15_g6 ::: (arms: move, up; hands: into claw, down;) (arms: together, left, gap, left; hands: claw, down;) (body: still;) // (together) (wait)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (c / close-06
+            :ARG1 (i2 / implicit-role :op1 "entity_in_motion")
+            :ARG2 (i3 / implicit-role :op1 "target"))
+   :ARG2 (a / actor))
+
+p15_s11 ::: Um i think everything needs to be slightly closer together
+(t / think-01
+   :ARG0 (i / i)
+   :ARG1 (h / have-degree-91
+            :ARG1 (e / everything)
+            :ARG2 (t2 / together
+                      :mod (c / close-10
+                              :ARG1 (i3 / implicit-role :op1 "entity_located_near_something_close_thing")
+                              :ARG2 (i4 / implicit-role :op1 "location_close_to_what")))
+            :ARG3 (m / more
+                     :mod (s / slightly)))
+   :ARG2 (i2 / implicit-role :op1 "Attributive_please_look_at_the_examples--_this_is_tricky"))
+
+p15_s12 ::: Yeah
+(y / yeah)
+
+p15_s13 ::: now stick A block on the front one And the one to your left
+(a / and
+   :op1 (s / stick-01 :mode imperative
+           :ARG0 (y / you)
+           :ARG1 (b / block :quant 1)
+           :location (o / on
+                        :op1 (o2 / one
+                                 :mod (f / front)))
+           :time (n / now)
+           :ARG2 (i2 / implicit-role :op1 "stuck-to_destination_of_placement"))
+   :op2 s
+   :time n
+   :mode imperative
+   :ARG0 y
+   :ARG1 (b2 / block :quant 1)
+   :location (o3 / on
+                 :op1 (o4 / one
+                          :ARG1-of (l / left-20
+                                      :ARG2 y))))
+
+p15_g7 ::: (arms: move, down; hands: into claw, down;) (RA: move, up; RH: into claw, down;) (RA: move, down left; RH: claw, down;) (RA: move, up right; RH: claw, down;) // (think) (here) (Unknown)
+(g / gesture-unit
+   :op1 (i / icon-GA
+           :ARG0 (s / signaler)
+           :ARG1 (p / put-01
+                    :ARG1 (b / block)
+                    :ARG0 (i2 / implicit-role :op1 "putter")
+                    :ARG2 (i3 / implicit-role :op1 "where_put"))
+           :ARG2 (a / actor))
+   :op2 (d / deixis-GA
+           :ARG0 s
+           :ARG1 (l / location)
+           :ARG2 a))
+
+p15_g8 ::: (LA: move, up right; LH: into closed, down; RA: move, up back; RH: claw, down;) (LA: move, down left; LH: into claw, down; RA: move, down front; RH: claw, down;) // (Unknown) (here)
+(a / and
+   :op2 (i / icon-GA
+           :ARG0 (s / signaler)
+           :ARG1 (l / left-20
+                    :ARG2 (a2 / actor)
+                    :ARG1 (i2 / implicit-role :op1 "theme_entity_located_on_the_left"))
+           :ARG2 a2))
+
+p15_g9 ::: (RA: move, up right; RH: into closed, left;) (RA: move, left; RH: closed, left;) (RA: move, front; RH: into point, front;) // (here) (there)
+(g / gesture-unit
+   :op1 (i / icon-GA
+           :ARG0 (s / signaler)
+           :ARG1 (m / move-01
+                    :direction (f / front)
+                    :ARG0 (i2 / implicit-role :op1 "mover")
+                    :ARG1 (i3 / implicit-role :op1 "moved")
+                    :ARG2 (i4 / implicit-role :op1 "destination")
+                    :ARG3 (i5 / implicit-role :op1 "aspect_domain_in_which_arg_moving"))
+           :ARG2 (a / actor))
+   :op2 (d / deixis-GA
+           :ARG0 s
+           :ARG1 (l / location)
+           :ARG2 a))
+
+p15_s14 ::: ah now Uh move It so it's on the front Front one and the one you just put it on
+(m / multi-sentence
+   :snt1 (n / no)
+   :snt2 (m2 / move-01 :mode imperative
+             :ARG0 (y / you)
+             :ARG1 (i / it)
+             :purpose (b / be-located-at-91
+                         :ARG1 i
+                         :ARG2 (a / and
+                                  :op1 (o / one
+                                          :mod (f / front))
+                                  :op2 (o2 / one
+                                           :ARG2-of (p / put-01
+                                                       :ARG0 y
+                                                       :time (j / just)
+                                                       :ARG1 (i4 / implicit-role :op1 "thing_put")))))
+             :ARG2 (i2 / implicit-role :op1 "destination")
+             :ARG3 (i3 / implicit-role :op1 "aspect_domain_in_which_arg_moving")))
+
+p15_g10 ::: (RA: move, down back; RH: point, down;) (RA: move, front right; RH: point, down;) (body: still;) // (here) (here relative right)
+(d / deixis-GA
+   :ARG0 (s / signaler)
+   :ARG1 (l / location)
+   :ARG2 (a / actor))
+
+p15_g11 ::: (body: still;) (RA: move, up; RH: into claw, front;) (RH: rotate, claw, front;) // (wait) (rotate)
+(i / icon-GA
+   :ARG0 (s / signaler)
+   :ARG1 (t / turn
+            :ARG1 (b / block))
+   :ARG2 (a / actor))
+
+p15_s15 ::: and turn it so it's parallel
+(a / and
+   :op2 (t / turn-01 :mode imperative
+           :ARG0 (y / you)
+           :ARG1 (i / it)
+           :purpose (p / parallel
+                       :domain i)
+           :ARGM (i2 / implicit-role :op1 "direction_location_destination")))
+
+p15_s16 ::: yes
+(y / yes)
+
+p15_g12 ::: (RA: move, up; RH: claw, down;) (RA: move, down; RH: claw, down;) (RA: move, up; RH: into point, front;) // (there)
+(d / deixis-GA
+   :ARG0 (s / signaler)
+   :ARG1 (l / location)
+   :ARG2 (a / actor))
+
+p15_s17 ::: and do the exact same thing There
+(a / and
+   :op2 (d / do-01 :mode imperative
+           :ARG0 (y / you)
+           :ARG1 (t / thing
+                    :mod (s / same
+                            :mod (e / exact)))
+           :location (t2 / there)))
+
+p15_s18 ::: yes
+(y / yes)
+
+p15_g13 ::: (RA: move, up; RH: into point, front;) // (there)
+(d / deixis-GA
+   :ARG0 (s / signaler)
+   :ARG1 (l / location)
+   :ARG2 (a / actor))
+
+p15_s19 ::: and then there must be one A Hard That i'm Having  time Seeing behind
+(a / and
+   :op2 (l / likely-01
+           :ARG1 (b / be-02
+                    :ARG1 (o / one
+                             :location (b2 / behind)
+                             :ARG1-of (s / see-01
+                                         :ARG0 (i / i)
+                                         :ARG1-of (h / hard-02)
+                                         :ARG2 (i2 / implicit-role :op1 "attribute_of_arg_further_description"))))))
+
+p15_g14 ::: (RA: move, front; RH: point, front;) (RA: move, front; RH: point, front;) // (there)
+(d / deixis-GA
+   :ARG0 (s / signaler)
+   :ARG1 (l / location)
+   :ARG2 (a / actor))
+
+p15_g15 ::: (RA: move, front; RH: point, front;) (RA: move, down; RH: into claw, down;) // (there)
+(d / deixis-GA
+   :ARG0 (s / signaler)
+   :ARG1 (l / location)
+   :ARG2 (a / actor))
+
+p15_s20 ::: so Put Put A Block on the back block
+(p / put-01 :mode imperative
+   :ARG0 (y / you)
+   :ARG1 (b / block :quant 1)
+   :ARG2 (b2 / block
+             :mod (b3 / back)))
+
+p15_s21 ::: Good
+(g / good)
+
+p15_g16 ::: (RA: move, up; RH: into point, front;) (Unknown) // (that)
+(d / deixis-GA
+   :ARG0 (s / signaler)
+   :ARG1 (l / location)
+   :ARG2 (a / actor))
+
+p15_s22 ::: and then put one on the top
+(a / and
+   :op2 (p / put-01 :mode imperative
+           :time (t / then)
+           :ARG0 (y / you)
+           :ARG1 (o / one)
+           :ARG2 (o2 / on
+                     :op1 (t2 / top))))
+
+p15_g17 ::: (Unknown) (RA: move, down; RH: into claw, down;) // (there) (wait)
+(d / deixis-GA
+   :ARG0 (s / signaler)
+   :ARG1 (l / location)
+   :ARG2 (a / actor))
+
+p15_s23 ::: in the middle
+(i / in
+   :op1 (m / middle))
+
+p15_s24 ::: Alright
+(a / alright)
+
+p15_g18 ::: (Unknown) // (done) (fidget)
+(e / emblem-GA
+   :ARG0 (s / signaler)
+   :ARG1 (o / okay)
+   :ARG2 (a / actor))
+
+=========Raw File=======
